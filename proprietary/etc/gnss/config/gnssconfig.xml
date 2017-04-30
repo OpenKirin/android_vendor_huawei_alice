@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<gnssconfig>
+    <!-- hslp set
+    -->
+    <hslp_mode value="1" />
+    <fqdn value="supl.google.com" />
+    <ipaddress value="74.125.31.192" />
+    <port value="7276" />
+    <secure value="0" />
+    <!-- pgps onoff mode 0:turn off; 1:turn on
+    -->
+    <pgps_mode value="1" />
+    <!-- stub lat and lon
+    -->
+    <stubnumber value="1" />
+    <latitude1 value="35" />
+    <longitude1 value="105" />
+    <!-- devicetest
+    -->
+    <!-- 0: close Snr_mode; 1: open Snr_mode; -->
+    <snr_mode value="0" />
+    <!-- Snr value -->
+    <snr_value value="0" />
+    <!-- 0: close device pin test; 1: open test; -->
+    <pin_mode value="0" />
+    <pin_value value="0" />
+    <!-- gpslog onoff mode
+    -->
+    <onoffmode value="1010" />
+    <gpslevel value="1111" />
+    <agpslevel value="0111" />
+    <!-- onoffmode
+       gpsdirecttologcat   1000
+       gpsdirecttofile     0100
+       agpsdirecttologcat  0010
+       agpsdirecttofile    0001
+       -->
+    <!-- gpslevel
+       DEBUG               1000
+       INFO                0100
+       WARNING             0010
+       ERROR               0001
+       -->
+    <!-- agpslevel
+       DEBUG               1000
+       INFO                0100
+       WARNING             0010
+       ERROR               0001
+       -->
+</gnssconfig>

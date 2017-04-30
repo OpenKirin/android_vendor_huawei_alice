@@ -1,0 +1,1823 @@
+<mixer>
+  <!-- These are commonly used control sequences -->
+  <ctl name="HISSC_DACL_HBF1I_EN" value="0" />
+  <ctl name="HISSC_DACL_HBF2I_EN" value="0" />
+  <ctl name="HISSC_DACR_HBF1I_EN" value="0" />
+  <ctl name="HISSC_DACR_HBF2I_EN" value="0" />
+  <ctl name="HISSC_FS_VOICE_DLINK" value="0"  />
+  <ctl name="HISSC_FS_STEREO_DLINK_L" value="0"  />
+  <ctl name="HISSC_FS_STEREO_DLINK_R" value="0"  />
+  <ctl name="HISSC_FS_DACLR"  value="0" />
+  <ctl name="HISSC_FS_ADCLR"  value="0" />
+  <ctl name="HISSC_FS_S1" value="0" />
+  <ctl name="HISSC_FS_S2" value="0" />
+  <ctl name="HISSC_S1_FUNC_MODE" value="0"  />
+  <ctl name="HISSC_S1_CODEC_DATA_FORMAT" value="0" />
+  <ctl name="HISSC_S1_RX_CLK_SEL" value="0" />
+  <ctl name="HISSC_S1_TX_CLK_SEL" value="1" />
+  <ctl name="HISSC_S1_DIRECT_LOOP" value="0"  />
+  <ctl name="HISSC_S1_CODEC_IO_WORDLENGTH" value="3" />
+  <ctl name="HISSC_S1_CHNNL_MODE" value="0" />
+  <ctl name="HISSC_S1_LRCLK_MODE" value="0" />
+  <ctl name="HISSC_S1_MST_SLV" value="Off"  />
+  <ctl name="HISSC_S1_FRAME_MODE" value="0" />
+  <ctl name="HISSC_S2_FUNC_MODE" value="0"  />
+  <ctl name="HISSC_S2_CODEC_DATA_FORMAT" value="0" />
+  <ctl name="HISSC_S2_RX_CLK_SEL" value="0" />
+  <ctl name="HISSC_S2_TX_CLK_SEL" value="1" />
+  <ctl name="HISSC_S2_DIRECT_LOOP" value="0"  />
+  <ctl name="HISSC_S2_CODEC_IO_WORDLENGTH" value="3" />
+  <ctl name="HISSC_S2_CHNNL_MODE" value="0" />
+  <ctl name="HISSC_S2_LRCLK_MODE" value="0" />
+  <ctl name="HISSC_S2_MST_SLV" value="Off"  />
+  <ctl name="HISSC_S2_FRAME_MODE" value="0" />
+  <ctl name="HISSC_DACL_MIXER_GAIN" value="0" />
+  <ctl name="HISSC_DACR_MIXER_GAIN" value="0" />
+  <ctl name="HISSC_VOICE_DLINK_SRC_MODE" value="0" />
+  <ctl name="HISSC_VOICE_DLINK_SRC_RDY" value="0"  />
+  <ctl name="HISSC_S2_OL_SRC_MODE" value="0"  />
+  <ctl name="HISSC_S2_OL_SRC_RDY" value="0" />
+  <ctl name="HISSC_S2_OL_MIXER_GAIN" value="0" />
+  <ctl name="HISSC_VOICE_DLINK_MIXER_GAIN" value="0" />
+  <ctl name="HISSC_ADCL_PGA_INTEGER_CONFIG" value="0"  />
+  <ctl name="HISSC_ADCL_PGA_FRAC_CONFIG" value="0" />
+  <ctl name="HISSC_ADCL_PGA_MUTE" value="0" />
+  <ctl name="HISSC_ADCL_PGA_THR_CONFIG" value="0"  />
+  <ctl name="HISSC_ADCR_PGA_INTEGER_CONFIG" value="0"  />
+  <ctl name="HISSC_ADCR_PGA_FRAC_CONFIG" value="0" />
+  <ctl name="HISSC_ADCR_PGA_MUTE" value="0" />
+  <ctl name="HISSC_ADCR_PGA_THR_CONFIG" value="0"  />
+  <ctl name="HISSC_S1_IL_PGA_INTEGER_CONFIG" value="0" />
+  <ctl name="HISSC_S1_IL_PGA_FRAC_CONFIG" value="0" />
+  <ctl name="HISSC_S1_IL_PGA_MUTE" value="0"  />
+  <ctl name="HISSC_S1_IL_PGA_THR_CONFIG" value="0" />
+  <ctl name="HISSC_S1_IR_PGA_INTEGER_CONFIG" value="0" />
+  <ctl name="HISSC_S1_IR_PGA_FRAC_CONFIG" value="0" />
+  <ctl name="HISSC_S1_IR_PGA_MUTE" value="0"  />
+  <ctl name="HISSC_S1_IR_PGA_THR_CONFIG" value="0" />
+  <ctl name="HISSC_S2_IL_PGA_INTEGER_CONFIG" value="0" />
+  <ctl name="HISSC_S2_IL_PGA_FRAC_CONFIG" value="0" />
+  <ctl name="HISSC_S2_IL_PGA_MUTE" value="0"  />
+  <ctl name="HISSC_S2_IL_PGA_THR_CONFIG" value="0" />
+  <ctl name="HISSC_S2_IR_PGA_INTEGER_CONFIG" value="0" />
+  <ctl name="HISSC_S2_IR_PGA_FRAC_CONFIG" value="0" />
+  <ctl name="HISSC_S2_IR_PGA_MUTE" value="0"  />
+  <ctl name="HISSC_S2_IR_PGA_THR_CONFIG" value="0" />
+  <ctl name="HISSC_STEREO_DLINK_L_PGA_INTEGER_CONFIG" value="0" />
+  <ctl name="HISSC_STEREO_DLINK_L_PGA_FRAC_CONFIG" value="0"  />
+  <ctl name="HISSC_STEREO_DLINK_L_PGA_MUTE" value="0"  />
+  <ctl name="HISSC_STEREO_DLINK_L_PGA_THR_CONFIG" value="0" />
+  <ctl name="HISSC_STEREO_DLINK_R_PGA_INTEGER_CONFIG" value="0" />
+  <ctl name="HISSC_STEREO_DLINK_R_PGA_FRAC_CONFIG" value="0"  />
+  <ctl name="HISSC_STEREO_DLINK_R_PGA_MUTE" value="0"  />
+  <ctl name="HISSC_STEREO_DLINK_R_PGA_THR_CONFIG" value="0" />
+  <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="0"  />
+  <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
+  <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
+  <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />
+  <ctl name="HISSC_SIDETONE_PGA_INTEGER_CONFIG" value="0" />
+  <ctl name="HISSC_SIDETONE_PGA_FRAC_CONFIG" value="0" />
+  <ctl name="HISSC_SIDETONE_PGA_MUTE" value="0"  />
+  <ctl name="HISSC_SIDETONE_PGA_THR_CONFIG" value="0"  />
+  <ctl name="HISSC_VOICE_DLINK_FIFO_AFULL_TH" value="30" />
+  <ctl name="HISSC_VOICE_DLINK_FIFO_AEMPTY_TH" value="16" />
+  <ctl name="HISSC_STEREO_DLINK_L_FIFO_AFULL_TH" value="30" />
+  <ctl name="HISSC_STEREO_DLINK_L_FIFO_AEMPTY_TH" value="16"  />
+  <ctl name="HISSC_STEREO_DLINK_R_FIFO_AFULL_TH" value="30" />
+  <ctl name="HISSC_STEREO_DLINK_R_FIFO_AEMPTY_TH" value="16"  />
+  <ctl name="HISSC_STEREO_UPLINK_L_FIFO_AFULL_TH" value="16"  />
+  <ctl name="HISSC_STEREO_UPLINK_L_FIFO_AEMPTY_TH" value="1"  />
+  <ctl name="HISSC_STEREO_UPLINK_R_FIFO_AFULL_TH" value="16"  />
+  <ctl name="HISSC_STEREO_UPLINK_R_FIFO_AEMPTY_TH" value="1"  />
+  <ctl name="HISSC_VOICE_UPLINK_L_FIFO_AFULL_TH" value="16" />
+  <ctl name="HISSC_VOICE_UPLINK_L_FIFO_AEMPTY_TH" value="1" />
+  <ctl name="HISSC___B0___LEFT___" value="16" />
+  <ctl name="HISSC_VOICE_UPLINK_R_FIFO_AEMPTY_TH" value="1" />
+  <ctl name="HISSC_DACL_AGC_GWIN_CONFIG" value="1" />
+  <ctl name="HISSC_DACL_AGC_LEVELLOW_CONFIG" value="0" />
+  <ctl name="HISSC_DACL_AGC_GSTEPD_CONFIG" value="1" />
+  <ctl name="HISSC_DACL_AGC_TIMEMUTE_CONFIG" value="1" />
+  <ctl name="HISSC_DACL_AGC_NGW_CONFIG" value="2"  />
+  <ctl name="HISSC_DACL_AGC_YTARGET_CONFIG" value="3"  />
+  <ctl name="HISSC_DACL_AGC_T_AMIN_CONFIG" value="1" />
+  <ctl name="HISSC_DACL_AGC_GSUPPRESS" value="1" />
+  <ctl name="HISSC_DACL_AGC_KFSLOW" value="2" />
+  <ctl name="HISSC_DACL_AGC_KFRAPID" value="2" />
+  <ctl name="HISSC_DACL_AGC_NGL_CONFIG" value="1"  />
+  <ctl name="HISSC_DACL_AGC_NGH_CONFIG" value="2"  />
+  <ctl name="HISSC_DACL_AGC_TIMER" value="4"  />
+  <ctl name="HISSC_DACL_AGC_NGI_CONFIG" value="4"  />
+  <ctl name="HISSC_DACL_AGC_TIMENNG_CONFIG" value="0"  />
+  <ctl name="HISSC_DACL_AGC_TIMEDECAY_CONFIG" value="1"  />
+  <ctl name="HISSC_DACL_AGC_TIMEGHOLD_CONFIG" value="2"  />
+  <ctl name="HISSC_DACL_AGC_GMUTE_CONFIG" value="1" />
+  <ctl name="HISSC_DACL_AGC_MUTE_BYPASS" value="1" />
+  <ctl name="HISSC_DACL_AGC_BYPASS" value="0" />
+  <ctl name="HISSC_DACL_AGC_USR_GDB_INTEGER" value="0" />
+  <ctl name="HISSC_DACL_AGC_USR_GDB_FRAC" value="0" />
+  <ctl name="HISSC_DACL_AGC_SW_CLR" value="0" />
+  <ctl name="HISSC_DACR_AGC_GWIN_CONFIG" value="1" />
+  <ctl name="HISSC_DACR_AGC_LEVELLOW_CONFIG" value="0" />
+  <ctl name="HISSC_DACR_AGC_GSTEPD_CONFIG" value="1" />
+  <ctl name="HISSC_DACR_AGC_TIMEMUTE_CONFIG" value="1" />
+  <ctl name="HISSC_DACR_AGC_NGW_CONFIG" value="2"  />
+  <ctl name="HISSC_DACR_AGC_YTARGET_CONFIG" value="3"  />
+  <ctl name="HISSC_DACR_AGC_T_AMIN_CONFIG" value="1" />
+  <ctl name="HISSC_DACR_AGC_GSUPPRESS" value="1" />
+  <ctl name="HISSC_DACR_AGC_KFSLOW" value="2" />
+  <ctl name="HISSC_DACR_AGC_KFRAPID" value="2" />
+  <ctl name="HISSC_DACR_AGC_NGL_CONFIG" value="1"  />
+  <ctl name="HISSC_DACR_AGC_NGH_CONFIG" value="2"  />
+  <ctl name="HISSC_DACR_AGC_TIMER" value="4"  />
+  <ctl name="HISSC_DACR_AGC_NGI_CONFIG" value="4"  />
+  <ctl name="HISSC_DACR_AGC_TIMENNG_CONFIG" value="0"  />
+  <ctl name="HISSC_DACR_AGC_TIMEDECAY_CONFIG" value="1"  />
+  <ctl name="HISSC_DACR_AGC_TIMEGHOLD_CONFIG" value="2"  />
+  <ctl name="HISSC_DACR_AGC_GMUTE_CONFIG" value="1" />
+  <ctl name="HISSC_DACR_AGC_MUTE_BYPASS" value="1" />
+  <ctl name="HISSC_DACR_AGC_BYPASS" value="0" />
+  <ctl name="HISSC_DACR_AGC_USR_GDB_INTEGER" value="0" />
+  <ctl name="HISSC_DACR_AGC_USR_GDB_FRAC" value="0" />
+  <ctl name="HISSC_DACR_AGC_SW_CLR" value="0" />
+  <ctl name="HISSC_SIF_EDGE_SEL" value="0"  />
+  <ctl name="HISSC_SW_DMIC_MODE" value="0"  />
+  <ctl name="HISSC_DMIC_REVERSE" value="0"  />
+  <ctl name="HISSC_FS_DMIC" value="0" />
+  <ctl name="HISSC_VOICE_DLINK_SRC_UP_DOUT_VLD_SEL" value="0" />
+  <ctl name="HISSC_S3_FUNC_MODE" value="0"  />
+  <ctl name="HISSC_S3_CODEC_DATA_FORMAT" value="0" />
+  <ctl name="HISSC_S3_RX_CLK_SEL" value="0" />
+  <ctl name="HISSC_S3_TX_CLK_SEL" value="1" />
+  <ctl name="HISSC_S3_DIRECT_LOOP" value="0"  />
+  <ctl name="HISSC_S3_CODEC_IO_WORDLENGTH" value="3" />
+  <ctl name="HISSC_S3_CHNNL_MODE" value="0" />
+  <ctl name="HISSC_S3_LRCLK_MODE" value="0" />
+  <ctl name="HISSC_S3_MST_SLV" value="Off"  />
+  <ctl name="HISSC_S3_FRAME_MODE" value="0" />
+  <ctl name="HISSC_FS_S3" value="0" />
+  <ctl name="HISSC_THIRDMD_DLINK_PGA_INTEGER_CONFIG" value="0" />
+  <ctl name="HISSC_THIRDMD_DLINK_PGA_FRAC_CONFIG" value="0" />
+  <ctl name="HISSC_THIRDMD_DLINK_PGA_MUTE" value="0" />
+  <ctl name="HISSC_THIRDMD_DLINK_PGA_THR_CONFIG" value="0"  />
+  <ctl name="HISSC_EXTERNAL_12288K_SEL" value="0"  />
+  <ctl name="HISSC_SMT_DACL_CLK_EDGE_SEL" value="1" />
+  <ctl name="HISSC_SMT_DACR_CLK_EDGE_SEL" value="1" />
+  <ctl name="HISSC_SMT_ADCL_CLK_EDGE_SEL" value="1" />
+  <ctl name="HISSC_SMT_ADCR_CLK_EDGE_SEL" value="1" />
+  <ctl name="HISSC_SMT_DAC_LOOPBACK" value="0" />
+  <ctl name="HISSC_SMT_ADC_LOOPBACK" value="0" />
+  <ctl name="HISSC_SMT_LINEPGAL_MUTE" value="0"  />
+  <ctl name="HISSC_SMT_LINEPGAL_GAIN" value="7"  />
+  <ctl name="HISSC_SMT_LINEPGAL_SEL" value="2" />
+  <ctl name="HISSC_SMT_LINEPGAR_MUTE" value="0"  />
+  <ctl name="HISSC_SMT_LINEPGAR_GAIN" value="7"  />
+  <ctl name="HISSC_SMT_LINEPGAR_SEL" value="2" />
+  <ctl name="HISSC_SMT_AUXPGA_SEL" value="1"  />
+  <ctl name="HISSC_SMT_AUXPGA_MUTE" value="0" />
+  <ctl name="HISSC_SMT_AUXPGA_GAIN" value="2" />
+  <ctl name="HISSC_SMT_AUXPGA_BOOST" value="1" />
+  <ctl name="HISSC_SMT_MAINPGA_MUTE" value="0" />
+  <ctl name="HISSC_SMT_MAINPGA_GAIN" value="2" />
+  <ctl name="HISSC_SMT_MAINPGA_BOOST" value="1"  />
+  <ctl name="HISSC_SMT_ADCL_DWA_BPS" value="0" />
+  <ctl name="HISSC_SMT_ADCL_FLSTN" value="1"  />
+  <ctl name="HISSC_SMT_ADCL_DAC_BIAS" value="2"  />
+  <ctl name="HISSC_SMT_ADCL_CLK_DELAY_0" value="0" />
+  <ctl name="HISSC_SMT_ADCL_CLK_DELAY_1" value="0" />
+  <ctl name="HISSC_SMT_ADCR_DWA_BPS" value="0" />
+  <ctl name="HISSC_SMT_ADCR_FLSTN" value="1"  />
+  <ctl name="HISSC_SMT_ADCR_DAC_BIAS" value="2"  />
+  <ctl name="HISSC_SMT_ADCR_CLK_DELAY_0" value="0" />
+  <ctl name="HISSC_SMT_ADCR_CLK_DELAY_1" value="0" />
+  <ctl name="HISSC_SMT_ADCR_CLK_DELAY_2" value="0" />
+  <ctl name="HISSC_SMT_HSL_MIN_GAIN" value="0" />
+  <ctl name="HISSC_SMT_HSL_GAIN" value="12" />
+  <ctl name="HISSC_SMT_HSL_MUTE" value="0"  />
+  <ctl name="HISSC_SMT_HS_LIT_LP_L" value="0" />
+  <ctl name="HISSC_SMT_HSR_MIN_GAIN" value="0" />
+  <ctl name="HISSC_SMT_HSR_GAIN" value="12" />
+  <ctl name="HISSC_SMT_HSR_MUTE" value="0"  />
+  <ctl name="HISSC_SMT_HS_LIT_LP_R" value="0" />
+  <ctl name="HISSC_SMT_EAR_CM_CTRL" value="0" />
+  <ctl name="HISSC_SMT_EAR_GAIN" value="12" />
+  <ctl name="HISSC_SMT_EAR_MUTE" value="0"  />
+  <ctl name="HISSC_SMT_DAC_CHOP_CLK_SEL" value="1" />
+  <ctl name="HISSC_SMT_ADC_CHOP_CLK_SEL" value="2" />
+  <ctl name="HISSC_SMT_DAC_CLK_SYS_EDGE_0" value="0" />
+  <ctl name="HISSC_SMT_DAC_CLK_SYS_EDGE_1" value="0" />
+  <ctl name="HISSC_SMT_ADC_CLK_SYS_EDGE_0" value="0" />
+  <ctl name="HISSC_SMT_ADC_CLK_SYS_EDGE_1" value="0" />
+  <ctl name="HISSC_SMT_CTCM_CHOP_BPS" value="0"  />
+  <ctl name="HISSC_SMT_MICPGA_CHOP_BPS" value="0"  />
+  <ctl name="HISSC_SMT_LINEIN_CHOP_BPS" value="0"  />
+  <ctl name="HISSC_SMT_ADC_SDM_CHOP_BPS" value="0" />
+  <ctl name="HISSC_SMT_RX_CHOP_BPS" value="0" />
+  <ctl name="HISSC_SMT_HS_CHOP_BPS" value="0" />
+  <ctl name="HISSC_SMT_EAR_CLD_CHOP_BPS" value="0" />
+  <ctl name="HISSC_SMT_DAC_CHOP_BPS" value="0" />
+  <ctl name="HISSC_SMT_TX_CHOP_BPS" value="0" />
+  <ctl name="HISSC_S2_IL_SRC_UP_EN" value="0" />
+  <ctl name="HISSC_S2_IL_SRC_DOWN_EN" value="0"  />
+  <ctl name="HISSC_S2_IR_SRC_UP_EN" value="0" />
+  <ctl name="HISSC_S2_IR_SRC_DOWN_EN" value="0"  />
+  <ctl name="HISSC_S2_OL_SRC_EN" value="0"  />
+  <ctl name="HISSC_VOICE_DLINK_SRC_EN" value="0" />
+  <ctl name="HISSC_SMT_CR_MIXF_LINEINR" value="0" />
+  <ctl name="HISSC_SMT_CR_MIXF_LINEINL" value="0" />
+  <ctl name="HISSC_SMT_CR_MIXF_DACR" value="0" />
+  <ctl name="HISSC_SMT_CR_MIXF_DACL" value="0" />
+  <ctl name="HISSC_PMU_CODEC_CLASSD_GAIN" value="0" />
+  <ctl name="HISSC_PMU_CODEC_CLASSD_I_OCP" value="1" />
+  <ctl name="HISSC_PMU_CODEC_CLASSD_MUTE" value="0" />
+  <ctl name="VOICE_UPLINK_R_EN SWITCH VOICE_UPLINK_R_EN" value="0"  />
+  <ctl name="VOICE_UPLINK_L_EN SWITCH VOICE_UPLINK_L_EN" value="0"  />
+  <ctl name="STEREO_UPLINK_R_EN SWITCH STEREO_UP_R_EN" value="0"  />
+  <ctl name="STEREO_UPLINK_L_EN SWITCH STEREO_UP_L_EN" value="0"  />
+  <ctl name="RCV VIR_SWITCH RCV_EN" value="0" />
+  <ctl name="CLASSD VIR_SWITCH CLASSD_EN" value="0" />
+  <ctl name="THIRDMD_UPLINK_EN SWITCH THIRDMD_UPLINK_EN" value="0"  />
+  <ctl name="THIRDMD_DLINK_EN SWITCH THIRDMD_DLINK_EN" value="0"  />
+  <ctl name="ANA_LOOPBACK SWITCH ANA_LOOPBACK" value="0" />
+  <ctl name="DMIC_EN SWITCH DMIC_EN" value="0" />
+  <ctl name="HS_DAC_SEL_VIR SWITCH DAC" value="0"  />
+  <ctl name="HS_LINEIN_SEL_VIR SWITCH LINEIN" value="0"  />
+  <ctl name="SMT_MAINPGA_SEL MUX" value="MUTE"  />
+  <ctl name="THIRDMD_DLINK_DIN_SEL MUX"  value="APB_THIRDMD"  />
+  <ctl name="S3_DOUT_RIGHT_SEL MUX" value="THIRDMD_DLINK_PGA" />
+  <ctl name="S3_DOUT_LEFT_SEL MUX" value="THIRDMD_DLINK_PGA" />
+  <ctl name="VOICE_DLINK_DIN_SEL MUX" value="APB"  />
+  <ctl name="STEREO_DLINK_TEST_SEL MUX" value="APB" />
+  <ctl name="S2_DOUT_TEST_SEL MUX" value="VOICE_DLINK_PGA_S2" />
+  <ctl name="S2_DOUT_LEFT_SEL MUX" value="SRC3"  />
+  <ctl name="THIRDMD_UPLINK_DIN_SEL MUX" value="S3" />
+  <ctl name="VOICE_UPLINK_R_FIFO_DIN_SEL MUX" value="ADCR"  />
+  <ctl name="VOICE_UPLINK_L_FIFO_DIN_SEL MUX" value="ADCL"  />
+  <ctl name="STEREO_UPLINK_R_FIFO_DIN_SEL MUX" value="ADCR" />
+  <ctl name="STEREO_UPLINK_L_FIFO_DIN_SEL MUX" value="ADCL" />
+  <ctl name="LM_CODEC_DAC2ADC MUX" value="CIC_ADC" />
+  <ctl name="RM_CODEC_DAC2ADC MUX" value="CIC_ADC" />
+  <ctl name="SMT_MIXOUT_HSLR_PD MIXER LINEINLR" value="0" />
+  <ctl name="SMT_MIXOUT_HSLR_PD MIXER DACLR" value="0" />
+  <ctl name="SMT_ADCL_PD MIXER AUXPGA" value="0" />
+  <ctl name="SMT_ADCL_PD MIXER MAINPGA" value="0"  />
+  <ctl name="SMT_ADCL_PD MIXER LINEINR" value="0"  />
+  <ctl name="SMT_ADCL_PD MIXER LINEINL" value="0"  />
+  <ctl name="SMT_ADCR_PD MIXER AUXPGA" value="0" />
+  <ctl name="SMT_ADCR_PD MIXER MAINPGA" value="0"  />
+  <ctl name="SMT_ADCR_PD MIXER LINEINR" value="0"  />
+  <ctl name="SMT_ADCR_PD MIXER LINEINL" value="0"  />
+  <ctl name="SMT_SIF_EN MIXER SIF_HSLR_EN" value="0" />
+  <ctl name="SMT_SIF_EN MIXER SIF_CLASSD_EN" value="0" />
+  <ctl name="SMT_SIF_EN MIXER SIF_RCV_EN" value="0" />
+  <ctl name="SMT_SIF_EN MIXER SIF_MIC1_EN" value="0" />
+  <ctl name="SMT_SIF_EN MIXER SIF_MIC2_EN" value="0" />
+  <ctl name="SMT_SIF_EN MIXER SIF_LINEINL_EN" value="0"  />
+  <ctl name="SMT_SIF_EN MIXER SIF_LINEINR_EN" value="0"  />
+  <ctl name="SMT_MIXOUT_EAR_PU MIXER LINEINR" value="0"  />
+  <ctl name="SMT_MIXOUT_EAR_PU MIXER LINEINL" value="0"  />
+  <ctl name="SMT_MIXOUT_EAR_PU MIXER DACR" value="0" />
+  <ctl name="SMT_MIXOUT_EAR_PU MIXER DACL" value="0" />
+  <ctl name="SIF_EN MIXER SIF_DACL_EN" value="0" />
+  <ctl name="SIF_EN MIXER SIF_DACR_EN" value="0" />
+  <ctl name="SIF_EN MIXER SIF_ADCL_EN" value="0" />
+  <ctl name="SIF_EN MIXER SIF_ADCR_EN" value="0" />
+  <ctl name="DACR_MIXER_EN MIXER DACR_MIXER_IN1_MUTE" value="0" />
+  <ctl name="DACR_MIXER_EN MIXER DACR_MIXER_IN2_MUTE" value="0" />
+  <ctl name="DACR_MIXER_EN MIXER DACR_MIXER_IN3_MUTE" value="0" />
+  <ctl name="DACR_MIXER_EN MIXER DACR_MIXER_IN4_MUTE" value="0" />
+  <ctl name="DACL_MIXER_EN MIXER DACL_MIXER_IN1_MUTE" value="0" />
+  <ctl name="DACL_MIXER_EN MIXER DACL_MIXER_IN2_MUTE" value="0" />
+  <ctl name="DACL_MIXER_EN MIXER DACL_MIXER_IN3_MUTE" value="0" />
+  <ctl name="DACL_MIXER_EN MIXER DACL_MIXER_IN4_MUTE" value="0" />
+  <ctl name="S3_IF_TX_ENA MIXER VOICE_DL" value="0" />
+  <ctl name="S3_IF_TX_ENA MIXER VOICE_DR" value="0" />
+  <ctl name="S3_IF_RX_ENA MIXER VOICE_UP" value="0" />
+  <ctl name="S2_IF_TX_ENA MIXER DACL" value="0"  />
+  <ctl name="S2_IF_TX_ENA MIXER VOICE_DLINK" value="0" />
+  <ctl name="S2_IF_RX_ENA MIXER VOICE_UL" value="0" />
+  <ctl name="S2_IF_RX_ENA MIXER VOICE_UR" value="0" />
+  <ctl name="S1_IF_TX_ENA MIXER ADC_LR" value="0"  />
+  <ctl name="S1_IF_TX_ENA MIXER DAC_LR" value="0"  />
+  <ctl name="S1_IF_RX_ENA MIXER FM_L" value="0"  />
+  <ctl name="S1_IF_RX_ENA MIXER FM_R" value="0"  />
+  <ctl name="VOICE_DL_EN MIXER VOICE_DL_MIXER_IN1_MUTE" value="0" />
+  <ctl name="VOICE_DL_EN MIXER VOICE_DL_MIXER_IN2_MUTE" value="0" />
+  <ctl name="S2_OL_MIXER_EN MIXER S2_OL_MIXER_IN1_MUTE" value="0" />
+  <ctl name="S2_OL_MIXER_EN MIXER S2_OL_MIXER_IN2_MUTE" value="0" />
+
+  <!-- init paths -->
+  <path name="init" >
+      <ctl name="HISSC_FS_DACLR" value="4" />
+      <ctl name="HISSC_DACL_AGC_BYPASS" value="On" />
+      <ctl name="HISSC_DACR_AGC_BYPASS" value="On" />
+      <ctl name="SIF_EN MIXER SIF_DACL_EN" value="1" />
+      <ctl name="SIF_EN MIXER SIF_DACR_EN" value="1" />
+  </path>
+  <!-- PROC COMMON -->
+  <path name="fm-digital" >
+      <ctl name="STEREO_DLINK_TEST_SEL MUX" value="APB" />
+      <ctl name="DACL_MIXER_EN MIXER DACL_MIXER_IN3_MUTE" value="1" />
+      <ctl name="DACR_MIXER_EN MIXER DACR_MIXER_IN3_MUTE" value="1" />
+      <ctl name="S1_IF_RX_ENA MIXER FM_L" value="1" />
+      <ctl name="S1_IF_RX_ENA MIXER FM_R" value="1" />
+  </path>
+
+  <path name="fm-analog" >
+    <ctl name="HISSC_SMT_LINEPGAL_SEL" value="2" />
+    <ctl name="HISSC_SMT_LINEPGAL_MUTE" value="0" />
+    <ctl name="HISSC_SMT_LINEPGAR_SEL" value="2" />
+    <ctl name="HISSC_SMT_LINEPGAR_MUTE" value="0" />
+  </path>
+
+  <!-- OUT COMMON -->
+  <path name="earpiece" >
+      <ctl name="SMT_SIF_EN MIXER SIF_RCV_EN" value="1" />
+      <ctl name="SMT_MIXOUT_EAR_PU MIXER DACL" value="1" />
+      <ctl name="SMT_MIXOUT_EAR_PU MIXER DACR" value="1" />
+      <ctl name="RCV VIR_SWITCH RCV_EN" value="1" />
+  </path>
+
+  <path name="linein-earpiece" >
+      <!-- ctl name="SMT_SIF_EN MIXER SIF_RCV_EN" value="1" / -->
+      <ctl name="SMT_MIXOUT_EAR_PU MIXER LINEINL" value="1" />
+      <ctl name="SMT_MIXOUT_EAR_PU MIXER LINEINR" value="1" />
+      <ctl name="RCV VIR_SWITCH RCV_EN" value="1" />
+  </path>
+
+  <path name="speaker" >
+      <ctl name="SMT_SIF_EN MIXER SIF_CLASSD_EN" value="1" />
+      <ctl name="SMT_MIXOUT_EAR_PU MIXER DACL" value="1" />
+      <ctl name="SMT_MIXOUT_EAR_PU MIXER DACR" value="1" />
+      <ctl name="CLASSD VIR_SWITCH CLASSD_EN" value="1" />
+  </path>
+
+  <path name="linein-speaker" >
+      <ctl name="SMT_SIF_EN MIXER SIF_CLASSD_EN" value="1" />
+      <ctl name="SMT_MIXOUT_EAR_PU MIXER LINEINL" value="1" />
+      <ctl name="SMT_MIXOUT_EAR_PU MIXER LINEINR" value="1" />
+      <ctl name="CLASSD VIR_SWITCH CLASSD_EN" value="1" />
+  </path>
+
+ <path name="speaker-earpiece" >
+      <ctl name="SMT_SIF_EN MIXER SIF_RCV_EN" value="1" />
+      <ctl name="SMT_MIXOUT_EAR_PU MIXER DACL" value="1" />
+      <ctl name="SMT_MIXOUT_EAR_PU MIXER DACR" value="1" />
+      <ctl name="RCV VIR_SWITCH RCV_EN" value="1" />
+      <ctl name="SMT_SIF_EN MIXER SIF_CLASSD_EN" value="1" />
+      <ctl name="CLASSD VIR_SWITCH CLASSD_EN" value="1" />
+  </path>
+
+  <path name="linein-speaker-earpiece" >
+      <!-- ctl name="SMT_SIF_EN MIXER SIF_RCV_EN" value="1" / -->
+      <ctl name="SMT_SIF_EN MIXER SIF_CLASSD_EN" value="1" />
+      <ctl name="SMT_MIXOUT_EAR_PU MIXER LINEINL" value="1" />
+      <ctl name="SMT_MIXOUT_EAR_PU MIXER LINEINL" value="1" />
+      <ctl name="RCV VIR_SWITCH RCV_EN" value="1" />
+      <ctl name="CLASSD VIR_SWITCH CLASSD_EN" value="1" />
+  </path>
+
+  <path name="headphone" >
+      <ctl name="SMT_MIXOUT_HSLR_PD MIXER DACLR" value="1" />
+      <ctl name="HS_DAC_SEL_VIR SWITCH DAC" value="1" />
+      <ctl name="SMT_SIF_EN MIXER SIF_HSLR_EN" value="1" />
+      <ctl name="HISSC_SMT_HSL_MUTE" value="0" />
+      <!--ctl name="HISSC_SMT_HSL_GAIN" value="6" / -->
+      <ctl name="HISSC_SMT_HSR_MUTE" value="0" />
+      <!--ctl name="HISSC_SMT_HSR_GAIN" value="6" / -->
+  </path>
+
+  <path name="linein-headphone" >
+      <ctl name="SMT_MIXOUT_HSLR_PD MIXER LINEINLR" value="1" />
+      <ctl name="HS_LINEIN_SEL_VIR SWITCH LINEIN" value="1" />
+      <!--ctl name="SMT_SIF_EN MIXER SIF_HSLR_EN" value="1" / -->
+      <ctl name="HISSC_SMT_HSL_MUTE" value="0" />
+      <!--ctl name="HISSC_SMT_HSL_GAIN" value="6" / -->
+      <ctl name="HISSC_SMT_HSR_MUTE" value="0" />
+      <!--ctl name="HISSC_SMT_HSR_GAIN" value="6" / -->
+  </path>
+
+  <path name="headset" >
+      <ctl name="SMT_MIXOUT_HSLR_PD MIXER DACLR"   value="1"/>
+      <ctl name="HS_DAC_SEL_VIR SWITCH DAC"   value="1"/>
+      <ctl name="SMT_SIF_EN MIXER SIF_HSLR_EN"   value="1"/>
+      <ctl name="HISSC_SMT_HSL_MUTE" value="0" />        
+      <!--ctl name="HISSC_SMT_HSL_GAIN" value="6" / -->  
+      <ctl name="HISSC_SMT_HSR_MUTE" value="0" />              
+      <!--ctl name="HISSC_SMT_HSR_GAIN" value="6" / -->  
+  </path>
+  
+  <path name="linein-headset" >
+      <ctl name="SMT_MIXOUT_HSLR_PD MIXER LINEINLR" value="1" />
+      <ctl name="HS_LINEIN_SEL_VIR SWITCH LINEIN" value="1" />
+      <!--ctl name="SMT_SIF_EN MIXER SIF_HSLR_EN" value="1" / -->
+      <ctl name="HISSC_SMT_HSL_MUTE" value="0" />
+      <!--ctl name="HISSC_SMT_HSL_GAIN" value="6" / -->
+      <ctl name="HISSC_SMT_HSR_MUTE" value="0" />
+      <!--ctl name="HISSC_SMT_HSR_GAIN" value="6" / -->
+  </path>
+
+  <path name="call_out_without_BT" >
+      <ctl name="VOICE_DLINK_DIN_SEL MUX" value="APB" />
+      <ctl name="VOICE_DL_EN MIXER VOICE_DL_MIXER_IN1_MUTE" value="1" />
+      <ctl name="DACL_MIXER_EN MIXER DACL_MIXER_IN1_MUTE" value="1" />
+      <ctl name="DACR_MIXER_EN MIXER DACR_MIXER_IN1_MUTE" value="1" />
+      <ctl name="HISSC_VOICE_DLINK_SRC_EN" value="1" />
+      <ctl name="HISSC_VOICE_DLINK_SRC_MODE" value="2" />
+      <ctl name="HISSC_VOICE_DLINK_SRC_RDY" value="1" />
+  </path>
+
+  <path name="wb_call_out_without_BT" >
+      <ctl name="VOICE_DLINK_DIN_SEL MUX" value="APB" />
+      <ctl name="VOICE_DL_EN MIXER VOICE_DL_MIXER_IN1_MUTE" value="1" />
+      <ctl name="DACL_MIXER_EN MIXER DACL_MIXER_IN1_MUTE" value="1" />
+      <ctl name="DACR_MIXER_EN MIXER DACR_MIXER_IN1_MUTE" value="1" />
+      <ctl name="HISSC_FS_VOICE_DLINK" value="1" />
+      <ctl name="HISSC_VOICE_DLINK_SRC_EN" value="1" />
+      <ctl name="HISSC_VOICE_DLINK_SRC_MODE" value="4" />
+      <ctl name="HISSC_VOICE_DLINK_SRC_RDY" value="1" />
+  </path>
+
+  <path name="call_out_within_BT" >
+      <ctl name="VOICE_DLINK_DIN_SEL MUX" value="APB" />
+      <ctl name="VOICE_DL_EN MIXER VOICE_DL_MIXER_IN1_MUTE" value="1" />
+      <ctl name="DACL_MIXER_EN MIXER DACL_MIXER_IN1_MUTE" value="VOICE_DLINK_PGA" />
+      <ctl name="DACR_MIXER_EN MIXER DACR_MIXER_IN1_MUTE" value="1" />
+      <ctl name="S2_OL_MIXER_EN MIXER S2_OL_MIXER_IN1_MUTE" value="1" />
+      <ctl name="S2_OL_MIXER_EN MIXER S2_OL_MIXER_IN2_MUTE" value="1" />
+      <ctl name="S2_DOUT_LEFT_SEL MUX" value="1" />
+      <ctl name="S2_DOUT_TEST_SEL MUX" value="DACL_MIXER" />
+      <ctl name="S2_IF_TX_ENA MIXER VOICE_DLINK" value="1" />
+  </path>
+
+  <!-- IN COMMON -->
+  <path name="main-mic" >
+      <ctl name="SMT_MAINPGA_SEL MUX" value="MIC" />
+      <ctl name="SMT_ADCL_PD MIXER MAINPGA" value="1" />
+      <ctl name="SMT_ADCR_PD MIXER MAINPGA" value="1" />
+      <ctl name="SMT_SIF_EN MIXER SIF_MIC1_EN" value="1" />
+      <ctl name="HISSC_SMT_MAINPGA_MUTE" value="0" />
+      <!-- ctl name="HISSC_SMT_MAINPGA_GAIN" value="4" / -->
+      <!-- ctl name="HISSC_FS_ADCLR"   value="4"/ -->
+  </path>
+
+  <path name="call-main-mic" >
+      <ctl name="SMT_MAINPGA_SEL MUX" value="MIC" />
+      <ctl name="SMT_ADCL_PD MIXER MAINPGA" value="1" />
+      <ctl name="SMT_SIF_EN MIXER SIF_MIC1_EN" value="1" />
+      <ctl name="HISSC_SMT_MAINPGA_MUTE" value="0" />
+      <!-- ctl name="HISSC_SMT_MAINPGA_GAIN" value="4" / -->
+      <!-- ctl name="HISSC_FS_ADCLR"   value="4"/ -->
+  </path>
+
+  <path name="call-handfree-main-mic" >
+      <ctl name="SMT_MAINPGA_SEL MUX" value="MIC" />
+      <ctl name="SMT_ADCR_PD MIXER MAINPGA" value="1" />
+      <ctl name="SMT_SIF_EN MIXER SIF_MIC1_EN" value="1" />
+      <ctl name="HISSC_SMT_MAINPGA_MUTE" value="0" />
+      <!-- ctl name="HISSC_SMT_MAINPGA_GAIN" value="4" / -->
+      <!-- ctl name="HISSC_FS_ADCLR"   value="4"/ -->
+  </path>
+
+  <path name="headset-mic" >
+      <ctl name="SMT_MAINPGA_SEL MUX" value="HP_MIC" />
+      <ctl name="SMT_ADCL_PD MIXER MAINPGA" value="1" />
+      <!--ctl name="SMT_ADCR_PD MIXER MAINPGA" value="1" /-->
+      <ctl name="SMT_SIF_EN MIXER SIF_MIC1_EN" value="1" />
+      <ctl name="HISSC_SMT_MAINPGA_MUTE" value="0" />
+      <!-- ctl name="HISSC_SMT_MAINPGA_GAIN" value="4" / -->
+      <!-- ctl name="HISSC_FS_ADCLR"   value="4"/ -->
+  </path>
+
+  <path name="aux-mic" >
+      <ctl name="SMT_SIF_EN MIXER SIF_MIC2_EN" value="1" />
+      <ctl name="SMT_ADCL_PD MIXER AUXPGA" value="1" />
+      <ctl name="SMT_ADCR_PD MIXER AUXPGA" value="1" />
+      <!-- ctl name="HISSC_FS_ADCLR"   value="4"/ -->
+  </path>
+
+  <path name="call-aux-mic" >
+      <ctl name="SMT_SIF_EN MIXER SIF_MIC2_EN" value="1" />
+      <ctl name="SMT_ADCR_PD MIXER AUXPGA" value="1" />
+      <!-- ctl name="HISSC_FS_ADCLR"   value="4"/ -->
+  </path>
+
+  <path name="call-handfree-aux-mic" >
+      <ctl name="SMT_SIF_EN MIXER SIF_MIC2_EN" value="1" />
+      <ctl name="SMT_ADCL_PD MIXER AUXPGA" value="1" />
+      <!-- ctl name="HISSC_FS_ADCLR"   value="4"/ -->
+  </path>
+
+  <path name="bt-sco-mic" >
+	  <ctl name="VOICE_UPLINK_L_FIFO_DIN_SEL MUX" value="S2" />
+	  <ctl name="VOICE_UPLINK_L_EN SWITCH VOICE_UPLINK_L_EN" value="1" />
+	  <ctl name="S2_IF_TX_ENA MIXER VOICE_DLINK" value="1"   />
+  </path>  
+  
+  <path name="linein" >
+      <ctl name="SMT_SIF_EN MIXER SIF_LINEINL_EN" value="1" />
+      <ctl name="SMT_SIF_EN MIXER SIF_LINEINR_EN" value="1" />
+      <ctl name="SMT_ADCL_PD MIXER LINEINL" value="1" />
+      <ctl name="SMT_ADCR_PD MIXER LINEINR" value="1" />
+  </path>
+
+  <path name="call_in_without_BT" >
+      <ctl name="LM_CODEC_DAC2ADC MUX" value="CIC_ADC" />
+      <ctl name="RM_CODEC_DAC2ADC MUX" value="CIC_ADC" />
+      <ctl name="HISSC_FS_ADCLR" value="0" />
+      <ctl name="VOICE_UPLINK_L_FIFO_DIN_SEL MUX" value="ADCL" />
+      <ctl name="VOICE_UPLINK_R_FIFO_DIN_SEL MUX" value="ADCR" />
+      <ctl name="VOICE_UPLINK_L_EN SWITCH VOICE_UPLINK_L_EN" value="1" />
+      <ctl name="VOICE_UPLINK_R_EN SWITCH VOICE_UPLINK_R_EN" value="1" />
+      <ctl name="SIF_EN MIXER SIF_ADCL_EN" value="1" />
+      <ctl name="SIF_EN MIXER SIF_ADCR_EN" value="1" />
+  </path>
+
+  <path name="wb_call_in_without_BT" >
+      <ctl name="LM_CODEC_DAC2ADC MUX" value="CIC_ADC" />
+      <ctl name="RM_CODEC_DAC2ADC MUX" value="CIC_ADC" />
+      <ctl name="HISSC_FS_ADCLR" value="1" />
+      <ctl name="VOICE_UPLINK_L_FIFO_DIN_SEL MUX" value="ADCL" />
+      <ctl name="VOICE_UPLINK_R_FIFO_DIN_SEL MUX" value="ADCR" />
+      <ctl name="VOICE_UPLINK_L_EN SWITCH VOICE_UPLINK_L_EN" value="1" />
+      <ctl name="VOICE_UPLINK_R_EN SWITCH VOICE_UPLINK_R_EN" value="1" />
+      <ctl name="SIF_EN MIXER SIF_ADCL_EN" value="1" />
+      <ctl name="SIF_EN MIXER SIF_ADCR_EN" value="1" />
+  </path>
+
+  <path name="call_in_with_BT" >
+      <ctl name="VOICE_UPLINK_L_FIFO_DIN_SEL MUX" value="S2" />
+      <ctl name="VOICE_UPLINK_R_FIFO_DIN_SEL MUX" value="S2" />  
+      <ctl name="VOICE_UPLINK_L_EN SWITCH VOICE_UPLINK_L_EN" value="1" />
+      <ctl name="VOICE_UPLINK_R_EN SWITCH VOICE_UPLINK_R_EN" value="1" /> 
+      <ctl name="S2_IF_RX_ENA MIXER VOICE_UL" value="1" />
+      <ctl name="S2_IF_RX_ENA MIXER VOICE_UR" value="1" />
+  </path>
+  
+  <path name="call_with_BT" >
+      <ctl name="HISSC_S2_FUNC_MODE"  value="2" />       
+      <ctl name="HISSC_S2_RX_CLK_SEL"  value="1" />   
+      <ctl name="HISSC_S2_TX_CLK_SEL"  value="0" />   
+      <ctl name="HISSC_S2_CODEC_IO_WORDLENGTH"  value="0" /> 
+      <ctl name="HISSC_S2_LRCLK_MODE"  value="1" />    
+      <ctl name="HISSC_VOICE_DLINK_SRC_MODE"  value="2" />   
+      <ctl name="HISSC_VOICE_DLINK_SRC_RDY"  value="1" />    
+      <ctl name="HISSC_S2_OL_SRC_MODE"  value="2" /> 
+      <ctl name="HISSC_S2_OL_SRC_RDY"  value="1" />  
+      <ctl name="HISSC_S2_OL_MIXER_GAIN"  value="1" />       
+      <ctl name="HISSC_S2_IL_PGA_THR_CONFIG"  value="1" />   
+      <ctl name="HISSC_S2_IR_PGA_INTEGER_CONFIG"  value="255" />
+      <ctl name="HISSC_S2_IR_PGA_THR_CONFIG"  value="1" />      
+      <ctl name="HISSC_SMT_MAINPGA_MUTE"  value="1" />
+      <ctl name="HISSC_SMT_HS_LIT_LP_L"  value="1" />      
+      <ctl name="HISSC_SMT_HS_LIT_LP_R"  value="1" />
+      <ctl name="HISSC_SMT_EAR_GAIN"  value="13" />      
+      <ctl name="HISSC_S2_OL_SRC_EN"  value="1" />   
+      <ctl name="HISSC_VOICE_DLINK_SRC_EN"  value="1" /> 
+      <ctl name="VOICE_UPLINK_R_EN SWITCH VOICE_UPLINK_R_EN"  value="1" />
+      <ctl name="HS_DAC_SEL_VIR SWITCH DAC"  value="1" />
+      <ctl name="VOICE_UPLINK_R_FIFO_DIN_SEL MUX"  value="S2" /> 
+      <ctl name="VOICE_UPLINK_L_FIFO_DIN_SEL MUX"  value="S2" /> 
+      <ctl name="STEREO_UPLINK_R_FIFO_DIN_SEL MUX"  value="S1" />
+      <ctl name="SMT_MIXOUT_HSLR_PD MIXER DACLR"  value="1" /> 
+      <ctl name="SMT_SIF_EN MIXER SIF_HSLR_EN"  value="1" />
+      <ctl name="DACR_MIXER_EN MIXER DACR_MIXER_IN1_MUTE"  value="1" />
+      <ctl name="DACL_MIXER_EN MIXER DACL_MIXER_IN1_MUTE"  value="1" />
+      <ctl name="S2_IF_TX_ENA MIXER VOICE_DLINK"  value="1" /> 
+      <ctl name="S2_IF_RX_ENA MIXER VOICE_UL"  value="1" /> 
+      <ctl name="S2_IF_RX_ENA MIXER VOICE_UR"  value="1" />       
+      <ctl name="VOICE_DL_EN MIXER VOICE_DL_MIXER_IN1_MUTE"  value="1" /> 
+      <ctl name="S2_OL_MIXER_EN MIXER S2_OL_MIXER_IN1_MUTE"  value="1" /> 
+      <ctl name="S2_OL_MIXER_EN MIXER S2_OL_MIXER_IN2_MUTE"  value="1" /> 
+  </path>
+   
+ <path name="call_with_BT_and_other_set" >
+      <ctl name="HISSC_S2_FUNC_MODE"  value="2" />       
+      <ctl name="HISSC_S2_RX_CLK_SEL"  value="1" />   
+      <ctl name="HISSC_S2_TX_CLK_SEL"  value="0" />   
+      <ctl name="HISSC_S2_CODEC_IO_WORDLENGTH"  value="0" /> 
+      <ctl name="HISSC_S2_LRCLK_MODE"  value="1" />    
+      <ctl name="HISSC_VOICE_DLINK_SRC_MODE"  value="2" />   
+      <ctl name="HISSC_VOICE_DLINK_SRC_RDY"  value="1" />    
+      <ctl name="HISSC_S2_OL_SRC_MODE"  value="2" /> 
+      <ctl name="HISSC_S2_OL_SRC_RDY"  value="1" />  
+      <ctl name="HISSC_S2_OL_MIXER_GAIN"  value="1" />       
+      <ctl name="HISSC_S2_IL_PGA_THR_CONFIG"  value="1" />   
+      <ctl name="HISSC_S2_IR_PGA_INTEGER_CONFIG"  value="255" />
+      <ctl name="HISSC_S2_IR_PGA_THR_CONFIG"  value="1" />      
+      <ctl name="HISSC_SMT_MAINPGA_MUTE"  value="1" />
+      <ctl name="HISSC_SMT_HS_LIT_LP_L"  value="1" />      
+      <ctl name="HISSC_SMT_HS_LIT_LP_R"  value="1" />
+      <ctl name="HISSC_SMT_EAR_GAIN"  value="13" />      
+      <ctl name="HISSC_S2_OL_SRC_EN"  value="1" />   
+      <ctl name="HISSC_VOICE_DLINK_SRC_EN"  value="1" /> 
+      <!--ctl name="HS_DAC_SEL_VIR SWITCH DAC"  value="1" / -->
+      <ctl name="VOICE_UPLINK_L_FIFO_DIN_SEL MUX"  value="S2" /> 
+      <ctl name="STEREO_UPLINK_R_FIFO_DIN_SEL MUX"  value="S1" />
+      <!-- ctl name="SMT_MIXOUT_HSLR_PD MIXER DACLR"  value="1" / --> 
+      <!-- ctl name="SMT_SIF_EN MIXER SIF_HSLR_EN"  value="1" / -->
+      <ctl name="DACR_MIXER_EN MIXER DACR_MIXER_IN1_MUTE"  value="1" />
+      <ctl name="DACL_MIXER_EN MIXER DACL_MIXER_IN1_MUTE"  value="1" />
+      <ctl name="S2_IF_TX_ENA MIXER VOICE_DLINK"  value="1" /> 
+      <ctl name="S2_IF_RX_ENA MIXER VOICE_UL"  value="1" /> 
+      <ctl name="S2_IF_RX_ENA MIXER VOICE_UR"  value="1" />       
+      <ctl name="VOICE_DL_EN MIXER VOICE_DL_MIXER_IN1_MUTE"  value="1" /> 
+      <ctl name="S2_OL_MIXER_EN MIXER S2_OL_MIXER_IN1_MUTE"  value="1" /> 
+      <ctl name="S2_OL_MIXER_EN MIXER S2_OL_MIXER_IN2_MUTE"  value="1" /> 
+      <!-- call out without BT --> 
+      <ctl name="VOICE_DLINK_DIN_SEL MUX" value="APB" />
+  </path>
+  
+  <path name="audio-play" >
+      <ctl name="STEREO_DLINK_TEST_SEL MUX" value="APB" />
+      <ctl name="DACL_MIXER_EN MIXER DACL_MIXER_IN2_MUTE" value="1" />
+      <ctl name="DACR_MIXER_EN MIXER DACR_MIXER_IN2_MUTE" value="1" />
+      <!-- ctl name="HISSC_SMT_HSL_MIN_GAIN" value="0" / -->
+      <ctl name="HISSC_FS_STEREO_DLINK_L" value="4" />
+      <ctl name="HISSC_FS_STEREO_DLINK_R" value="4" />
+  </path>
+
+  <path name="audio-play-fm-digital" >
+      <ctl name="STEREO_DLINK_TEST_SEL MUX" value="APB" />
+      <ctl name="DACL_MIXER_EN MIXER DACL_MIXER_IN2_MUTE" value="1" />
+      <ctl name="DACR_MIXER_EN MIXER DACR_MIXER_IN2_MUTE" value="1" />
+      <ctl name="DACL_MIXER_EN MIXER DACL_MIXER_IN3_MUTE" value="1" />
+      <ctl name="DACR_MIXER_EN MIXER DACR_MIXER_IN3_MUTE" value="1" />
+      <ctl name="S1_IF_RX_ENA MIXER FM_L" value="1" />
+      <ctl name="S1_IF_RX_ENA MIXER FM_R" value="1" />
+  </path>
+
+  <path name="audio-play-call-out" >
+      <ctl name="STEREO_DLINK_TEST_SEL MUX" value="APB" />
+      <ctl name="DACL_MIXER_EN MIXER DACL_MIXER_IN2_MUTE" value="1" />
+      <ctl name="DACR_MIXER_EN MIXER DACR_MIXER_IN2_MUTE" value="1" />
+      <!-- ctl name="HISSC_SMT_HSL_MIN_GAIN" value="0" / -->
+      <ctl name="HISSC_FS_STEREO_DLINK_L" value="4" />
+      <ctl name="HISSC_FS_STEREO_DLINK_R" value="4" />
+      <ctl name="VOICE_DLINK_DIN_SEL MUX" value="APB" />
+      <ctl name="VOICE_DL_EN MIXER VOICE_DL_MIXER_IN1_MUTE" value="1" />
+      <ctl name="DACL_MIXER_EN MIXER DACL_MIXER_IN1_MUTE" value="1" />
+      <ctl name="DACR_MIXER_EN MIXER DACR_MIXER_IN1_MUTE" value="1" />
+      <ctl name="HISSC_VOICE_DLINK_SRC_EN" value="1" />
+      <ctl name="HISSC_VOICE_DLINK_SRC_MODE" value="2" />
+      <ctl name="HISSC_VOICE_DLINK_SRC_RDY" value="1" />
+  </path>
+
+  <path name="wb-audio-play-call-out" >
+      <ctl name="STEREO_DLINK_TEST_SEL MUX" value="APB" />
+      <ctl name="DACL_MIXER_EN MIXER DACL_MIXER_IN2_MUTE" value="1" />
+      <ctl name="DACR_MIXER_EN MIXER DACR_MIXER_IN2_MUTE" value="1" />
+      <!-- ctl name="HISSC_SMT_HSL_MIN_GAIN" value="0" / -->	  
+      <ctl name="HISSC_FS_VOICE_DLINK" value="1" />
+      <ctl name="HISSC_FS_STEREO_DLINK_L" value="4" />
+      <ctl name="HISSC_FS_STEREO_DLINK_R" value="4" />
+      <ctl name="VOICE_DLINK_DIN_SEL MUX" value="APB" />
+      <ctl name="VOICE_DL_EN MIXER VOICE_DL_MIXER_IN1_MUTE" value="1" />
+      <ctl name="DACL_MIXER_EN MIXER DACL_MIXER_IN1_MUTE" value="1" />
+      <ctl name="DACR_MIXER_EN MIXER DACR_MIXER_IN1_MUTE" value="1" />
+      <ctl name="HISSC_VOICE_DLINK_SRC_EN" value="1" />
+      <ctl name="HISSC_VOICE_DLINK_SRC_MODE" value="4" />
+      <ctl name="HISSC_VOICE_DLINK_SRC_RDY" value="1" />
+  </path>
+
+  <path name="audio-capture" >
+      <ctl name="LM_CODEC_DAC2ADC MUX" value="CIC_ADC" />
+      <ctl name="RM_CODEC_DAC2ADC MUX" value="CIC_ADC" />
+      <ctl name="STEREO_UPLINK_L_FIFO_DIN_SEL MUX" value="ADCL" />
+      <ctl name="STEREO_UPLINK_R_FIFO_DIN_SEL MUX" value="ADCR" />
+      <ctl name="HISSC_FS_ADCLR" value="4" />
+      <ctl name="SIF_EN MIXER SIF_ADCL_EN" value="1" />
+      <ctl name="SIF_EN MIXER SIF_ADCR_EN" value="1" />
+      <ctl name="STEREO_UPLINK_L_EN SWITCH STEREO_UP_L_EN" value="1" />
+      <ctl name="STEREO_UPLINK_R_EN SWITCH STEREO_UP_R_EN" value="1" />
+  </path>
+  
+  <path name="audio-play-bt-sco" >
+      <ctl name="HISSC_S2_FUNC_MODE"  value="2" />       
+      <ctl name="HISSC_S2_RX_CLK_SEL"  value="1" />   
+      <ctl name="HISSC_S2_TX_CLK_SEL"  value="0" />   
+      <ctl name="HISSC_S2_CODEC_IO_WORDLENGTH"  value="0" /> 
+      <ctl name="HISSC_S2_LRCLK_MODE"  value="1" />    
+      <ctl name="HISSC_VOICE_DLINK_SRC_MODE"  value="2" />   
+      <ctl name="HISSC_VOICE_DLINK_SRC_RDY"  value="1" />    
+      <ctl name="HISSC_S2_OL_SRC_MODE"  value="2" /> 
+      <ctl name="HISSC_S2_OL_SRC_RDY"  value="1" />  
+      <ctl name="HISSC_S2_OL_MIXER_GAIN"  value="1" />       
+      <ctl name="HISSC_S2_IL_PGA_THR_CONFIG"  value="1" />   
+      <ctl name="HISSC_S2_IR_PGA_INTEGER_CONFIG"  value="255" />
+      <ctl name="HISSC_S2_IR_PGA_THR_CONFIG"  value="1" />      
+      <ctl name="HISSC_SMT_MAINPGA_MUTE"  value="1" />
+      <ctl name="HISSC_SMT_HS_LIT_LP_L"  value="1" />      
+      <ctl name="HISSC_SMT_HS_LIT_LP_R"  value="1" />
+      <ctl name="HISSC_SMT_EAR_GAIN"  value="13" />      
+      <ctl name="HISSC_S2_OL_SRC_EN"  value="1" />
+      <ctl name="VOICE_UPLINK_R_FIFO_DIN_SEL MUX"  value="S2" /> 
+      <ctl name="VOICE_UPLINK_L_FIFO_DIN_SEL MUX"  value="S2" /> 
+      <ctl name="STEREO_UPLINK_R_FIFO_DIN_SEL MUX"  value="S1" />
+      <ctl name="S2_IF_TX_ENA MIXER VOICE_DLINK"  value="1" />
+      <ctl name="S2_IF_RX_ENA MIXER VOICE_UL"  value="1" />
+      <ctl name="S2_IF_RX_ENA MIXER VOICE_UR"  value="1" />
+      <ctl name="VOICE_DL_EN MIXER VOICE_DL_MIXER_IN1_MUTE"  value="1" /> 
+      <ctl name="S2_OL_MIXER_EN MIXER S2_OL_MIXER_IN1_MUTE"  value="1" /> 
+      <ctl name="S2_OL_MIXER_EN MIXER S2_OL_MIXER_IN2_MUTE"  value="1" /> 
+      <ctl name="VOICE_DLINK_DIN_SEL MUX" value="APB" />
+  </path>
+  
+  <!-- These are useful named paths -->
+  <!-- Playback paths -->
+  <path name="media-earpiece" >
+    <path name="init" />
+    <path name="audio-play" />
+    <path name="earpiece" />
+  </path>
+
+  <path name="media-speaker" >
+	<path name="init" />
+    <path name="audio-play" />
+    <path name="speaker" />
+  </path>
+
+  <path name="media-headphone" >
+	<path name="init" />
+    <path name="audio-play" />
+    <path name="headphone" />
+  </path>
+
+  <path name="media-headset" >
+	<path name="init" />
+    <path name="audio-play" />
+    <path name="headset" />
+  </path>
+  
+  <path name="media-bt-sco" >
+	<path name="init" />
+    <path name="audio-play" />
+    <path name="audio-play-bt-sco" />
+  </path>
+
+  <path name="media-speaker-earpiece" >
+	<path name="init" />
+    <path name="audio-play" />
+    <path name="speaker-earpiece" />
+  </path>
+
+  <path name="media-speaker-headset" >
+	<path name="init" />
+    <path name="audio-play" />
+    <path name="speaker" />
+    <path name="headset" />
+  </path>
+
+  <path name="media-speaker-headphone" >
+	<path name="init" />
+    <path name="audio-play" />
+    <path name="speaker" />
+    <path name="headphone" />
+  </path>
+
+  <path name="communication-earpiece" >
+	<path name="init" />
+    <path name="audio-play" />
+    <path name="earpiece" />
+  </path>
+
+  <path name="communication-speaker" >
+	<path name="init" />
+    <path name="audio-play" />
+    <path name="speaker" />
+  </path>
+
+  <path name="communication-headset" >
+	<path name="init" />
+    <path name="audio-play" />
+    <path name="headset" />
+  </path>
+
+  <path name="communication-headphone" >
+	<path name="init" />
+    <path name="audio-play" />
+    <path name="headphone" />
+  </path>
+
+  <path name="communication-speaker-earpiece" >
+	<path name="init" />
+    <path name="audio-play" />
+    <path name="speaker-earpiece" />
+  </path>
+
+  <path name="communication-speaker-headset" >
+	<path name="init" />
+    <path name="speaker" />
+    <path name="headset" />
+  </path>
+
+  <path name="communication-speaker-headphone" >
+	<path name="init" />
+    <path name="speaker" />
+    <path name="headphone" />
+  </path>
+  
+  <path name="call-m0-earpiece" >
+	<path name="init" />
+    <path name="call_out_without_BT" />
+    <path name="earpiece" />
+  </path>
+
+  <path name="call-m0-speaker" >
+	<path name="init" />
+    <path name="call_out_without_BT" />
+    <path name="speaker" />
+  </path>
+
+  <path name="call-m0-headphone" >
+	<path name="init" />
+    <path name="call_out_without_BT" />
+    <path name="headphone" />
+  </path>
+
+  <path name="call-m0-headset" >
+    <path name="init" />
+    <path name="call_out_without_BT" />
+    <path name="headset" />
+  </path>
+
+  <path name="call-m0-bt-sco-headset" >
+    <path name="call_with_BT_and_other_set" />
+  </path>
+
+  <path name="dup-call-m0-earpiece" >
+	<path name="init" />
+    <path name="audio-play-call-out" />
+    <path name="earpiece" />
+  </path>
+
+  <path name="dup-call-m0-speaker" >
+	<path name="init" />
+    <path name="audio-play-call-out" />
+    <path name="speaker" />
+  </path>
+
+  <path name="dup-call-m0-headphone" >
+	<path name="init" />
+    <path name="audio-play-call-out" />
+    <path name="headphone" />
+  </path>
+
+  <path name="dup-call-m0-headset" >
+	<path name="init" />
+    <path name="audio-play-call-out" />
+    <path name="headset" />
+  </path>
+
+  <path name="dup-call-m0-bt-sco-headset" >
+    <!-- "audio-play"  --> 
+    <ctl name="STEREO_DLINK_TEST_SEL MUX" value="APB" />
+    <ctl name="DACL_MIXER_EN MIXER DACL_MIXER_IN2_MUTE" value="1" />  
+    <ctl name="DACR_MIXER_EN MIXER DACR_MIXER_IN2_MUTE" value="1" />     
+    <ctl name="HISSC_FS_STEREO_DLINK_L" value="4" />      
+    <ctl name="HISSC_FS_STEREO_DLINK_R" value="4" />  
+    <path name="call_with_BT_and_other_set" />
+  </path>
+
+  <path name="call-m0-speaker-earpiece" >
+    <!-- path name="call_out_without_BT" /  -->
+	<path name="init" />
+    <path name="audio-play" />
+    <path name="speaker-earpiece" />
+  </path>
+
+  <path name="call-m0-speaker-headphone" >
+    <!-- path name="call_out_without_BT" /  -->
+	<path name="init" />
+    <path name="audio-play" />
+    <path name="speaker" />
+    <path name="headphone" />
+  </path>
+
+  <path name="call-m0-speaker-headset" >
+    <!-- path name="call_out_without_BT" /  -->
+	<path name="init" />
+    <path name="audio-play" />
+    <path name="speaker" />
+    <path name="headset" />
+  </path>
+
+  <path name="call-m0-speaker-bt-sco-headset" >
+    <!-- path name="call_with_BT_and_other_set" /  -->
+	<path name="init" />
+    <path name="audio-play" />      
+    <path name="speaker" />
+    <path name="audio-play-bt-sco" />
+  </path>
+
+  <path name="call-m1-earpiece" >
+	<path name="init" />
+    <path name="call_out_without_BT" />
+    <path name="earpiece" />
+  </path>
+
+  <path name="call-m1-speaker" >
+	<path name="init" />
+    <path name="call_out_without_BT" />
+    <path name="speaker" />
+  </path>
+
+  <path name="call-m1-headphone" >
+	<path name="init" />
+    <path name="call_out_without_BT" />
+    <path name="headphone" />
+  </path>
+
+  <path name="call-m1-headset" >
+	<path name="init" />
+    <path name="call_out_without_BT" />
+    <path name="headset" />
+  </path>
+
+  <path name="call-m1-bt-sco-headset" >
+    <path name="call_with_BT_and_other_set" />
+  </path>
+
+  <path name="dup-call-m1-earpiece" >
+	<path name="init" />
+    <path name="audio-play-call-out" />
+    <path name="earpiece" />
+  </path>
+
+  <path name="dup-call-m1-speaker" >
+	<path name="init" />
+    <path name="audio-play-call-out" />
+    <path name="speaker" />    
+  </path>
+
+  <path name="dup-call-m1-headphone" >
+	<path name="init" />
+    <path name="audio-play-call-out" />
+    <path name="headphone" />
+  </path>
+
+  <path name="dup-call-m1-headset" >
+	<path name="init" />
+    <path name="audio-play-call-out" />
+    <path name="headset" />
+  </path>
+
+  <path name="dup-call-m1-bt-sco-headset" >
+    <!-- "audio-play"  --> 
+    <ctl name="STEREO_DLINK_TEST_SEL MUX" value="APB" />
+    <ctl name="DACL_MIXER_EN MIXER DACL_MIXER_IN2_MUTE" value="1" />  
+    <ctl name="DACR_MIXER_EN MIXER DACR_MIXER_IN2_MUTE" value="1" />      
+    <ctl name="HISSC_FS_STEREO_DLINK_L" value="4" />      
+    <ctl name="HISSC_FS_STEREO_DLINK_R" value="4" />  
+    <path name="call_with_BT_and_other_set" />
+  </path>
+
+  <path name="call-m1-speaker-earpiece" >
+    <!-- path name="call_out_without_BT" /  -->
+	<path name="init" />
+    <path name="audio-play" />
+    <path name="speaker-earpiece" />
+  </path>
+
+  <path name="call-m1-speaker-headphone" >
+    <!-- path name="call_out_without_BT" /  -->
+	<path name="init" />
+    <path name="audio-play" />
+    <path name="speaker" />
+    <path name="headphone" />
+  </path>
+
+  <path name="call-m1-speaker-headset" >
+    <!-- path name="call_out_without_BT" /  -->
+	<path name="init" />
+    <path name="audio-play" />
+    <path name="speaker" />
+    <path name="headset" />
+  </path>
+
+  <path name="call-m1-speaker-bt-sco-headset" >
+    <!-- path name="call_with_BT_and_other_set" /  -->
+	<path name="init" />
+    <path name="audio-play" />      
+    <path name="speaker" />
+    <path name="audio-play-bt-sco" />
+  </path>
+
+  <path name="call-wb-m0-earpiece" >
+	<path name="init" />
+    <path name="wb_call_out_without_BT" />
+    <path name="earpiece" />
+  </path>
+
+  <path name="call-wb-m0-speaker" >
+	<path name="init" />
+    <path name="wb_call_out_without_BT" />
+    <path name="speaker" />
+  </path>
+
+  <path name="call-wb-m0-headset" >
+	<path name="init" />
+    <path name="wb_call_out_without_BT" />
+    <path name="headset" />
+  </path>
+
+  <path name="call-wb-m0-headphone" >
+	<path name="init" />
+    <path name="wb_call_out_without_BT" />
+    <path name="headphone" />
+  </path>
+
+  <path name="call-wb-m0-bt-sco-headset" >
+    <path name="call_with_BT_and_other_set" />
+  </path>
+
+  <path name="call-wb-m1-earpiece" >
+	<path name="init" />
+    <path name="wb_call_out_without_BT" />
+    <path name="earpiece" />
+  </path>
+
+  <path name="call-wb-m1-speaker" >
+	<path name="init" />
+    <path name="wb_call_out_without_BT" />
+    <path name="speaker" />
+  </path>
+
+  <path name="call-wb-m1-headset" >
+	<path name="init" />
+    <path name="wb_call_out_without_BT" />
+    <path name="headset" />
+  </path>
+
+  <path name="call-wb-m1-headphone" >
+	<path name="init" />
+    <path name="wb_call_out_without_BT" />
+    <path name="headphone" />
+  </path>
+
+  <path name="call-wb-m1-bt-sco-headset" >
+    <path name="call_with_BT_and_other_set" />
+  </path>
+
+  <path name="dup-call-wb-m0-earpiece" >
+	<path name="init" />
+    <path name="wb-audio-play-call-out" />
+    <path name="earpiece" />
+  </path>
+
+  <path name="dup-call-wb-m0-speaker" >
+	<path name="init" />
+    <path name="wb-audio-play-call-out" />
+    <path name="speaker" />
+  </path>
+
+  <path name="dup-call-wb-m0-headset" >
+	<path name="init" />
+    <path name="wb-audio-play-call-out" />
+    <path name="headset" />
+  </path>
+
+  <path name="dup-call-wb-m0-headphone" >
+	<path name="init" />
+    <path name="wb-audio-play-call-out" />
+    <path name="headphone" />
+  </path>
+
+  <path name="dup-call-wb-m0-bt-sco-headset" >
+    <!-- "audio-play"  -->
+    <ctl name="STEREO_DLINK_TEST_SEL MUX" value="APB" />
+    <ctl name="DACL_MIXER_EN MIXER DACL_MIXER_IN2_MUTE" value="1" />  
+    <ctl name="DACR_MIXER_EN MIXER DACR_MIXER_IN2_MUTE" value="1" />    
+    <path name="call_with_BT_and_other_set" />
+  </path>
+
+  <path name="call-wb-m0-speaker-earpiece" >
+    <!-- path name="wb_call_out_without_BT" /  -->
+	<path name="init" />
+    <path name="audio-play" />
+    <path name="speaker-earpiece" />
+  </path>
+
+  <path name="call-wb-m0-speaker-headphone" >
+    <!-- path name="wb_call_out_without_BT" /  -->
+	<path name="init" />
+    <path name="audio-play" />
+    <path name="speaker" />
+    <path name="headphone" />
+  </path>
+
+  <path name="call-wb-m0-speaker-headset" >
+    <!-- path name="wb_call_out_without_BT" /  -->
+	<path name="init" />
+    <path name="audio-play" />
+    <path name="speaker" />
+    <path name="headset" />
+  </path>
+
+  <path name="call-wb-m0-speaker-bt-sco-headset" >
+    <!-- path name="call_with_BT_and_other_set" /  -->
+	<path name="init" />
+    <path name="audio-play" />      
+    <path name="speaker" />
+    <path name="audio-play-bt-sco" />
+  </path>
+
+  <path name="call-wb-m1-speaker-earpiece" >
+    <!-- path name="wb_call_out_without_BT" /  -->
+	<path name="init" />
+    <path name="audio-play" />
+    <path name="speaker-earpiece" />
+  </path>
+
+  <path name="call-wb-m1-speaker-headset" >
+    <!-- path name="wb_call_out_without_BT" /  -->
+	<path name="init" />
+    <path name="audio-play" />
+    <path name="speaker" />
+    <path name="headphone" />
+  </path>
+
+  <path name="call-wb-m1-speaker-headphone" >
+    <!-- path name="wb_call_out_without_BT" /  -->
+	<path name="init" />
+    <path name="audio-play" />
+    <path name="speaker" />
+    <path name="headset" />
+  </path>
+
+  <path name="call-wb-m1-speaker-bt-sco-headset" >
+    <!-- path name="call_with_BT_and_other_set" /  -->
+	<path name="init" />
+    <path name="audio-play" />      
+    <path name="speaker" />
+    <path name="audio-play-bt-sco" />
+  </path>
+
+  <path name="dup-call-wb-m1-earpiece" >
+	<path name="init" />
+    <path name="wb-audio-play-call-out" />
+    <path name="earpiece" />
+  </path>
+
+  <path name="dup-call-wb-m1-speaker" >
+	<path name="init" />
+    <path name="wb-audio-play-call-out" />
+    <path name="speaker" />
+  </path>
+
+  <path name="dup-call-wb-m1-headset" >
+	<path name="init" />
+    <path name="wb-audio-play-call-out" />
+    <path name="headset" />
+  </path>
+
+  <path name="dup-call-wb-m1-headphone" >
+	<path name="init" />
+    <path name="wb-audio-play-call-out" />
+    <path name="headphone" />
+  </path>
+
+  <path name="dup-call-wb-m1-bt-sco-headset" >
+    <!-- "audio-play"  -->  
+    <ctl name="STEREO_DLINK_TEST_SEL MUX" value="APB" />
+    <ctl name="DACL_MIXER_EN MIXER DACL_MIXER_IN2_MUTE" value="1" />  
+    <ctl name="DACR_MIXER_EN MIXER DACR_MIXER_IN2_MUTE" value="1" />      
+    <path name="call_with_BT_and_other_set" />
+  </path>
+
+  <path name="media-main-mic" >
+	<path name="init" />
+    <path name="audio-capture" />
+    <path name="call-main-mic" />
+    <path name="call-aux-mic" />
+  </path>
+
+  <path name="media-headset-mic" >
+    <path name="init" />
+    <path name="audio-capture" />
+    <path name="headset-mic" />
+    <ctl name="SMT_ADCR_PD MIXER MAINPGA" value="1" />
+  </path>
+
+  <path name="communication-mic" >
+	<path name="init" />
+    <path name="audio-capture" />
+    <path name="call-main-mic" />
+    <path name="call-aux-mic" />
+  </path>
+
+  <path name="communication-handfree-mic" >
+	<path name="init" />
+    <path name="audio-capture" />
+    <path name="call-handfree-main-mic" />
+    <path name="call-handfree-aux-mic" />
+  </path>
+
+  <path name="communication-headset-mic" >
+	<path name="init" />
+    <path name="audio-capture" />
+    <path name="headset-mic" />
+  </path>
+
+  <path name="call-m0-mic" >
+	<path name="init" />
+    <path name="call_in_without_BT" />
+    <path name="call-main-mic" />
+    <path name="call-aux-mic" />
+  </path>
+
+  <path name="call-m0-handfree-mic" >
+	<path name="init" />
+    <path name="call_in_without_BT" />
+    <path name="call-handfree-main-mic" />
+    <path name="call-handfree-aux-mic" />
+  </path>
+
+  <path name="call-m0-headset-mic" >
+	<path name="init" />
+    <ctl name="LM_CODEC_DAC2ADC MUX" value="CIC_ADC" />
+    <ctl name="RM_CODEC_DAC2ADC MUX" value="CIC_ADC" />
+    <ctl name="HISSC_FS_ADCLR" value="0" />
+    <ctl name="VOICE_UPLINK_L_FIFO_DIN_SEL MUX" value="ADCL" />
+    <ctl name="VOICE_UPLINK_R_FIFO_DIN_SEL MUX" value="ADCR" />
+    <ctl name="VOICE_UPLINK_L_EN SWITCH VOICE_UPLINK_L_EN" value="1" />
+    <ctl name="SIF_EN MIXER SIF_ADCL_EN" value="1" />
+    <ctl name="SIF_EN MIXER SIF_ADCR_EN" value="1" />
+    <ctl name="SMT_MAINPGA_SEL MUX" value="HP_MIC" />
+    <ctl name="SMT_ADCL_PD MIXER MAINPGA" value="1" />
+    <ctl name="SMT_SIF_EN MIXER SIF_MIC1_EN" value="1" />
+    <ctl name="HISSC_SMT_MAINPGA_MUTE" value="0" />
+  </path>
+
+  <path name="call-m0-bt-sco-mic" >
+    <path name="bt-sco-mic" />
+  </path>
+
+  <path name="call-m1-mic" >
+	<path name="init" />
+    <path name="call_in_without_BT" />
+    <path name="call-main-mic" />
+    <path name="call-aux-mic" />
+  </path>
+
+  <path name="call-m1-handfree-mic" >
+	<path name="init" />
+    <path name="call_in_without_BT" />
+    <path name="call-handfree-main-mic" />
+    <path name="call-handfree-aux-mic" />
+  </path>
+
+  <path name="call-m1-headset-mic" >
+	<path name="init" />
+    <ctl name="LM_CODEC_DAC2ADC MUX" value="CIC_ADC" />
+    <ctl name="RM_CODEC_DAC2ADC MUX" value="CIC_ADC" />
+    <ctl name="HISSC_FS_ADCLR" value="0" />
+    <ctl name="VOICE_UPLINK_L_FIFO_DIN_SEL MUX" value="ADCL" />
+    <ctl name="VOICE_UPLINK_R_FIFO_DIN_SEL MUX" value="ADCR" />
+    <ctl name="VOICE_UPLINK_L_EN SWITCH VOICE_UPLINK_L_EN" value="1" />
+    <ctl name="SIF_EN MIXER SIF_ADCL_EN" value="1" />
+    <ctl name="SIF_EN MIXER SIF_ADCR_EN" value="1" />
+    <ctl name="SMT_MAINPGA_SEL MUX" value="HP_MIC" />
+    <ctl name="SMT_ADCL_PD MIXER MAINPGA" value="1" />
+    <ctl name="SMT_SIF_EN MIXER SIF_MIC1_EN" value="1" />
+    <ctl name="HISSC_SMT_MAINPGA_MUTE" value="0" />
+  </path>
+
+  <path name="call-m1-bt-sco-mic" >
+    <path name="bt-sco-mic" />
+  </path>
+
+  <path name="camcorder-mic" >
+	<path name="init" />
+    <path name="audio-capture" />
+    <path name="aux-mic" />
+  </path>
+
+  <path name="voice-rec-mic" >
+	<path name="init" />
+    <path name="audio-capture" />
+    <path name="call-main-mic" />
+    <path name="call-aux-mic" />
+  </path>
+
+  <path name="voice-rec-handfree-mic" >
+	<path name="init" />
+    <path name="audio-capture" />
+    <path name="call-handfree-main-mic" />
+    <path name="call-handfree-aux-mic" />
+  </path>
+
+  <path name="voice-rec-headset-mic" >
+	<path name="init" />
+    <path name="audio-capture" />
+    <path name="headset-mic" />
+  </path>
+
+  <path name="call-wb-m1-mic" >
+	<path name="init" />
+    <path name="wb_call_in_without_BT" />
+    <path name="call-main-mic" />
+    <path name="call-aux-mic" />
+  </path>
+
+  <path name="call-wb-m1-handfree-mic" >
+	<path name="init" />
+    <path name="wb_call_in_without_BT" />
+    <path name="call-handfree-main-mic" />
+    <path name="call-handfree-aux-mic" />
+  </path>
+
+  <path name="call-wb-m1-bt-sco-mic" >
+    <path name="bt-sco-mic" />
+  </path>
+
+  <path name="call-wb-m1-headset-mic" >
+	<path name="init" />
+    <ctl name="LM_CODEC_DAC2ADC MUX" value="CIC_ADC" />
+    <ctl name="RM_CODEC_DAC2ADC MUX" value="CIC_ADC" />
+    <ctl name="HISSC_FS_ADCLR" value="1" />
+    <ctl name="VOICE_UPLINK_L_FIFO_DIN_SEL MUX" value="ADCL" />
+    <ctl name="VOICE_UPLINK_R_FIFO_DIN_SEL MUX" value="ADCR" />
+    <ctl name="VOICE_UPLINK_L_EN SWITCH VOICE_UPLINK_L_EN" value="1" />
+    <ctl name="SIF_EN MIXER SIF_ADCL_EN" value="1" />
+    <ctl name="SIF_EN MIXER SIF_ADCR_EN" value="1" />
+    <ctl name="SMT_MAINPGA_SEL MUX" value="HP_MIC" />
+    <ctl name="SMT_ADCL_PD MIXER MAINPGA" value="1" />
+    <ctl name="SMT_SIF_EN MIXER SIF_MIC1_EN" value="1" />
+    <ctl name="HISSC_SMT_MAINPGA_MUTE" value="0" />
+  </path>
+  
+  <path name="media-bt-sco-mic" >
+
+    <path name="bt-sco-mic" />
+  </path>
+
+  <path name="call-wb-m0-mic" >
+	<path name="init" />
+    <path name="wb_call_in_without_BT" />
+    <path name="call-main-mic" />
+    <path name="call-aux-mic" />
+  </path>
+
+  <path name="call-wb-m0-handfree-mic" >
+	<path name="init" />
+    <path name="wb_call_in_without_BT" />
+    <path name="call-handfree-main-mic" />
+    <path name="call-handfree-aux-mic" />
+  </path>
+
+  <path name="call-wb-m0-headset-mic" >
+	<path name="init" />
+    <ctl name="LM_CODEC_DAC2ADC MUX" value="CIC_ADC" />
+    <ctl name="RM_CODEC_DAC2ADC MUX" value="CIC_ADC" />
+    <ctl name="HISSC_FS_ADCLR" value="1" />
+    <ctl name="VOICE_UPLINK_L_FIFO_DIN_SEL MUX" value="ADCL" />
+    <ctl name="VOICE_UPLINK_R_FIFO_DIN_SEL MUX" value="ADCR" />
+    <ctl name="VOICE_UPLINK_L_EN SWITCH VOICE_UPLINK_L_EN" value="1" />
+    <ctl name="SIF_EN MIXER SIF_ADCL_EN" value="1" />
+    <ctl name="SIF_EN MIXER SIF_ADCR_EN" value="1" />
+    <ctl name="SMT_MAINPGA_SEL MUX" value="HP_MIC" />
+    <ctl name="SMT_ADCL_PD MIXER MAINPGA" value="1" />
+    <ctl name="SMT_SIF_EN MIXER SIF_MIC1_EN" value="1" />
+    <ctl name="HISSC_SMT_MAINPGA_MUTE" value="0" />
+  </path>
+
+  <path name="call-wb-m0-bt-sco-mic" >
+    <path name="bt-sco-mic" />
+  </path>
+
+
+  <!-- other paths -->
+  <path name="media-bt-sco-headset" >
+	<path name="init" />
+    <path name="audio-play" />	
+    <path name="call_with_BT" />
+  </path>
+
+  <path name="media-bt-sco-headset-speaker" >
+	<path name="init" />
+    <path name="audio-play" />	
+    <path name="call_with_BT" />	
+  </path>
+
+  <path name="communication-bt-sco-headset" >
+	<path name="init" />
+    <path name="audio-play" />	
+    <path name="call_with_BT" />    
+  </path>
+
+  <path name="communication-bt-sco-headset-speaker" >
+	<path name="init" />
+     <path name="audio-play" />	
+     <path name="call_with_BT" />    
+  </path>
+
+  <path name="communication-bt-sco-mic" >
+	 <path name="bt-sco-mic" />
+  </path>
+
+  <path name="rec-call-m0-mic" >
+     <path name="call-m0-mic" />
+     <ctl name="STEREO_UPLINK_L_EN SWITCH STEREO_UP_L_EN" value="1" />  
+     <ctl name="STEREO_UPLINK_R_EN SWITCH STEREO_UP_R_EN" value="1" />
+     <ctl name="STEREO_UPLINK_L_FIFO_DIN_SEL MUX" value="ADCL" />
+     <ctl name="STEREO_UPLINK_R_FIFO_DIN_SEL MUX" value="ADCR" /> 
+  </path>
+
+  <path name="rec-call-m0-handfree-mic" >
+     <path name="call-m0-handfree-mic" />
+     <ctl name="STEREO_UPLINK_L_EN SWITCH STEREO_UP_L_EN" value="1" />
+     <ctl name="STEREO_UPLINK_R_EN SWITCH STEREO_UP_R_EN" value="1" />
+     <ctl name="STEREO_UPLINK_L_FIFO_DIN_SEL MUX" value="ADCL" />
+     <ctl name="STEREO_UPLINK_R_FIFO_DIN_SEL MUX" value="ADCR" />
+  </path>
+
+  <path name="rec-call-m0-headset-mic" >
+      <path name="call-m0-headset-mic" />
+      <ctl name="STEREO_UPLINK_L_EN SWITCH STEREO_UP_L_EN" value="1" />  
+      <ctl name="STEREO_UPLINK_R_EN SWITCH STEREO_UP_R_EN" value="1" />
+      <ctl name="STEREO_UPLINK_L_FIFO_DIN_SEL MUX" value="ADCL" />
+      <ctl name="STEREO_UPLINK_R_FIFO_DIN_SEL MUX" value="ADCR" />  
+  </path>
+
+  <path name="rec-call-m0-bt-sco-mic" >
+	
+	 <path name="bt-sco-mic" />
+      <ctl name="HISSC_FS_ADCLR" value="0" />
+      <ctl name="LM_CODEC_DAC2ADC MUX" value="CIC_ADC" />
+      <ctl name="SIF_EN MIXER SIF_ADCL_EN" value="1" />
+      <ctl name="STEREO_UPLINK_L_EN SWITCH STEREO_UP_L_EN" value="1" />
+      <ctl name="STEREO_UPLINK_L_FIFO_DIN_SEL MUX" value="ADCL" />	 
+  </path>
+
+  <path name="rec-call-wb-m0-mic" >
+      <path name="call-wb-m0-mic" />
+      <ctl name="STEREO_UPLINK_L_EN SWITCH STEREO_UP_L_EN" value="1" />
+      <ctl name="STEREO_UPLINK_R_EN SWITCH STEREO_UP_R_EN" value="1" />
+      <ctl name="STEREO_UPLINK_L_FIFO_DIN_SEL MUX" value="ADCL" />
+      <ctl name="STEREO_UPLINK_R_FIFO_DIN_SEL MUX" value="ADCR" />
+  </path>
+
+  <path name="rec-call-wb-m0-handfree-mic" >
+      <path name="call-wb-m0-handfree-mic" />
+      <ctl name="STEREO_UPLINK_L_EN SWITCH STEREO_UP_L_EN" value="1" />
+      <ctl name="STEREO_UPLINK_R_EN SWITCH STEREO_UP_R_EN" value="1" />
+      <ctl name="STEREO_UPLINK_L_FIFO_DIN_SEL MUX" value="ADCL" />
+      <ctl name="STEREO_UPLINK_R_FIFO_DIN_SEL MUX" value="ADCR" />
+  </path>
+
+  <path name="rec-call-wb-m0-headset-mic" >
+       <path name="call-wb-m0-headset-mic" />
+      <ctl name="STEREO_UPLINK_L_EN SWITCH STEREO_UP_L_EN" value="1" />  
+      <ctl name="STEREO_UPLINK_R_EN SWITCH STEREO_UP_R_EN" value="1" />
+      <ctl name="STEREO_UPLINK_L_FIFO_DIN_SEL MUX" value="ADCL" />
+      <ctl name="STEREO_UPLINK_R_FIFO_DIN_SEL MUX" value="ADCR" />         
+  </path>
+
+  <path name="rec-call-wb-m0-bt-sco-mic" >
+	
+	<path name="bt-sco-mic" />
+      <ctl name="HISSC_FS_ADCLR" value="1" />
+      <ctl name="LM_CODEC_DAC2ADC MUX" value="CIC_ADC" />
+      <ctl name="SIF_EN MIXER SIF_ADCL_EN" value="1" />
+      <ctl name="STEREO_UPLINK_L_EN SWITCH STEREO_UP_L_EN" value="1" />
+      <ctl name="STEREO_UPLINK_L_FIFO_DIN_SEL MUX" value="ADCL" />	
+  </path>
+
+  <path name="rec-call-m1-mic" >
+      <path name="call-m1-mic" />
+      <ctl name="STEREO_UPLINK_L_EN SWITCH STEREO_UP_L_EN" value="1" />  
+      <ctl name="STEREO_UPLINK_R_EN SWITCH STEREO_UP_R_EN" value="1" />
+      <ctl name="STEREO_UPLINK_L_FIFO_DIN_SEL MUX" value="ADCL" />
+      <ctl name="STEREO_UPLINK_R_FIFO_DIN_SEL MUX" value="ADCR" />         
+  </path>
+
+  <path name="rec-call-m1-handfree-mic" >
+      <path name="call-m1-handfree-mic" />
+      <ctl name="STEREO_UPLINK_L_EN SWITCH STEREO_UP_L_EN" value="1" />  
+      <ctl name="STEREO_UPLINK_R_EN SWITCH STEREO_UP_R_EN" value="1" />
+      <ctl name="STEREO_UPLINK_L_FIFO_DIN_SEL MUX" value="ADCL" />
+      <ctl name="STEREO_UPLINK_R_FIFO_DIN_SEL MUX" value="ADCR" />         
+  </path>
+
+  <path name="rec-call-m1-headset-mic" >
+	  <path name="call-m1-headset-mic" />
+      <ctl name="STEREO_UPLINK_L_EN SWITCH STEREO_UP_L_EN" value="1" />
+      <ctl name="STEREO_UPLINK_R_EN SWITCH STEREO_UP_R_EN" value="1" />
+      <ctl name="STEREO_UPLINK_L_FIFO_DIN_SEL MUX" value="ADCL" />
+      <ctl name="STEREO_UPLINK_R_FIFO_DIN_SEL MUX" value="ADCR" />
+  </path>
+
+  <path name="rec-call-m1-bt-sco-mic" >
+	
+	<path name="bt-sco-mic" />
+      <ctl name="HISSC_FS_ADCLR" value="0" />
+      <ctl name="LM_CODEC_DAC2ADC MUX" value="CIC_ADC" />
+      <ctl name="SIF_EN MIXER SIF_ADCL_EN" value="1" />
+      <ctl name="STEREO_UPLINK_L_EN SWITCH STEREO_UP_L_EN" value="1" />
+      <ctl name="STEREO_UPLINK_L_FIFO_DIN_SEL MUX" value="ADCL" />
+  </path>
+
+  <path name="rec-call-wb-m1-mic" >
+      <path name="call-wb-m1-mic" />
+      <ctl name="STEREO_UPLINK_L_EN SWITCH STEREO_UP_L_EN" value="1" />  
+      <ctl name="STEREO_UPLINK_R_EN SWITCH STEREO_UP_R_EN" value="1" />
+      <ctl name="STEREO_UPLINK_L_FIFO_DIN_SEL MUX" value="ADCL" />
+      <ctl name="STEREO_UPLINK_R_FIFO_DIN_SEL MUX" value="ADCR" />        
+  </path>
+
+  <path name="rec-call-wb-m1-handfree-mic" >
+      <path name="call-wb-m1-handfree-mic" />
+      <ctl name="STEREO_UPLINK_L_EN SWITCH STEREO_UP_L_EN" value="1" />
+      <ctl name="STEREO_UPLINK_R_EN SWITCH STEREO_UP_R_EN" value="1" />
+      <ctl name="STEREO_UPLINK_L_FIFO_DIN_SEL MUX" value="ADCL" />
+      <ctl name="STEREO_UPLINK_R_FIFO_DIN_SEL MUX" value="ADCR" />
+  </path>
+
+  <path name="rec-call-wb-m1-headset-mic" >
+      <path name="call-wb-m1-headset-mic" />
+      <ctl name="STEREO_UPLINK_L_EN SWITCH STEREO_UP_L_EN" value="1" />  
+      <ctl name="STEREO_UPLINK_R_EN SWITCH STEREO_UP_R_EN" value="1" />
+      <ctl name="STEREO_UPLINK_L_FIFO_DIN_SEL MUX" value="ADCL" />
+      <ctl name="STEREO_UPLINK_R_FIFO_DIN_SEL MUX" value="ADCR" />        
+  </path>
+
+  <path name="rec-call-wb-m1-bt-sco-mic" >
+	
+	<path name="bt-sco-mic" />
+      <ctl name="HISSC_FS_ADCLR" value="1" />
+      <ctl name="LM_CODEC_DAC2ADC MUX" value="CIC_ADC" />
+      <ctl name="SIF_EN MIXER SIF_ADCL_EN" value="1" />
+      <ctl name="STEREO_UPLINK_L_EN SWITCH STEREO_UP_L_EN" value="1" />
+      <ctl name="STEREO_UPLINK_L_FIFO_DIN_SEL MUX" value="ADCL" />	
+  </path>
+
+  <path name="rec-media-bt-sco-mic" >
+      <path name="init" />
+      <path name="bt-sco-mic" />
+      <path name="audio-capture" />
+      <path name="call-main-mic" />
+      <path name="call-aux-mic" />
+  </path>
+  
+  <path name="media-fm-earpiece" >
+    <path name="fm-analog" />
+    <path name="linein-earpiece" />
+  </path>
+  
+  <path name="media-fm-speaker" >
+    <path name="fm-analog" />
+    <path name="linein-speaker" />
+  </path>
+
+  <path name="media-fm-headset" >
+    <path name="fm-analog" />
+    <path name="linein-headset" />
+  </path>
+  
+  <path name="media-fm-headphone" >
+    <path name="fm-analog" />
+    <path name="linein-headphone" />
+  </path>
+
+  <path name="media-fm-bt-sco-headset" >
+  </path>
+  
+  <path name="media-fm-speaker-earpiece" >
+    <path name="fm-analog" />
+    <path name="linein-speaker-earpiece" />
+  </path>
+
+  <path name="media-fm-speaker-headset" >
+    <path name="fm-analog" />
+    <path name="linein-speaker" />
+    <path name="linein-headset" />
+  </path>
+
+  <path name="media-fm-speaker-headphone" >
+    <path name="fm-analog" />
+    <path name="linein-speaker" />
+    <path name="linein-headphone" />
+  </path>
+  
+  <path name="media-fm-bt-sco-headset-speaker" >
+  </path>
+  
+  <path name="dup-media-fm-earpiece" >
+  	<path name="init" />
+    <path name="audio-play" />
+    <path name="earpiece" />
+    <path name="media-fm-earpiece" />
+    <ctl name="SMT_MIXOUT_EAR_PU MIXER DACL" value="1" />
+    <ctl name="SMT_MIXOUT_EAR_PU MIXER DACR" value="1" />
+  </path>
+  
+  <path name="dup-media-fm-speaker" >
+  	<path name="init" />
+    <path name="audio-play" />
+    <path name="speaker" />
+    <path name="media-fm-speaker" />
+    <ctl name="SMT_MIXOUT_EAR_PU MIXER DACL" value="1" />
+    <ctl name="SMT_MIXOUT_EAR_PU MIXER DACR" value="1" />
+    <ctl name="SMT_MIXOUT_EAR_PU MIXER LINEINL" value="1" />
+    <ctl name="SMT_MIXOUT_EAR_PU MIXER LINEINR" value="1" />
+  </path>
+
+  <path name="dup-media-fm-headset" >
+  	<path name="init" />
+    <path name="audio-play" />
+    <path name="headset" />
+    <path name="media-fm-headset" />
+    <ctl name="SMT_MIXOUT_HSLR_PD MIXER LINEINLR" value="1" />
+    <ctl name="HS_LINEIN_SEL_VIR SWITCH LINEIN" value="1" />
+  </path>
+  
+  <path name="dup-media-fm-headphone" >
+  	<path name="init" />
+    <path name="audio-play" />
+    <path name="headphone" />
+    <path name="media-fm-headphone" />
+    <ctl name="SMT_MIXOUT_HSLR_PD MIXER LINEINLR" value="1" />
+    <ctl name="HS_LINEIN_SEL_VIR SWITCH LINEIN" value="1" />
+  </path>
+  
+  <path name="dup-media-fm-bt-sco-headset" >
+  </path>
+  
+  <path name="dup-media-fm-speaker-earpiece" >
+  	<path name="init" />
+	<path name="audio-play" />
+    <path name="speaker-earpiece" />
+    <path name="media-fm-speaker-earpiece" />
+  </path>
+  
+  <path name="dup-media-fm-speaker-headset" >
+  	<path name="init" />
+	<path name="audio-play" />
+    <path name="speaker" />
+    <path name="headset" />
+    <path name="media-fm-speaker-headset" />
+  </path>
+  
+  <path name="dup-media-fm-speaker-headphone" >
+  	<path name="init" />
+	<path name="audio-play" />
+    <path name="speaker" />
+    <path name="headphone" />
+	<path name="media-fm-speaker-headphone" />
+  </path>
+
+  <path name="dup-media-fm-bt-sco-headset-speaker" >
+
+  </path>
+  
+  <path name="media-fm-main-mic" >
+	<path name="media-main-mic" />
+  </path>
+  
+  <path name="media-fm-headset-mic" >
+	<path name="media-headset-mic" />
+  </path>
+  
+  <!-- MMI TEST-->
+  <!--force receiver-->
+  <path name="mmi_test_receiver">
+     <path name="media-earpiece" />
+  </path>
+
+  <!--force speaker-->
+  <path name="mmi_test_speaker">
+     <path name="media-speaker" />
+  </path>
+
+  <!--force headphone-->
+  <path name="mmi_test_headphone">
+     <path name="media-headphone" />
+  </path>
+
+  <!--force main-mic-->
+  <path name="mmi_test_mainmic">
+     <path name="media-main-mic" />
+  </path>
+
+  <!--force submic-->
+  <path name="mmi_test_submic">
+     <path name="camcorder-mic"/>
+  </path>
+
+  <!--force dualmic-->
+  <path name="mmi_test_dualmic">
+	  <path name="init" />
+      <ctl name="LM_CODEC_DAC2ADC MUX" value="CIC_ADC" />
+      <ctl name="RM_CODEC_DAC2ADC MUX" value="CIC_ADC" />
+      <ctl name="STEREO_UPLINK_L_FIFO_DIN_SEL MUX" value="ADCL" />
+      <ctl name="STEREO_UPLINK_R_FIFO_DIN_SEL MUX" value="ADCR" />
+      <ctl name="SIF_EN MIXER SIF_ADCL_EN" value="1" />
+      <ctl name="SIF_EN MIXER SIF_ADCR_EN" value="1" />
+      <ctl name="STEREO_UPLINK_L_EN SWITCH STEREO_UP_L_EN" value="1" />
+      <ctl name="STEREO_UPLINK_R_EN SWITCH STEREO_UP_R_EN" value="1" />
+
+      <ctl name="SMT_SIF_EN MIXER SIF_MIC2_EN" value="1" />
+      <ctl name="SMT_ADCL_PD MIXER AUXPGA" value="1" />
+      <ctl name="SMT_ADCR_PD MIXER AUXPGA" value="1" />
+      <ctl name="HISSC_FS_ADCLR"   value="4"/>
+
+      <ctl name="SMT_MAINPGA_SEL MUX" value="MIC" />
+      <ctl name="SMT_ADCL_PD MIXER MAINPGA" value="1" />
+      <ctl name="SMT_ADCR_PD MIXER MAINPGA" value="1" />
+      <ctl name="SMT_SIF_EN MIXER SIF_MIC1_EN" value="1" />
+      <ctl name="HISSC_SMT_MAINPGA_MUTE" value="0" />
+      <ctl name="HISSC_SMT_MAINPGA_GAIN" value="4" />
+
+  </path>
+
+  <!--force hsmic-->
+  <path name="mmi_test_hsmic">
+     <path name="media-headset-mic"/>
+  </path>
+
+
+  <!-- MMI AUDIO_LOOP-->
+
+ <!--mainmic_headphone-->
+ <path name="mmi_audioloop_mainmic_headphone">
+   <path name="init" />
+   <ctl name= "SMT_SIF_EN MIXER SIF_HSLR_EN" value="1"/>
+   <ctl name= "HS_DAC_SEL_VIR SWITCH DAC"  value = "1"/>
+   <ctl name= "SMT_MIXOUT_HSLR_PD MIXER DACLR" value="1"/>
+
+   <ctl name= "ANA_LOOPBACK SWITCH ANA_LOOPBACK" value="1"/>
+
+   <ctl name="SMT_MAINPGA_SEL MUX" value="MIC" />
+   <ctl name="SMT_ADCL_PD MIXER MAINPGA" value="1" />
+   <ctl name="SMT_ADCR_PD MIXER MAINPGA" value="1" />
+   <ctl name="SMT_SIF_EN MIXER SIF_MIC1_EN" value="1" />
+   <ctl name="HISSC_SMT_MAINPGA_MUTE" value="0" />
+ </path>
+
+ <!--submic_headphone-->
+ <path name="mmi_audioloop_submic_headphone">
+   <path name="init" />
+   <ctl name= "SMT_SIF_EN MIXER SIF_HSLR_EN" value="1"/>
+   <ctl name= "HS_DAC_SEL_VIR SWITCH DAC"  value = "1"/>
+   <ctl name= "SMT_MIXOUT_HSLR_PD MIXER DACLR" value="1"/>
+
+   <ctl name= "ANA_LOOPBACK SWITCH ANA_LOOPBACK" value="1"/>
+
+   <ctl name= "SMT_SIF_EN MIXER SIF_MIC2_EN" value="1"/>
+   <ctl name= "SMT_ADCL_PD MIXER AUXPGA" value="1"/>
+   <ctl name= "SMT_ADCR_PD MIXER AUXPGA" value="1"/>
+   <ctl name= "HISSC_SMT_AUXPGA_MUTE" value="0"/>
+ </path>
+
+  <!--hsmic_headphone-->
+ <path name="mmi_audioloop_hsmic_headphone">
+   <path name="init" />
+   <ctl name= "SMT_SIF_EN MIXER SIF_HSLR_EN" value="1"/>
+   <ctl name= "HS_DAC_SEL_VIR SWITCH DAC"  value = "1"/>
+   <ctl name= "SMT_MIXOUT_HSLR_PD MIXER DACLR" value="1"/>
+
+   <ctl name= "ANA_LOOPBACK SWITCH ANA_LOOPBACK" value="1"/>
+
+   <ctl name= "SMT_MAINPGA_SEL MUX" value="HP_MIC"/>
+   <ctl name= "HISSC_SMT_MAINPGA_MUTE" value="0"/>
+   <ctl name= "SMT_ADCL_PD MIXER MAINPGA" value="1"/>
+   <ctl name= "SMT_ADCR_PD MIXER MAINPGA" value="1"/>
+   <ctl name= "SMT_SIF_EN MIXER SIF_MIC1_EN" value="1"/>
+ </path>
+
+  <!--hsmic_receiver-->
+ <path name="mmi_audioloop_hsmic_receiver">
+   <path name="init" />
+   <ctl name= "SMT_SIF_EN MIXER SIF_RCV_EN" value="1"/>
+   <ctl name= "SMT_MIXOUT_EAR_PU MIXER DACL"  value = "1"/>
+   <ctl name= "SMT_MIXOUT_EAR_PU MIXER DACR" value="1"/>
+   <ctl name= "RCV VIR_SWITCH RCV_EN" value="1"/>
+   <ctl name= "HISSC_SMT_EAR_MUTE" value="0"/>
+
+   <ctl name= "ANA_LOOPBACK SWITCH ANA_LOOPBACK" value="1"/>
+
+   <ctl name= "SMT_MAINPGA_SEL MUX" value="HP_MIC"/>
+   <ctl name= "HISSC_SMT_MAINPGA_MUTE" value="0"/>
+   <ctl name= "SMT_ADCL_PD MIXER MAINPGA" value="1"/>
+   <ctl name= "SMT_ADCR_PD MIXER MAINPGA" value="1"/>
+   <ctl name= "SMT_SIF_EN MIXER SIF_MIC1_EN" value="1"/>
+ </path>
+
+  <!--hsmic_speaker-->
+ <path name="mmi_audioloop_hsmic_speaker">
+   <path name="init" />
+   <ctl name= "SMT_SIF_EN MIXER SIF_CLASSD_EN" value="1"/>
+   <ctl name= "SMT_MIXOUT_EAR_PU MIXER DACL"  value = "1"/>
+   <ctl name= "SMT_MIXOUT_EAR_PU MIXER DACR" value="1"/>
+   <ctl name= "CLASSD VIR_SWITCH CLASSD_EN" value="1"/>
+
+   <ctl name= "ANA_LOOPBACK SWITCH ANA_LOOPBACK" value="1"/>
+
+   <ctl name= "SMT_MAINPGA_SEL MUX" value="HP_MIC"/>
+   <ctl name= "HISSC_SMT_MAINPGA_MUTE" value="0"/>
+   <ctl name= "SMT_ADCL_PD MIXER MAINPGA" value="1"/>
+   <ctl name= "SMT_ADCR_PD MIXER MAINPGA" value="1"/>
+   <ctl name= "SMT_SIF_EN MIXER SIF_MIC1_EN" value="1"/>
+ </path>
+
+</mixer>

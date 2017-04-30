@@ -1,0 +1,4 @@
+#!/system/bin/sh
+#
+
+echo U:720x1280p-0 > sys/devices/virtual/graphics/fb0/mode

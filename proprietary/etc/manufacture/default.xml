@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- BEGIN PN:DTS2015121505725, Added by liubaoguo/00251981, 2015/12/15 -->
+<MMITest>
+    <TestItem key="ro.mmi.welcome_come" value="true"></TestItem>
+    <Factory>
+    </Factory>
+
+
+    <Normal>
+    </Normal>
+
+</MMITest>
+<!-- END PN:DTS2015121505725, Added by liubaoguo/00251981, 2015/12/15 -->

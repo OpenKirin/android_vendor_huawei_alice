@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); 
+ * you may not use this file except in compliance with the License. 
+ * You may obtain a copy of the License at 
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0 
+ *
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an "AS IS" BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License.
+ */
+-->
+
+<launcher_config>
+    <item name="config_pmqosEnabled">true</item>
+    <item name="config_drawWallPaperSelf">false</item>
+    <integer name="config_DesktopScreenNum">4</integer>
+    <integer name="config_DesktopDefaultScreen">1</integer>
+    <integer name="config_DefaultEffectIndex">1</integer>
+    <!-- DTS2012111206324  yueyi00193929 20121113 begin -->
+    <integer name="config_snapVelocity">600</integer>
+    <!-- DTS2012111206324  yueyi00193929 20121113 end -->
+    <!-- DTS2012102406767 yuyanhui/00212142 20121116 begin -->
+    <integer name="config_dualcardEnabled">false</integer>
+    <!-- DTS2012102406767 yuyanhui/00212142  20121116 end -->
+    <!-- DTS2012111202238 yueyi00193929 20121119 begin -->
+    <item name="config_touchmultipleEnabled">true</item>
+    <!-- DTS2012111202238 yueyi00193929 20121119 end -->
+    <bool name="config_addNewInstallAppLabel">false</bool>
+    <bool name="config_CloudFolderEnabled">false</bool>
+    <!-- DTS2014012801670  00217057 20140210 begin -->
+    <integer name="config_touchSlop">0</integer>
+    <!-- DTS2014012801670  00217057 20140210 end -->
+    <item name="config_desktopCellsOptionItems">4x5,5x4,5x5</item>
+    <integer name="config_cellsDefaultLayoutIndex">0</integer>	
+    <!-- DTS2014122301039 z84020356 20141225 begin -->
+    <item name="config_IconTitleSize">12</item>
+    <!-- DTS2014122301039 z84020356 20141225 end -->
+    <item name="config_hwReadEnable">false</item>
+</launcher_config>

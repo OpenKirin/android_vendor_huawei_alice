@@ -1,0 +1,160 @@
+#############################################################################
+########"      __        __               _                     "############
+########"      \ \      / /_ _ _ __ _ __ (_)_ __   __ _         "############
+########"       \ \ /\ / / _` | '__| '_ \| | '_ \ / _` |        "############
+########"        \ V  V / (_| | |  | | | | | | | | (_| |        "############
+########"         \_/\_/ \__,_|_|  |_| |_|_|_| |_|\__, |        "############
+########"                                         |___/         "############
+########"                                                       "############
+########"   ONLY DRIVER PROPS ALLOWED IN THIS SECTION BEGIN     "############
+
+
+########"                                                       "############
+########"                                                       "############
+########"   ONLY DRIVER PROPS ALLOWED IN THIS SECTION END       "############
+#############################################################################
+
+#############################################################################
+########"      __        __               _                     "############
+########"      \ \      / /_ _ _ __ _ __ (_)_ __   __ _         "############
+########"       \ \ /\ / / _` | '__| '_ \| | '_ \ / _` |        "############
+########"        \ V  V / (_| | |  | | | | | | | | (_| |        "############
+########"         \_/\_/ \__,_|_|  |_| |_|_|_| |_|\__, |        "############
+########"                                         |___/         "############
+########"                                                       "############
+########"   ONLY PROTOCOL PROPS ALLOWED IN THIS SECTION BEGIN   "############
+net.tethering.noprovisioning=true
+#BEGIN PIN: DTS2015102905590, Modified by gwx285278, 2015/10/29
+#persist.sys.dualcards=false
+#END   PIN: DTS2015102905590, Modified by gwx285278, 2015/10/29
+#BEGIN PN: DTS2016082604827, Modified by kwx338663, 2016/08/26
+#ro.config.hw_dsdspowerup=true
+#END PN: DTS2016082604827, Modified by kwx338663, 2016/08/26
+#BEGIN PN:PN:DTS2015102902307,Added by p00345816,2015/10/29
+ro.lte.goodstd=-105
+ro.lte.greatstd=-97
+ro.lte.modstd=-113
+ro.lte.poorstd=-120
+ro.config.hw_globalEcc=true
+#END PN:PN:DTS2015102902307,Added by p00345816,2015/10/29
+ro.config.attach_apn_enabled=true
+ro.config.ecc_from_cust_enable=true
+ro.config.hw_lte_support=true
+ro.config.hw_show_4G_Plus_icon=true
+ro.config.hw_show_network_icon=true
+
+#BEGIN PN: DTS2016082604827, Modified by kwx338663, 2016/08/26
+ro.config.hw_dsdspowerup=false
+persist.sys.dualcards=false
+ro.config.dsds_mode=umts
+persist.dsds.enabled=false
+persist.radio.multisim.config=single
+ro.multi.rild=false
+ro.dual.sim.phone=false
+#END PN: DTS2016082604827, Modified by kwx338663, 2016/08/26
+
+########"                                                       "############
+########"                                                       "############
+########"   ONLY PROTOCOL PROPS ALLOWED IN THIS SECTION END     "############
+#############################################################################
+
+
+
+#############################################################################
+########"      __        __               _                     "############
+########"      \ \      / /_ _ _ __ _ __ (_)_ __   __ _         "############
+########"       \ \ /\ / / _` | '__| '_ \| | '_ \ / _` |        "############
+########"        \ V  V / (_| | |  | | | | | | | | (_| |        "############
+########"         \_/\_/ \__,_|_|  |_| |_|_|_| |_|\__, |        "############
+########"                                         |___/         "############
+########"                                                       "############
+########"   ONLY APP TEAM PROPS ALLOWED IN THIS SECTION BEGIN   "############
+#####################################################################################
+######## 1.APP MANUFACTURE TEAM BEGIN
+###########1.1.MMI BEGIN
+
+###########1.1.MMI END
+
+###########1.2.PROJECT MENU BEGIN
+
+###########1.2.PROJECT MENU END
+
+###########1.3.RUN IN TEST BEGIN
+
+###########1.3.RUN IN TEST END
+######## 1.APP MANUFACTURE TEAM END
+#####################################################################################
+######## 2.BASEAPP TEAM BEGIN
+ro.cofig.onlinemusic.enabled=false
+ro.cofig.onlinevideo.enabled=false
+ro.config.hw_floatvideo=false
+ro.config.hw_ReduceSAR=true
+#BEGIN PN: DTS2015101508837, Modify by wx209861, 2015/11/19
+ro.config.hw_use_browser_ua=http://wap1.huawei.com/uaprof/HUAWEI_ALE-L23_6.0_UAProfile.xml
+#END PN: DTS2015101508837, Modify by wx209861, 2015/11/19
+ro.setupwizard.mode=DISABLED
+ro.config.emailsound=Letter.ogg
+# BEGIN PN:DTS2016030200085,Deleted by bWX205963, 2016/03/02
+# END PN:DTS2016030200085,Deleted by bWX205963, 2016/03/02
+ro.config.hw_custverdisplay=true
+ro.config.hw_nfc_on=true
+ro.config.hw_nfc_msimce=false
+#BEGIN PN: DTS2015112705467,Modified by z00214136, 2015-12-2
+ro.config.hw_hotswap_on=false
+#END PN: DTS2015112705467,Modified by z00214136, 2015-12-2
+ro.config.hw_showTestInfo=false
+# BEGIN PN:DTS2016030402589,Deleted by lWX285236, 2016/03/04
+# END   PN:DTS2016030402589,Deleted by lWX285236, 2016/03/04
+ro.config.hw_sim2airplane=false
+ro.config.hw_imei_sv_show_two=true
+ro.config.hw_showSimName=true
+ro.config.show_sim_icon=true
+ro.config.soundtrigger_enabled=0
+ro.config.hw_simlock_retries =true
+ro.huawei.flag.oma_reboot=true
+ro.config.messagesound= Whisper.ogg
+ro.config.hw_eapsim=false
+######## 2.BASEAPP TEAM END
+#####################################################################################
+######## 3.MULTI-MEDIA TEAM BEGIN
+ro.config.hw.security_volume=8
+######## 3.MULTI-MEDIA TEAM END
+#####################################################################################
+######## 4.FRAMEWORK TEAM BEGIN
+ro.config.spare_ntp_server=ntp.sjtu.edu.cn,time.windows.com,time.nist.gov,1.cn.pool.ntp.org
+ro.config.hw_channel_info=0,0,0,0
+######## 4.FRAMEWORK TEAM END
+#####################################################################################
+######## 5.DATA SERVICE TEAM BEGIN
+#DTS2015102909754 huxiaotao/00360079 20151030 begin
+ro.config.hw_always_allow_mms=1
+#DTS2015102909754 huxiaotao/00360079 20151030 end
+######## 5.DATA SERVICE TEAM END
+#####################################################################################
+######## 6.APPLET TEAM BEGIN
+
+######## 6.APPLET TEAM END
+#####################################################################################
+######## 7.PRODUCT INFO BEGIN
+
+ro.product.device=hwALE-H
+ro.product.brand=Huawei
+ro.product.model=ALE-L23
+ro.product.name=ALE-L23
+ro.build.id=HuaweiALE-L23
+#AR0003FSUP linneng wx296161 20160329 begin
+ro.config.bluetooth.name=HUAWEI P8 lite
+ro.config.marketing_name=HUAWEI P8 lite
+#AR0003FSUP linneng wx296161 20160329 end
+#AR0004EV60 wuxingru wwx368291 20160620 begin
+ro.product.hardwareversion=HL3ALICEM
+#AR0004EV60 wuxingru wwx368291 20160620 end
+#DTS2017010601599 wuxingru wwx368291 20170111 begin
+ro.media.maxmem=4294967295
+#DTS2017010601599 wuxingru wwx368291 20170111 end
+######## 7.PRODUCT INFO END
+#####################################################################################
+########"                                                       "############
+########"                                                       "############
+########"   ONLY APP TEAM PROPS ALLOWED IN THIS SECTION END     "############
+#############################################################################

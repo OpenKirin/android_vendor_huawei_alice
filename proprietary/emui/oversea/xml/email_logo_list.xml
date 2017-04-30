@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- DTS2012031403550 liuyuyan 20120326 added -->
+<logo_list displayimage="true">
+    <!-- DTS2014012300700 tongliang 20140211 begin -->
+    <!-- DTS2013082708378 zhouben/00210504 20131008 begin -->
+    <logo_item image="email_gmail_icon.png" value="@gmail.com" displayname="Gmail"></logo_item>
+    <logo_item image="email_hotmail_icon.png" value="@hotmail.com" displayname="Hotmail"></logo_item>
+    <logo_item image="email_yahoomail_icon.png" value="@yahoo.com" displayname="Yahoo"></logo_item>
+    <!-- DTS2013082708378 zhouben/00210504 20131008 end -->
+    <!-- DTS2014012300700 tongliang 20140211 end -->
+</logo_list>

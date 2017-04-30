@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- BEGIN PN:DTS2015121505725, Added by liubaoguo/00251981, 2015/12/15 -->
+<MMITest>
+    <TestItem key="ro.mmi.welcome_come" value="true"></TestItem>
+    <TestItem key="ro.mmi.battery_test" value="true"></TestItem>
+    <TestItem key="ro.mmi.sdcard_test" value="true"></TestItem>
+    <TestItem key="ro.mmi.keypad_test" value="true"></TestItem>
+    <TestItem key="ro.mmi.tp_color_test" value="false"></TestItem>
+    <TestItem key="ro.mmi.indicator_light_test" value="true"></TestItem>
+    <TestItem key="ro.mmi.lcd_test" value="true"></TestItem>
+    <TestItem key="ro.mmi.electric_test" value="false"></TestItem>
+    <TestItem key="ro.mmi.approach_calibrate_test" value="false"></TestItem>
+    <TestItem key="ro.mmi.lcd_light_test" value="true"></TestItem>
+    <TestItem key="ro.mmi.touch_screen_test" value="true"></TestItem>
+    <TestItem key="ro.mmi.keypad_light_test" value="false"></TestItem>
+    <TestItem key="ro.mmi.camera_test" value="true"></TestItem>
+    <TestItem key="ro.mmi.slave_camera_test" value="true"></TestItem>
+    <TestItem key="ro.mmi.flash_CT_test" value="false"></TestItem>
+    <TestItem key="ro.mmi.pdaf_verification_test" value="false"></TestItem>
+    <TestItem key="ro.mmi.flash_light_test" value="true"></TestItem>
+    <TestItem key="ro.mmi.front_flash_light_test" value="false"></TestItem>
+    <TestItem key="ro.mmi.approach_test" value="true"></TestItem>
+    <TestItem key="ro.mmi.light_sensor_test" value="true"></TestItem>
+    <TestItem key="ro.mmi.light_calibrate_test" value="false"></TestItem>
+    <TestItem key="ro.mmi.airpressure_sensor_test" value="false"></TestItem>
+    <TestItem key="ro.mmi.vibrator_test" value="true"></TestItem>
+    <TestItem key="ro.mmi.smartpa_calibratet_test" value="false"></TestItem>
+    <TestItem key="ro.mmi.speaker_test" value="true"></TestItem>
+    <TestItem key="ro.mmi.smartPA_test" value="false"></TestItem>
+    <TestItem key="ro.mmi.receiver_test" value="true"></TestItem>
+    <TestItem key="ro.mmi.modem_audio_loop_test" value="false"></TestItem>
+    <TestItem key="ro.mmi.cdma_modem_loop_test" value="false"></TestItem>
+    <TestItem key="ro.mmi.main_mic_test" value="true"></TestItem>
+    <TestItem key="ro.mmi.slave_main_mic_test" value="false"></TestItem>
+    <TestItem key="ro.mmi.auxiliary_mic_test" value="true"></TestItem>
+    <TestItem key="ro.mmi.slave_auxiliary_mic_test" value="false"></TestItem>
+    <TestItem key="ro.mmi.headset_mic_test" value="true"></TestItem>
+    <TestItem key="ro.mmi.fm_test" value="true"></TestItem>
+    <TestItem key="ro.mmi.approach_calibrate_test" value="false"></TestItem>
+    <TestItem key="ro.mmi.wire_control_test" value="true"></TestItem>
+    <TestItem key="ro.mmi.NC_headset_test" value="false"></TestItem>
+    <TestItem key="ro.mmi.hvc_test" value="false"></TestItem>
+    <TestItem key="ro.mmi.otg_test" value="false"></TestItem>
+    <TestItem key="ro.mmi.bluetooth_test" value="true"></TestItem>
+    <!-- BEGIN PN:DTS2015122103409, Modified by liubaoguo/00251981, 2015/12/21 -->
+    <TestItem key="ro.mmi.camera_focus_test" value="false"></TestItem>
+    <!-- END PN:DTS2015122103409, Modified by liubaoguo/00251981, 2015/12/21 -->
+    <TestItem key="ro.mmi.gsensor_calibrate_test" value="false"></TestItem>
+    <TestItem key="ro.mmi.gravity_sensor_test" value="true"></TestItem>
+    <TestItem key="ro.mmi.capacitance_test" value="true"></TestItem>
+    <TestItem key="ro.mmi.hall_sensor_test" value="false"></TestItem>
+    <TestItem key="ro.mmi.fingerprint_test" value="false"></TestItem>
+    <TestItem key="ro.mmi.compass_test" value="true"></TestItem>
+    <TestItem key="ro.mmi.gyroscope_test" value="false"></TestItem>
+    <TestItem key="ro.mmi.wifi_test" value="true"></TestItem>
+    <TestItem key="ro.mmi.sim_card_test" value="true"></TestItem>
+    <TestItem key="ro.mmi.nfc_test" value="false"></TestItem>
+    <TestItem key="ro.mmi.test_result" value="true"></TestItem>
+
+    <Properties key="ro.mmi.support_card_slot_share" value="false"/>
+    <Properties key="ro.mmi.support_fn_share" value="false"/>
+    <Properties key="ro.mmi.support_double_flash" value="false"/>
+    <Properties key="ro.mmi.support_flash" value="false"/>
+    <Properties key="ro.mmi.support_auto_focus" value="true"/>
+    <Properties key="ro.mmi.hall_sensor_poles" value="1,2"/>
+    <Properties key="ro.mmi.sreeen_rotation" value="port"/>
+    <Properties key="ro.mmi.camera_antibanding" value="50hz"/>
+    <Properties key="ro.mmi.keypad_test_list" value="24,25,26"/>
+    <Properties key="ro.mmi.wire_control_key_number" value="1"/>
+    <Properties key="ro.mmi.touch_screen_rows" value="23"/>
+    <Properties key="ro.mmi.touch_screen_columns" value="13"/>
+    <Properties key="ro.mmi.approach_threshold" value="5.0f"/>
+    <Properties key="ro.mmi.touch_screen_test_type" value="0"/>
+    <Properties key="ro.mmi.indicator_light_list" value="red,green,blue"/>
+    <Properties key="ro.mmi.show_pointer_location" value="false"/>
+    <Properties key="ro.mmi.enable_gesture_detector" value="false"/>
+    <Properties key="ro.mmi.support_slave_camera_otp" value="true"/>
+    <Properties key="ro.mmi.support_camera_otp" value="true"/>
+
+    <Factory>
+    </Factory>
+
+    <Normal>
+    </Normal>
+
+</MMITest>
+<!-- END PN:DTS2015121505725, Added by liubaoguo/00251981, 2015/12/15 -->

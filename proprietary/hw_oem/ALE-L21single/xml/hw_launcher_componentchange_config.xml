@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<change version="1" system="L21">
+    <!-- DTS2016061402928  xiekaiming wx278091 20160622 create -->
+    <components start = "001" end = "326">
+
+    <component old = "com.android.browser/.BrowserActivity" new = "com.android.chrome/com.google.android.apps.chrome.Main"/>
+
+    <component old = "com.android.contacts/com.android.mms.ui.ConversationList" new = "com.android.mms/.ui.ConversationList"/>
+
+    </components>
+    <!-- DTS2016061402928  xiekaiming wx278091 20160622  end  -->
+</change>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- default MeWidget layout -->
+<mewidgets>
+
+        <mewidget ID="0" Name="标准4x3MeWidget" SpanX="4" SpanY="3"
+        Cell_Height = "148" Cell_Width = "122" Gap_Height = "1" Gap_Width = "1">
+
+<!-- be careful of difference between package name and class name -->
+                <!-- CellX="0" -->
+                <!-- DTS2013011801547 fanrending fkf67065 20130118 begin -->
+                <!-- DTS2013042504665 zhouzhou zKF67067 20130427 begin -->
+                <widgetunit ID="1" PackageName="com.huawei.android.mewidget"
+                        ClassName="com.huawei.android.widgetunit.weather.WeatherProvider4x1"
+                        CellX="0" CellY="0" SpanX="4" SpanY="1"></widgetunit>
+                <!-- DTS2013011801547 fanrending fkf67065 20130118 end -->
+                <widgetunit ID="2" PackageName="com.huawei.android.mewidget"
+                        ClassName="com.huawei.android.widgetunit.music.MusicProviderSmall"
+                        CellX="0" CellY="1" SpanX="2" SpanY="1"></widgetunit>
+                <!-- DTS2012072003518 zhouzhou zKF67067 20120720 begin -->
+                <!-- DTS2012072302422 zhouzhou zKF67067 20120723 begin -->
+                <widgetunit ID="3" PackageName="com.huawei.android.mewidget"
+                        ClassName="com.huawei.android.widgetunit.photo.GalleryProvider" 
+                        CellX="2" CellY="1" SpanX="2" SpanY="2"></widgetunit>
+                <!-- DTS2012062903316 zhouzhou zKF67067 20120629 begin -->
+                <!-- india contact -->
+                <!-- DTS2012120401446 fanrending fKF67065 20121217 begin -->
+                <widgetunit ID="4" PackageName="com.huawei.android.mewidget"
+                        ClassName="com.huawei.android.widgetunit.contact.ContactUnitProvider" 
+                        CellX="0" CellY="2" SpanX="1" SpanY="1"></widgetunit>
+                        
+                <widgetunit ID="5" PackageName="com.huawei.android.mewidget"
+                        ClassName="com.huawei.android.widgetunit.contact.ContactUnitProvider" 
+                        CellX="1" CellY="2" SpanX="1" SpanY="1"></widgetunit>
+                <!-- DTS2012120401446 fanrending fKF67065 20121217 end -->
+                <!-- DTS2012072302422 zhouzhou zKF67067 20120723 end -->
+                <!-- DTS2012072003518 zhouzhou zKF67067 20120720 end -->
+                <!-- DTS2012062903316 zhouzhou zKF67067 20120629 end -->
+                  <!-- wuhan contact --> 
+                  <!--       	<widgetunit ID="4" PackageName="com.huawei.android.contactunit"
+                        ClassName="com.huawei.android.contactunit.ContactUnitProvider" 
+                        CellX="0" CellY="2" SpanX="1" SpanY="1"></widgetunit>
+                        
+                <widgetunit ID="5" PackageName="com.huawei.android.contactunit"
+                        ClassName="com.huawei.android.contactunit.ContactUnitProvider" CellX="1"
+                        CellY="2" SpanX="1" SpanY="1"></widgetunit> -->
+                <!-- DTS2012072003518 zhouzhou zKF67067 20120720 begin -->
+                <!-- DTS2012072302422 zhouzhou zKF67067 20120723 begin -->
+                <!-- DTS2012110202102 zhouzhou zKF67067 20121102 begin -->
+<!--                 <widgetunit ID="6" PackageName="com.huawei.android.widgetunit"            
+                        ClassName="com.huawei.android.widgetunit.photo.GalleryProvider" 
+                        CellX="2" CellY="0" SpanX="2" SpanY="2"></widgetunit>      -->
+                <!-- DTS2012110202102 zhouzhou zKF67067 20121102 end -->
+                <!-- DTS2012072302422 zhouzhou zKF67067 20120723 end -->
+                <!-- DTS2012072003518 zhouzhou zKF67067 20120720 end -->
+                <!-- DTS2013042504665 zhouzhou zKF67067 20130427 begin -->
+        </mewidget>
+
+</mewidgets>

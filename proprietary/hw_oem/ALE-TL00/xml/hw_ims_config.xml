@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- DTS2014092208683 chenzhichao 00182350 added 20141017 --> 
+<ims_config>
+    <!-- Card Type prefer to use UT interface
+    card type is defined as follows(References HuaweiTelephonyManager.java):
+    single mode sim card is 10;
+    single mode usim card is 20;
+    single mode ruim card is 30;
+    dual mode CG card is 40;
+    dual mode UG card is 50;
+    China Telecom internal roaming card (dual mode) is 41;
+    China Unicom dual mode card is 42;
+    other card which no clearly define is -1;
+
+    If current card type is not contained in this field,
+    supplementary Services which called by current card must be sent with CS,
+    other otherwise, with UT interface
+
+    If this field doesn't exist or set to null, prefer to UT as dafault.
+    -1 prefer to use UT as default.
+    When you set this field, please don't add a space in the config.
+    -->
+    <string name="cardTypePreferToUseUT">20,30,40,50,41,42,-1</string>
+
+    <!-- DTS2014092208818 chenzhichao 00182350 added 20141021 begin -->
+    <!-- Supplementary Services(SS)type must use CS
+    Supplementary Services type is defined as follows(References ImsUT.java):
+    Originating Identification Presentation (OIP)       = 1;
+    Terminating Identification Presentation (TIP)       = 2;
+    Originating Identification Restriction  (OIR)       = 3;
+    Terminating Identification Restriction  (TIR)       = 4;
+    Communication Diversion (CDIV)                      = 5;
+    Call Diversion No Reply Timer(NRT)                  = 6;
+    Communication Forwarding Unconditional (CFU)        = 7;
+    Communication Forwarding on Not Logged-in (CFNL)    = 8;
+    Communication Forwarding on mobile subscriber Busy
+                                              (CFB)     = 9;
+    Communication Forwarding on No Reply (CFNR)         = 10;
+    Communication Forwarding on Not Reachable (CFNRc)   = 11;
+    Communication Forwarding by Time (CFT)              = 12
+    Incoming Communication Barring (ICB)                = 13;
+    Outgoing Communication Barring (OCB)                = 14;
+    Barring of all incoming calls (BAIC)                = 15;
+    Barring of all outgoing calls (BAOC)                = 16;
+    Barring of outgoing international calls    (BAOIC)  = 17;
+    Barring of outgoing international calls EXCEPT
+      those directed to the home PLMN country (BAOICxH) = 18;
+    Barring of incoming calls when roaming outside
+                   the home PLMN country (BAICr)        = 19;
+    Communication Waiting (CW)                          = 20;
+    Barring of all calls (BA_ALL)                       = 21;
+
+    If current ss type is contained in this field, supplementary Services must be sent with CS,
+    other otherwise, with UT interface
+    If this field doesn't exist or set to null, prefer to UT as default.
+    When you set this field, please don't add a space in the config.
+    -->
+	<!-- DTS2015030800400 t00277791 20150309 begin -->
+    <string name="ssTypeUseCsOnly">3,14,16,17,18,20</string>
+	<!-- DTS2015030800400  t00277791 20150309 end -->
+    <!-- Supplementary Services(SS) MMI code which can be used
+    reference ImsMmiCode.java -->
+    <string name="ssNotSupportMMICode"></string>
+    <!-- DTS2014092208818 chenzhichao 00182350 added 20141021 end -->
+
+    <!-- DTS2015041300997 t00277791 20150413 begin -->
+    <!-- Master switch to control whether SS can use CS domain.
+        It's different from config of ssTypeForbidFallbackCS.
+        utCSBeUsed controls all SS whether can fallback CS doamin.
+        But, ssTypeForbidFallbackCS is concern about a special SS type.
+        1)set true, SS can use CS domain when UT is fail and the result of domain select contains CS domain.
+        2)set false, SS can't use CS domian when UT is fail.
+    -->
+    <bool name="utCSBeUsed">true</bool>
+    <!-- DTS2015041300997 t00277791 20150413 end -->
+
+    <!-- supplementary Services Type forbid fallback to CS
+    If supplementary Services is set in this field, it can fallback to CS when it failed with Ut
+    other otherwise, supplementary Services will be failed when it failed with Ut -->
+    <string name="ssTypeForbidFallbackCS">12</string>
+
+    <!-- IR.92-v7.0 2.3.8 Communication Diversion:
+    The GSM version of Communication Forwarding on Not Reachable (CFNRc)
+    implies diversion when the user is not registered in the CS core or cannot be
+    reached. To mimic this behaviour, it is recommended that an UE activates
+    both the CFNRc (CDIV using condition not-reachable) and the
+    Communication Forwarding on Not Logged-in (CFNL) (CDIV using condition
+    not-registered) to the same target.
+    If true, CFNL change with CFNRc at the same time,
+    If false, when CFNRc change, CFNL will remain unchanged. -->
+    <bool name="CFNRcChangeWithCFNL">false</bool>
+
+    <!-- When you set CFNR, If timer don't be carried, you must check this field:
+         1) set DefaultNoReplyTimer as 0, the timer of no reply will be defined by network;
+         2) set DefaultNoReplyTimer as -1, the timer get from MMI or UI setting;
+         3) set DefaultNoReplyTimer great than or equal to 5, set setDefaultNoReplyTimer as call diversion no reply timer,
+    please set this field in multiples of 5, and must less than or equal to 30,
+    such as 5, 10, 15, 20, 25, 30, NW not support other value.
+    reference 3GPP 24.604 4.9.2   XML Schema:
+    <xs:minInclusive value="5"/>
+    <xs:maxInclusive value="180"/>     -->
+    <int name="setDefaultNoReplyTimer">0</int>
+    
+    <!-- DTS2015030200878  t00277791 20141204 begin -->
+    <!-- Control content type mode
+         1) set ContentType as 1, the content type is always application/vnd.etsi.simservs+xml;
+         2) set ContentType as 2, The content type is always application/vnd.etsi.simservs+xml when node selector has closed,
+                                  and the content type adapt to network when opening node selector.
+    -->
+    <int name="ContentTypeMode">1</int>
+
+    <!-- Control IMS state whether always synchronize to IMS SDK.
+        1)set true, IMS state in AP side follow the network type of data conneciton.
+        2)set false, IMS state in AP side only synchronize the IMS state in IMS SDK.
+    -->
+    <bool name="ImsStateFollowVoiceDomain">true</bool>
+
+    <!-- DTS2015042310428 t00277791 20150413 begin -->
+    <!-- The mode of call waiting.
+        Use low four bits of Interger to stands call waiting mode.
+
+        The lowest bit stands whether sync to IMS SDK. 0 stands not sync to IMS SDK, 1 stands sync to IMS SDK.
+
+        The second lowest bit stands whether sync to CS. 0 stands not sync to CS , 1 stands sync to CS.
+
+        The two high bits in lowest four bits stands call waiting source.
+        0 stands get and set call waiting from network via Ut interface.
+        1 stands get and set call waiting from network via CS domain.
+        2 stands get and set call waiting in UE locally.
+
+        1)set 0(0x00, 0000), get and set call waiting from network via Ut interface, and not sync to CS or IMS SDK.
+        2)set 1(0x01, 0001), get and set call waiting from network via Ut interface, and sync to IMS SDK.
+        3)set 2(0x02, 0010), get and set call waiting from network via Ut interface, and sync to CS.
+        4)set 3(0x03, 0011), get and set call waiting from network via Ut interface, and sync to IMS SDK and CS.
+
+        5)set 4(0x04, 0100), get and set call waiting from network via CS domain, and not sync to CS or IMS SDK.
+        6)set 5(0x05, 0101), get and set call waiting from network via CS domain, and sync to IMS SDK.
+        7)set 6(0x06, 0110), get and set call waiting from network via CS domain, and sync to CS.
+        8)set 7(0x07, 0111), get and set call waiting from network via CS domain, and sync to IMS SDK and CS.
+
+        9)set 9(0x09, 1001), get and set call waiting in UE locally. sync call waiting to IMS SDK.
+        10)set 10(0x0A, 1010), get and set call waiting in UE locally. sync call waiting to CS.
+        11)set 11(0x0B, 1011), get and set call waiting in UE locally. sync call waiting to IMS SDK and CS.
+
+        notice: only integer is effective. can't config it as hex.
+    -->
+    <int name="callWaitingMode">9</int>
+    <!-- DTS2015042310428 t00277791 20150413 end -->
+
+    <!-- Control wheher open IMS SDK log.
+        1)set true, IMS SDK will print log in UE.
+        2)set false, IMS SDK will not print log any more.
+    -->
+    <bool name="utHrsLog">true</bool>
+
+    <!-- Naf server address
+        It can be a domain name, like xcap.ims.mnc000.mcc460.pub.3gppnetwork.org.
+        It can be a IP, like 10.141.20.111
+    -->
+    <string name="utNafSrvAddr">xcap.ims.mnc000.mcc460.pub.3gppnetwork.org</string>
+
+    <!-- NAF server port
+        Usually if Ut goes http, set it 80, and if Ut use TLS, set it 443.
+    -->
+    <int name="utNafPort">80</int>
+
+    <!-- Control whether UE communicates with NAF via https(TLS)
+        1)set true, UE communicates with NAF via https.
+        2)set false, UE communicates with NAF via http.
+    -->
+    <bool name="utNafUseHttps">false</bool>
+
+    <!-- BSF server address.
+        It can be a domain name, like bsf.mnc000.mcc460.pub.3gppnetwork.org.
+        It can be a IP, like 10.141.20.111.
+    -->
+    <string name="utBsfSrvAddr"></string>
+
+    <!-- BSF server port.
+    -->
+    <int name="utBsfPort">8080</int>
+
+    <!-- Control UE communicates with BSF whether goes https(TLS).
+        1)set true, UE communicates with BSF via https.
+        2)set false, UE communicates with BSF via http.
+    -->
+    <bool name="utBsfUsehttps">false</bool>
+
+    <!-- Control Ut whether use node selector.
+        The node selector specifies specific nodes of the XML document that are to be accessed.
+        A node refers to an XML element, an attribute of an element, or a set of namespace bindings.
+        The node selector is an expression that identifies an element, attribute, or set of namespace bindings.
+        see 6.3.Node Selector in <RFC4825>
+
+        1)set true, Ut uses node selector.
+        2)set false, Ut does not use node selector.
+    -->
+    <bool name="utUseNodeSelector">true</bool>
+
+    <!-- Control Ut whether use XcapNamespace.
+        In order for the XCAP server to match a URI to an element or attribute of a document,
+        any XML namespace prefixes used within the URI must be expanded.
+        see 5.2.Default Document Namespace in <RFC4825>
+
+        1)set true, Ut uses use XcapNamespace.
+        2)set false, Ut does not use XcapNamespace.
+    -->
+    <bool name="utUseXcapNamespace">true</bool>
+
+    <!-- Control whether encode ksnaf by base64.
+        1)set true, encode ksnaf by base64.
+        2)set false, does not encode ksnaf by base64.
+    -->
+    <bool name="utKsnafUseBase64">true</bool>
+
+    <!-- type of GBA
+        1)set 0, GBA_ME
+        2)set 1, GBA_U
+        3)set 2, GBA_NOT_SUPPORT
+        3)set 3, GBA_ME OR GBA_U
+    -->
+    <int name="utGbaType">0</int>
+
+    <!-- Control whether use tmpi
+        The UE sends an HTTP request towards the BSF.
+        When a TMPI associated with the IMPI in use is available on the UE,
+        the UE includes this TMPI in the "username" parameter,
+        otherwise the UE includes the IMPI.
+        see 4.5.2 Bootstrapping procedures in <3GPP TS 33.220 V12.2.0>
+
+        1)set true, use tmpi.
+        2)set false, does not use tmpi.
+    -->
+    <bool name="utUseTmpi">false</bool>
+
+    <!-- X-3GPP-Intended-Identity
+        When UE register IMS succussfully, UE get the IMPU from network.
+        Set X3gppIntendId as IMPU from network.
+        It used in Ut.
+        when UE send http message to NAF, X-3GPP-Intended-Identity is in the message.
+    -->
+    <string name="utX3gppIntendId"></string>
+
+    <!-- IMPU, IP Multimedia Public Identity
+        When UE register IMS succussfully, UE get the IMPU from network.
+    -->
+    <string name="utIMPU"></string>
+
+    <!-- IMPI, IP Multimedia Private Identity
+        Every sim card has its unique IMPI.
+    -->
+    <string name="utIMPI"></string>
+    <!-- DTS2015041300997 t00277791 20150413 end -->
+
+    <!-- DTS2015042909176 m00277840 20150429 begin -->
+    <!-- IMS MT Call Missing Reminder Scheme global flag
+        1)set true, user would be informed if any unsuccessful mt call.
+        2)set false, user wouldn't be informed if any unsuccessful mt call.
+    -->
+    <bool name="missedCallTips">true</bool>
+    <!-- IMS MT Call Missing Reminder Scheme configurable flag
+         NOTE: missedCallTipsDelay makes nonsense if missedCallTips configured as false.
+        1)set true, user would be informed after 'missedCallTipsDelayTimer' expires if any unsuccessful mt call and
+          this fail call never income again during 'missedCallTipsDelayTimer'.
+        2)set false, user would be informed at once if any unsuccessful mt call.
+    -->
+    <bool name="missedCallTipsDelay">true</bool>
+    <!-- IMS MT Call Missing Reminder Scheme configurable timer length
+         MAX time length for sip signalling from incoming INVITE to RING outgoing
+         unit: millisecond
+    -->
+    <int name="missedCallTipsRingTimer">12000</int>
+    <!-- IMS MT Call Missing Reminder Scheme configurable timer length
+         MAX time length for waiting fail incoming call dial again
+         unit: millisecond
+    -->
+    <int name="missedCallTipsDelayTimer">128000</int>
+    <!-- DTS2015042909176 m00277840 20150429 end -->
+
+    <!-- DTS2014121803671 m00277840 20150527 begin -->
+    <bool name="hangUpWhenLostNet">true</bool>
+    <!-- DTS2014121803671 m00277840 20150527 end -->
+</ims_config>

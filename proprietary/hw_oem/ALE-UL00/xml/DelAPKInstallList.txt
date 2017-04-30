@@ -1,0 +1,7 @@
+/data/dataapp/HwIntelligent/HwIntelligent.apk,priv
+/data/dataapp/Tadu/Tadu.apk
+/data/dataapp/Ctrip/Ctrip.apk
+/data/dataapp/SohuTV/SohuTV.apk
+/data/dataapp/WPS/WPS.apk
+/data/dataapp/dianping/dianping.apk
+/data/dataapp/Toutiao/Toutiao.apk

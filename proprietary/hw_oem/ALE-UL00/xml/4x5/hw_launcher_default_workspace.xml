@@ -1,0 +1,266 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<!-- BEGIN PN:DTS2015103105469,  Create by bwx205963, 2015/10/31 -->
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.huawei.android.launcher">
+
+    <!--第0屏-->
+    <!--搜索widget-->
+   <appwidget
+        launcher:packageName="com.baidu.searchbox_huawei"
+        launcher:className="com.baidu.searchbox.widget.TransSearchWidgetProvider"
+        launcher:container="-100"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="0"
+        launcher:spanX="4"
+        launcher:spanY="1" />
+    <!--第2屏-->
+    <favorite
+        launcher:packageName="com.android.email"
+        launcher:className="com.android.email.activity.Welcome"
+        launcher:op="delete" />
+    <!--华为阅读-->
+    <favorite
+        launcher:packageName="com.huawei.hwireader"
+        launcher:className="com.chaozh.iReader.ui.activity.WelcomeActivity"
+        launcher:container="-100"
+        launcher:screen="2"
+        launcher:x="3"
+        launcher:y="0"
+        launcher:spanX="1"
+        launcher:spanY="1" />
+    <!--游戏中心-->
+    <favorite
+        launcher:packageName="com.huawei.health"
+        launcher:className="com.huawei.healthcloud.cardui.MainActivity"
+        launcher:op="delete"/>
+    <favorite
+        launcher:packageName="com.huawei.gamebox"
+        launcher:className="com.huawei.gamebox.GameBoxActivity"
+        launcher:container="-100"
+        launcher:screen="2"
+        launcher:x="0"
+        launcher:y="2"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:op="modify"/>
+    <!--电子邮件-->
+    <favorite
+        launcher:packageName="com.android.email"
+        launcher:className="com.android.email.activity.Welcome"
+        launcher:container="-100"
+        launcher:screen="2"
+        launcher:x="1"
+        launcher:y="2"
+        launcher:spanX="1"
+        launcher:spanY="1" />
+    <favorite
+        launcher:packageName="com.huawei.wallet"
+        launcher:className="com.huawei.wallet.view.MainActivity"
+        launcher:op="delete" />
+    <!--华为商城-->
+    <favorite
+        launcher:packageName="com.vmall.client"
+        launcher:className="com.vmall.client.activity.VmallWapActivity"
+        launcher:container="-100"
+        launcher:screen="2"
+        launcher:x="2"
+        launcher:y="2"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:op="modify"/>
+    <!--实用工具-->
+    <folder
+        launcher:title="@string/folder_tools"
+        launcher:container="-100"
+        launcher:op="delete"/>
+    <folder
+        launcher:title="@string/folder_tools"
+        launcher:container="-100"
+        launcher:screen="2"
+        launcher:x="3"
+        launcher:y="2">
+        <favorite
+            launcher:packageName="com.huawei.android.totemweather"
+            launcher:className="com.huawei.android.totemweather.WeatherHome" />
+        <favorite
+            launcher:packageName="com.huawei.wallet"
+            launcher:className="com.vmall.client.activity.VmallWapActivity" />
+        <favorite
+            launcher:packageName="com.huawei.hidisk"
+            launcher:className="com.huawei.hidisk.filemanager.FileManager" />
+        <favorite
+            launcher:packageName="com.android.calculator2"
+            launcher:className="com.android.calculator2.Calculator" />
+        <favorite
+            launcher:packageName="com.android.systemui"
+            launcher:className="com.android.systemui.flashlight.FlashlightActivity" />
+        <favorite
+            launcher:packageName="com.huawei.vassistant"
+            launcher:className="com.huawei.vassistant.ui.VAssistantActivity" />
+        <favorite
+            launcher:packageName="com.android.hwmirror"
+            launcher:className="com.android.hwmirror.Mirror" />
+        <favorite
+            launcher:packageName="com.huawei.compass"
+            launcher:className="com.huawei.compass.MainActivity" />
+        <favorite
+            launcher:packageName="com.huawei.KoBackup"
+            launcher:className="com.huawei.KoBackup.InitializeActivity" />
+        <favorite
+            launcher:packageName="com.huawei.android.remotecontrol"
+            launcher:className="com.huawei.android.remotecontrol.ui.PhoneFinderActivity" />
+        <favorite
+            launcher:packageName="com.android.providers.downloads.ui"
+            launcher:className="com.android.providers.downloads.ui.DownloadList" />
+        <favorite
+            launcher:packageName="com.android.stk"
+            launcher:className="com.android.stk.StkLauncherActivity" />
+        <favorite
+            launcher:packageName="com.android.stk"
+            launcher:className="com.android.stk.StkLauncherActivity2" />
+    </folder>
+    <!--BEGIN PN: DTS2016022607008,Modified by xWX323431, 2016/02/26-->
+    <!--社交生活-->
+    <folder
+        launcher:title="@string/folder_social_apps"
+        launcher:appid="HITOP00000092"
+        launcher:op="delete"/>
+    <folder
+        launcher:title="@string/folder_social_apps"
+        launcher:appid="HITOP00000132"
+        launcher:container="-100"
+        launcher:screen="2"
+        launcher:x="0"
+        launcher:y="3">
+    <!-- END PN: DTS2016022607008,Modified by xWX323431, 2016/02/26-->
+        <!--花粉俱乐部-->
+        <favorite
+            launcher:packageName="com.huawei.fans"
+            launcher:className="com.huawei.fans.activity.MainActivity"/>
+        <!--生活服务-->
+        <favorite
+            launcher:packageName="com.huawei.lives"
+            launcher:className="com.huawei.lifeservice.basefunction.ui.entry.LandingActivity"/>
+        <!--驾驶模式-->
+        <favorite
+            launcher:packageName="com.huawei.vdrive"
+            launcher:className="com.huawei.vdrive.ui.VDriveActivity"/>
+        <!--手机淘宝-->
+        <favorite
+            launcher:packageName="com.taobao.taobao"
+            launcher:className="com.taobao.tao.welcome.Welcome"/>
+        <!--天猫-->
+        <favorite
+            launcher:packageName="com.tmall.wireless"
+            launcher:className="com.tmall.wireless.module.launchalert.TMLaunchAlertActivity"/>
+        <!--大众点评-->
+        <favorite
+            launcher:packageName="com.dianping.v1"
+            launcher:className="com.dianping.v1.PermissionActivity"/>
+        <!--携程旅行-->
+        <favorite
+            launcher:packageName="ctrip.android.view"
+            launcher:className="ctrip.android.view.home.CtripDeclarationActivity"/>
+        <!--今日头条-->
+        <favorite
+            launcher:packageName="com.ss.android.article.news"
+            launcher:className="com.ss.android.article.news.activity.SplashActivity"/>
+        <!--百度地图-->
+        <favorite
+            launcher:packageName="com.baidu.BaiduMap"
+            launcher:className="com.baidu.baidumaps.WelcomeScreen"/>
+    </folder>
+    <!--BEGIN PN: DTS2016022607008,Modified by xWX323431, 2016/02/26-->
+    <!--休闲娱乐-->
+    <folder
+        launcher:title="@string/folder_entertainment_apps"
+        launcher:appid="HITOP00000093"
+        launcher:op="delete"/>
+    <folder
+        launcher:title="@string/folder_entertainment_apps"
+        launcher:appid="HITOP00000133"
+        launcher:container="-100"
+        launcher:screen="2"
+        launcher:x="1"
+        launcher:y="3">
+    <!-- END PN: DTS2016022607008,Modified by xWX323431, 2016/02/26-->
+        <favorite
+            launcher:packageName="com.android.soundrecorder"
+            launcher:className="com.android.soundrecorder.SoundRecorder"/>
+        <favorite
+            launcher:packageName="com.huawei.android.FMRadio"
+            launcher:className="com.huawei.android.FMRadio.FMRadioMainActivity"/>
+        <!--搜狐视频-->
+        <favorite
+            launcher:packageName="com.sohu.sohuvideo"
+            launcher:className="com.sohu.sohuvideo.FirstNavigationActivityGroup"/>
+        <!--塔读文学-->
+        <favorite
+            launcher:packageName="com.tadu.android"
+            launcher:className="com.tadu.android.view.LoadingActivity"/>
+    </folder>
+    <!--BEGIN PN: DTS2016022607008,Modified by xWX323431, 2016/02/26-->
+    <!--轻松工作  2  3x3-->
+    <folder
+        launcher:title="@string/folder_work_related_apps"
+        launcher:appid="HITOP00000094"
+        launcher:op="delete"/>
+    <folder
+        launcher:title="@string/folder_work_related_apps"
+        launcher:appid="HITOP00000134"
+        launcher:container="-100"
+        launcher:screen="2"
+        launcher:x="2"
+        launcher:y="3">
+    <!-- END PN: DTS2016022607008,Modified by xWX323431, 2016/02/26-->
+        <!--备忘录-->
+        <favorite
+            launcher:packageName="com.example.android.notepad"
+            launcher:className="com.example.android.notepad.NotePadActivity"/>
+        <!--WPS-->
+        <favorite
+            launcher:packageName="cn.wps.moffice_eng"
+            launcher:className="cn.wps.moffice.documentmanager.PreStartActivity"/>
+    </folder>
+    <!--DOCK区-->
+    <!--拨号-->
+    <favorite
+        launcher:packageName="com.android.contacts"
+        launcher:className="com.android.contacts.activities.DialtactsActivity"
+        launcher:container="-101"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="0"
+        launcher:spanX="1"
+        launcher:spanY="1" />
+    <!--联系人-->
+    <favorite
+        launcher:packageName="com.android.contacts"
+        launcher:className="com.android.contacts.activities.PeopleActivity"
+        launcher:container="-101"
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="0"
+        launcher:spanX="1"
+        launcher:spanY="1" />
+    <!--信息-->
+    <favorite
+        launcher:packageName="com.android.mms"
+        launcher:className="com.android.mms.ui.ConversationList"
+        launcher:container="-101"
+        launcher:screen="2"
+        launcher:x="2"
+        launcher:y="0"
+        launcher:spanX="1"
+        launcher:spanY="1" />
+    <!--浏览器-->
+    <favorite
+        launcher:packageName="com.android.browser"
+        launcher:className="com.UCMobile.main.UCMobile"
+        launcher:container="-101"
+        launcher:screen="3"
+        launcher:x="3"
+        launcher:y="0"
+        launcher:spanX="1"
+        launcher:spanY="1" />
+</favorites>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+
+<resources>
+    <!--******************************** 1.PROTOCOL TEAM BEGIN -->
+    <integer ca_settings_on="1"/>
+    
+    <!--******************************** 1.PROTOCOL TEAM END -->
+    <!--******************************** 2.APP MANUFACTURE TEAM BEGIN -->
+
+    <!--******************************** 2.APP MANUFACTURE TEAM END -->
+    <!--******************************** 3.BASEAPP TEAM BEGIN -->
+    <!--BEGIN PN:DTS2015102904139, Added by gwx285278, 2015/10/29 -->
+    <integer dual_sim_shapes_type="1"/>
+    <!--END PN:DTS2015102904139, Added by gwx285278, 2015/10/29 -->
+    <!-- BEGIN PN:DTS2015111401786, Added by WX205963, 2015/11/14 -->
+    <!-- BEGIN PN:DTS2015112303660, Modified by WX205963, 2015/12/01 -->
+    <string hw_def_theme="/system/themes/Obsidian(magazine).hwt" reset="true"/>
+    <!-- END PN:DTS2015112303660, Modified by WX205963, 2015/12/01 -->
+    <!-- END PN:DTS2015111401786, Added by WX205963, 2015/11/14 -->
+	<integer custom_bookmark_homepage="1" />
+    <string hw_devicenameandimei_custap="HUAWEI_Grace"/>
+    <integer hw_displayafterfirstring="0"/>
+    <integer hw_global_networkmode_settings_enable="1"/>
+    <integer settings.system.show_hwlock_first="0"/>
+    <string enable_sdn="true"/>
+    <string theme_no_online = "true"/>
+    <!-- BEGIN PN:DTS2015120500178,Deleted by lWX285236, 2015/12/08 -->
+    <!-- END   PN:DTS2015120500178,Deleted by lWX285236, 2015/12/08 -->
+    <!-- BEGIN PN:DTS2015122205243, Added by WX206035, 2015/12/28 -->
+    <integer settings.system.androidBeam="1"/>
+    <!-- END PN:DTS2015122205243, Added by WX206035, 2015/12/28 -->
+    <!-- DTS2015030902399 z00169648 20150309 begin -->
+    <integer show_mms_expired_status="1"/>
+    <!-- DTS2015030902399 z00169648 20150309  end -->
+    <integer settings.global.wifi_sleep_policy="2"/>
+    <!--******************************** 3.BASEAPP TEAM END -->
+    <!--******************************** 4.MULTI-MEDIA TEAM BEGIN -->
+
+    <!--******************************** 4.MULTI-MEDIA TEAM END -->
+    <!--******************************** 5.FRAMEWORK TEAM BEGIN -->
+
+    <!--******************************** 5.FRAMEWORK TEAM END -->
+    <!--******************************** 6.DATA SERVICE TEAM BEGIN -->
+
+    <!--******************************** 6.DATA SERVICE TEAM END -->
+    <!--******************************** 7.APPLET TEAM BEGIN -->
+
+    <!--******************************** 7.APPLET TEAM END -->
+    <!--******************************** 8.CUSTOM TEAM BEGIN -->
+
+    <!--******************************** 8.CUSTOM TEAM END -->
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<change version="1" system="L02">
+
+    <components start = "001" end = "538">
+
+    <component old = "com.android.contacts/com.android.mms.ui.ConversationList" new = "com.android.mms/.ui.ConversationList"/>
+
+    <component old = "com.google.android.apps.plus/.phone.ConversationListActivity" new = "com.google.android.apps.photos/.home.HomeActivity"/>
+
+    </components>
+
+</change>

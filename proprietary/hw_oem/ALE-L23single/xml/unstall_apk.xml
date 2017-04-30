@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+    <tag>
+        <apk>/system/app/HwProfileSwitcher.apk;
+             /system/app/HandWritingTradHKPack.apk;
+             <!-- BEGIN PN:DTS2015101309564, Deleted by gwx285278, 2015-10-14 -->
+             <!-- /system/app/HWCardManager.apk; -->
+             <!-- END PN:DTS2015101309564, Deleted by gwx285278, 2015-10-14 -->
+             /system/priv-app/HwCallRecorder.apk;
+             /system/app/HwGPMS.apk;
+             /system/app/DualCardWidget.apk;
+             /system/app/HwWiFiHotspot.apk;
+             /system/app/Opera_Generic.apk;
+             /system/app/PreinstallProvider_for_Opera_Generic.apk;
+             /system/priv-app/VoiceDialer.apk;
+             /system/app/Payment_offhost.apk;
+             /system/app/HwUserExperience.apk;
+             /system/app/HwShake.apk;
+             /system/app/HwAllBackup_Bitcasa.apk;
+             <!--AR0002GJN6 taozhipeng wx207097 20150104 begin-->
+             <!--/system/app/OMACP.apk;-->
+             <!--AR0002GJN6 taozhipeng wx207097 20150104 end-->
+             /system/priv-app/CellBroadcastReceiver.apk;
+           <!-- BEGIN PN:DTS2015102703627 , Deleted by hwx247786, 2015-10-27 -->
+               /system/app/NfcNci/NfcNci.apk;
+               /system/priv-app/Tag/Tag.apk;
+           <!-- BEGIN PN:DTS2015102703627 , Deleted by hwx247786, 2015-10-27  -->
+             /system/app/HwPhoneService.apk;
+       </apk>
+    </tag>

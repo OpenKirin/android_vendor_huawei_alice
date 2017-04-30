@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- this config file is used to exclude some system app  for sub users. -->
+<del_app_list>
+    <del_app packageName="com.huawei.android.hwouc"/>
+    <del_app packageName="com.huawei.vdrive"/>
+    <del_app packageName="com.huawei.health"/>
+    <del_app packageName="com.besttone.hall"/>
+    <del_app packageName="com.andreader.prein"/>
+    <del_app packageName="com.huawei.mmitest"/>
+</del_app_list>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<change version="1" system="UL00">
+
+    <components start = "001" end = "537">
+
+    <component old = "com.android.contacts/com.android.mms.ui.ConversationList" new = "com.android.mms/.ui.ConversationList"/>
+
+    <component old = "com.huawei.android.remotecontrol/.ui.PFMainActivity" new = "com.huawei.android.remotecontrol/.ui.PhoneFinderActivity"/>
+
+    <component old = "com.huawei.hwvplayer/.framework.MainActivity" new = "com.huawei.hwvplayer.youku/com.huawei.hwvplayer.framework.MainActivity"/>
+
+    <component old = "com.android.browser/.BrowserActivity" new = "com.android.browser/com.UCMobile.main.UCMobile"/>
+
+    </components>
+
+</change>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+<package name="ctrip.android.view" />
+<package name="com.chaozh.iReaderFree15" />
+<package name="cmccwm.mobilemusic" />
+<package name="cn.cj.pe" />
+<package name="com.baidu.searchbox" />
+<package name="com.chinamobile.cmccwifi" />
+<package name="com.ophone.reader.ui" />
+<package name="cn.com.fetion" />
+<package name="com.letv.android.client" />
+<package name="com.ss.android.article.news" />
+<package name="com.taobao.taobao" />
+<package name="com.sina.weibog3" />
+<package name="me.chunyu.ChunyuDoctor" />
+<package name="com.dianping.v1" />
+<package name="com.UCMobile" />
+</resources>

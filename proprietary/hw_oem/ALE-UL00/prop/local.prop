@@ -1,0 +1,168 @@
+#############################################################################
+########"      __        __               _                     "############
+########"      \ \      / /_ _ _ __ _ __ (_)_ __   __ _         "############
+########"       \ \ /\ / / _` | '__| '_ \| | '_ \ / _` |        "############
+########"        \ V  V / (_| | |  | | | | | | | | (_| |        "############
+########"         \_/\_/ \__,_|_|  |_| |_|_|_| |_|\__, |        "############
+########"                                         |___/         "############
+########"                                                       "############
+########"   ONLY DRIVER PROPS ALLOWED IN THIS SECTION BEGIN     "############
+
+
+########"                                                       "############
+########"                                                       "############
+########"   ONLY DRIVER PROPS ALLOWED IN THIS SECTION END       "############
+#############################################################################
+
+#############################################################################
+########"      __        __               _                     "############
+########"      \ \      / /_ _ _ __ _ __ (_)_ __   __ _         "############
+########"       \ \ /\ / / _` | '__| '_ \| | '_ \ / _` |        "############
+########"        \ V  V / (_| | |  | | | | | | | | (_| |        "############
+########"         \_/\_/ \__,_|_|  |_| |_|_|_| |_|\__, |        "############
+########"                                         |___/         "############
+########"                                                       "############
+########"   ONLY PROTOCOL PROPS ALLOWED IN THIS SECTION BEGIN   "############
+ro.config.hw_ecclist_nocard=+120,+122
+ro.config.hw_ecclist_withcard=+112
+ro.config.hw_fake_ecc_list=110,120,122,999,119
+ro.config.hw_globalEcc=false
+ro.sys.ping_bf_dorecovery=true
+ro.hwpp.wcdma_voice_preference=true
+persist.sys.vqm_algorithm=7
+#DTS2015082609506 z00211166 20150826 begin
+ro.radio.vsim_support=false
+#DTS2015082609506 z00211166 20150826 end
+ro.config.hw_dsdspowerup=true
+#BEGIN PN:DTS2015102902307,Added by p00345816,2015/10/29
+ro.lte.goodstd=-105
+ro.lte.greatstd=-97
+ro.lte.modstd=-115
+ro.lte.poorstd=-125
+#END PN:DTS2015102902307,Added by p00345816,2015/10/29
+########"                                                       "############
+########"                                                       "############
+########"   ONLY PROTOCOL PROPS ALLOWED IN THIS SECTION END     "############
+#############################################################################
+
+
+#############################################################################
+########"      __        __               _                     "############
+########"      \ \      / /_ _ _ __ _ __ (_)_ __   __ _         "############
+########"       \ \ /\ / / _` | '__| '_ \| | '_ \ / _` |        "############
+########"        \ V  V / (_| | |  | | | | | | | | (_| |        "############
+########"         \_/\_/ \__,_|_|  |_| |_|_|_| |_|\__, |        "############
+########"                                         |___/         "############
+########"                                                       "############
+########"   ONLY APP TEAM PROPS ALLOWED IN THIS SECTION BEGIN   "############
+#####################################################################################
+######## 1.APP MANUFACTURE TEAM BEGIN
+###########1.1.MMI BEGIN
+
+###########1.1.MMI END
+
+###########1.2.PROJECT MENU BEGIN
+
+###########1.2.PROJECT MENU END
+
+###########1.3.RUN IN TEST BEGIN
+
+###########1.3.RUN IN TEST END
+######## 1.APP MANUFACTURE TEAM END
+#####################################################################################
+######## 2.BASEAPP TEAM BEGIN
+ro.config.hw_nfc_msimce=true
+
+ro.config.callrecord.enabled=1
+ro.config.callwait_vibrator=true
+ro.config.hw_allow_rs_mms=true
+ro.config.hw_blacklist=true
+ro.config.hw_incall_report_on=true
+ro.config.hw_pop_unsupport_lte=true
+ro.config.hw_support_ipcall=true
+ro.config.hw_voicerecord=true
+#  BEGIN PN:DTS2015102901457, Modified by weipengbo xWX312662, 2015/10/29
+ro.product.member.level=10010
+#  END PN:DTS2015102901457, Modified by weipengbo xWX312662, 2015/10/29
+#BEGIN PN: DTS2015101508837, Modify by wx209861, 2015/11/16
+ro.config.hw_use_browser_ua=http://wap1.huawei.com/uaprof/HUAWEI_ALE-UL00_6.0_UAProfile.xml
+#END PN: DTS2015101508837, Modify by wx209861, 2015/11/16
+ro.config.hw_RemindWifiToPdp=true
+ro.config.ds_verbose_log_on=true
+ro.config.hw_showSimName=true
+ro.product.locale=zh-CN
+# BEGIN PN:DTS2015102808606, Added by wx238508, 2015/10/29
+ro.config.pre_apn_unable=false
+# END PN:DTS2015102808606, Added by wx238508, 2015/10/29
+#BEGIN PN:DTS2015112705755,Added by zwx242353,2015/11/28
+ro.camera.beauty.algo.doc=1
+ro.config.hw_camera_docbeauty=true
+#END PN:DTS2015112705755,Added by zwx242353,2015/11/28
+#BEGIN PN: DTS2015120310479, Add by cwx270461, 2015/12/4
+ro.config.hw_showTestInfo=false
+#END PN: DTS2015120310479, Add by cwx270461, 2015/12/4
+#BEGIN PN: DTS2016011407745,Modified by lwx206033, 2016/1/18
+ro.config.hw_lte_support=true
+#END PN: DTS2016011407745,Modified by lwx206033, 2016/1/18
+#BEGIN PN:DTS2016042804021,Added by nwx206035,2016/04/28
+ro.config.hw_student_mode_on=true
+#END PN:DTS2016042804021,Added by nwx206035,2016/04/28
+# BEGIN PN:DTS2016080802022,Added by lWX285236,2016/08/08
+ro.config.hw_lunarbirth=true
+# END PN:DTS2016080802022,Added by lWX285236,2016/08/08
+# BEGIN PN:DTS2016080802088,Added by lWX285236,2016/08/08
+ro.config.hw_monthlyflow=true
+# END PN:DTS2016080802088,Added by lWX285236,2016/08/08
+#BEGIN PN:DTS2016080803927,Added by nwx206035, 2016/08/08
+# AR0008TQ1G move ro.build.version.emui to Emui wwx368291 20170313
+#END PN:DTS2016080803927,Added by nwx206035, 2016/08/08
+#BEGIN PN:DTS2016080801233,Added by bWX205963,2016/08/08
+ro.config.keyguard_watermark=true
+#END PN:DTS2016080801233,Added by bWX205963,2016/08/08
+######## 2.BASEAPP TEAM END
+#####################################################################################
+######## 3.MULTI-MEDIA TEAM BEGIN
+ro.product.cucc.rtsplive=true
+######## 3.MULTI-MEDIA TEAM END
+#####################################################################################
+######## 4.FRAMEWORK TEAM BEGIN
+#BEGIN   PN: DTS2015120502834 , Modify by hwx212838, 2015/12/19
+ro.config.hw_nlp=com.baidu.map.location
+#END   PN: DTS2015120502834 , Modify by hwx212838, 2015/12/19
+#BEGIN PN: DTS2016071205964 , Added by bwx239688,2016/08/03
+ro.config.enable_rcc=true
+#END PN: DTS2016071205964 , Added by bwx239688,2016/08/03
+######## 4.FRAMEWORK TEAM END
+#####################################################################################
+######## 5.DATA SERVICE TEAM BEGIN
+#DTS2015102909754 huxiaotao/00360079 20151030 begin
+ro.hwpp_ds_fail=111,-3,32,30
+#DTS2015102909754 huxiaotao/00360079 20151030 end
+#BEGIN   PN: DTS2015102909445   , Modify by w00268003, 2015/11/02
+gsm.fastdormancy.mode=3
+gsm.fastdormancy.screen=2
+gsm.fastdormancy.time_scroff=4000
+#END   PN: DTS2015102909445   , Modify by w00268003, 2015/11/02
+######## 5.DATA SERVICE TEAM END
+#####################################################################################
+######## 6.APPLET TEAM BEGIN
+
+######## 6.APPLET TEAM END
+#####################################################################################
+######## 7.PRODUCT INFO BEGIN
+ro.product.locale.language=zh
+ro.product.locale.region=CN
+ro.product.device=hwALE-H
+ro.product.brand=Huawei
+ro.product.model=ALE-UL00
+ro.product.name=ALE-UL00
+ro.build.id=HuaweiALE-UL00
+ro.config.hw_opta=00
+ro.config.hw_optb=156
+######## 7.PRODUCT INFO END
+#####################################################################################
+########"                                                       "############
+########"                                                       "############
+########"   ONLY APP TEAM PROPS ALLOWED IN THIS SECTION END     "############
+#############################################################################
+
