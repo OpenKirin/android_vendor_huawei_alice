@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config samplingCount="10" samplingInterval="2" checkingInterval="20">
+    <!--<object name="CPUFreqency">
+        <limit/>
+        <dismiss/>
+    </object>-->
+    <object name="LCDBrightness">
+        <limit>
+            <trigger temperature="52" timing="0" />
+        </limit>
+        <dismiss>
+            <trigger temperature="50" timing="0" />
+        </dismiss>
+    </object>
+    <object name="Flashlight">
+        <limit>
+            <trigger temperature="53" timing="0" />
+        </limit>
+        <dismiss>
+            <trigger temperature="51" timing="0" />
+        </dismiss>
+    </object>
+    <object name="Charger">
+        <limit>
+            <trigger temperature="54" timing="0" />
+        </limit>
+        <dismiss>
+            <trigger temperature="52" timing="0" />
+        </dismiss>
+    </object>
+    <object name="KillApp">
+        <limit>
+            <trigger temperature="56" timing="0" />
+        </limit>
+        <dismiss>
+            <trigger temperature="54" timing="0" />
+        </dismiss>
+    </object>
+    <!--<object name="Camera" batterylimit="420">
+        <limit>
+            <trigger temperature="56" timing="0" />
+        </limit>
+        <dismiss>
+            <trigger temperature="54" timing="0" />
+        </dismiss>
+    </object>
+    <object name="Wifi" batterylimit="420">
+        <limit>
+            <trigger temperature="56" timing="0" />
+        </limit>
+        <dismiss>
+            <trigger temperature="54" timing="0" />
+        </dismiss>
+    </object>-->
+    <!--<object name="Data" batterylimit="420" batterydismiss="400">
+        <limit>
+            <trigger temperature="56" timing="0" />
+        </limit>
+        <dismiss>
+            <trigger temperature="54" timing="0" />
+        </dismiss>
+    </object>-->
+    <!--<object name="Miscellaneous" batterylimit="440">
+        <limit>
+            <trigger temperature="56" timing="0" />
+        </limit>
+        <dismiss>
+            <trigger temperature="54" timing="0" />
+        </dismiss>
+    </object>-->
+</config>

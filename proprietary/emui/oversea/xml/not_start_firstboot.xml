@@ -1,0 +1,8 @@
+<resources>
+    <package name="com.google.android.apps.docs"/>
+    <package name="com.google.android.apps.magazines"/>
+    <package name="com.shazam.android"/>
+    <package name="com.cleanmaster.mguard"/>
+    <package name="com.facebook.katana"/>
+    <package name="com.booking"/>
+</resources>

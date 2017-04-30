@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <blackapp package="cn.opda.a.phonoalbumshoushou" />
+    <blackapp package="com.UCMobile" />
+    <blackapp package="com.baidu.BaiduMap" />
+    <blackapp package="com.baidu.searchbox_huawei" />
+    <blackapp package="com.baidu.appsearch" />
+    <blackapp package="com.baidu.browser.apps" />
+    <blackapp package="com.baidu.input" />
+    <blackapp package="com.dianping.v1" />
+    <blackapp package="com.duowan.mobile" />
+    <blackapp package="com.eg.android.AlipayGphone" />
+    <blackapp package="com.kingsoft" />
+    <blackapp package="com.mapbar.android.mapbarmap" />
+    <blackapp package="com.outfit7.talkingtom2free" />
+    <blackapp package="com.pplive.androidphone" />
+    <blackapp package="com.sohu.inputmethod.sogou" />
+    <blackapp package="com.sina.weibo" />
+    <blackapp package="com.tencent.WBlog" />
+    <blackapp package="com.tencent.minihd.qq" />
+    <blackapp package="com.tencent.mobileqq" />
+    <blackapp package="com.tencent.mm" />
+    <blackapp package="com.when.android.calendar365" />
+    <blackapp package="com.wochacha" />
+
+</resources>

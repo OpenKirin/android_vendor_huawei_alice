@@ -1,0 +1,6 @@
+compressionGain = 100.0;
+VB_boostlin = 50.0;
+EQ_trebleBoost = 30.0;
+DS_stereoWidth = 0.0;
+DRC_DSPparameters_1 = 67.0;
+volume_index_switch = 14;

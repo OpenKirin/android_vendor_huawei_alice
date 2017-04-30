@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--DTS2012062805002 lijia 2012020628 create begin-->
+<!--
+/*
+** Copyright 2006, Google Inc.
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+
+
+
+<!-- change "default" to "default,supl" -->
+<!-- Global Version, add sms 7bit coding parameters -->
+<adaptCountries version="1"> 
+   <adaptCountry 
+        name="TMO"
+        mcc="310"
+        mnc="160"
+        date_format="MM-dd-yyyy"
+        time="12"
+   />  
+   <adaptCountry 
+        name="TMO"
+        mcc="310"
+        mnc="210"
+        date_format="MM-dd-yyyy"
+        time="12"
+   />
+   <adaptCountry 
+        name="TMO"
+        mcc="310"
+        mnc="230"
+        date_format="MM-dd-yyyy"
+        time="12"
+   />
+   <adaptCountry 
+        name="TMO"
+        mcc="310"
+        mnc="240"
+        date_format="MM-dd-yyyy"
+        time="12"
+   />
+   <adaptCountry 
+        name="TMO"
+        mcc="310"
+        mnc="250"
+        date_format="MM-dd-yyyy"
+        time="12"
+   />
+   <adaptCountry 
+        name="TMO"
+        mcc="310"
+        mnc="260"
+        date_format="MM-dd-yyyy"
+        time="12"
+   />
+   <adaptCountry 
+        name="TMO"
+        mcc="310"
+        mnc="270"
+        date_format="MM-dd-yyyy"
+        time="12"
+   />
+   <adaptCountry 
+        name="TMO"
+        mcc="310"
+        mnc="300"
+        date_format="MM-dd-yyyy"
+        time="12"
+   />
+   <adaptCountry 
+        name="TMO"
+        mcc="310"
+        mnc="310"
+        date_format="MM-dd-yyyy"
+        time="12"
+   />
+   <adaptCountry 
+        name="TMO"
+        mcc="310"
+        mnc="490"
+        date_format="MM-dd-yyyy"
+        time="12"
+   />
+   <adaptCountry 
+        name="TMO"
+        mcc="310"
+        mnc="530"
+        date_format="MM-dd-yyyy"
+        time="12"
+   />
+   <adaptCountry 
+        name="TMO"
+        mcc="310"
+        mnc="580"
+        date_format="MM-dd-yyyy"
+        time="12"
+   />
+   <adaptCountry 
+        name="TMO"
+        mcc="310"
+        mnc="590"
+        date_format="MM-dd-yyyy"
+        time="12"
+   />
+   <adaptCountry 
+        name="TMO"
+        mcc="310"
+        mnc="640"
+        date_format="MM-dd-yyyy"
+        time="12"
+   />
+   <adaptCountry 
+        name="TMO"
+        mcc="310"
+        mnc="660"
+        date_format="MM-dd-yyyy"
+        time="12"
+   />
+   <adaptCountry 
+        name="TMO"
+        mcc="310"
+        mnc="800"
+        date_format="MM-dd-yyyy"
+        time="12"
+   />
+   <adaptCountry 
+        name="TMO"
+        mcc="310"
+        mnc="220"
+        date_format="MM-dd-yyyy"
+        time="12"
+   />
+   <adaptCountry 
+        name="TMO"
+        mcc="310"
+        mnc="200"
+        date_format="MM-dd-yyyy"
+        time="12"
+   />
+   <adaptCountry 
+        name="Wind"
+        mcc="302"
+        mnc="490"
+        date_format="MM-dd-yyyy"
+        time="12"
+   />
+   <adaptCountry 
+        name="Telus"
+        mcc="302"
+        mnc="220"
+        date_format="MM-dd-yyyy"
+        time="12"
+   />
+   <adaptCountry 
+        name="Rogers"
+        mcc="302"
+        mnc="720"
+        date_format="MM-dd-yyyy"
+        time="12"
+   />
+   <adaptCountry 
+        name="Bell"
+        mcc="302"
+        mnc="610"
+        date_format="MM-dd-yyyy"
+        time="12"
+   />
+   <adaptCountry 
+        name="Mobilicity"
+        mcc="302"
+        mnc="320"
+        date_format="MM-dd-yyyy"
+        time="12"
+   />
+   <adaptCountry 
+        name="Videotron"
+        mcc="302"
+        mnc="500"
+        date_format="MM-dd-yyyy"
+        time="12"
+   />
+   <adaptCountry 
+        name="Movilnet"
+        mcc="460"
+        mnc="06"
+        date_format="dd-MM-yyyy"
+        time="12"
+    />  
+    <adaptCountry 
+        name="IUSACELL"
+        mcc="222"
+        mnc="10"
+        date_format="dd-MM-yyyy"
+        time="12"
+    /> 
+    <adaptCountry 
+        name="ETECSA"
+        mcc="368"
+        mnc="01"
+        date_format="dd-MM-yyyy"
+        time="12"
+    />
+	<adaptCountry name="Telcel" mcc="334" mnc="020" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="IUSACELL" mcc="334" mnc="050" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="Movistar" mcc="334" mnc="030" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="Movistar" mcc="334" mnc="03" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="Comcel" mcc="732" mnc="101" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="TIGO" mcc="732" mnc="103" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="TIGO" mcc="732" mnc="111" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="Movistar" mcc="732" mnc="123" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="Movilnet" mcc="734" mnc="06" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="Digitel" mcc="734" mnc="01" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="Digitel" mcc="734" mnc="02" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="Digitel" mcc="734" mnc="03" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="Movistar" mcc="734" mnc="04" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="IUSACELL" mcc="222" mnc="010" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="IUSACELL" mcc="222" mnc="011" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="IUSACELL" mcc="222" mnc="012" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="IUSACELL" mcc="222" mnc="013" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="IUSACELL" mcc="222" mnc="014" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="IUSACELL" mcc="222" mnc="015" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="IUSACELL" mcc="222" mnc="016" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="IUSACELL" mcc="222" mnc="017" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="IUSACELL" mcc="222" mnc="018" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="IUSACELL" mcc="222" mnc="019" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="ETECSA" mcc="368" mnc="01" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="Claro" mcc="704" mnc="01" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="movistar" mcc="704" mnc="03" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="Tigo" mcc="704" mnc="02" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="Claro" mcc="710" mnc="21" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="movistar" mcc="710" mnc="30" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="movistar" mcc="710" mnc="300" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="Claro" mcc="706" mnc="01" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="movistar" mcc="706" mnc="04" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="Tigo" mcc="706" mnc="03" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="Claro" mcc="708" mnc="001" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="Tigo" mcc="708" mnc="02" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="Tigo" mcc="708" mnc="020" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="Claro" mcc="712" mnc="03" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="movistar" mcc="712" mnc="04" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="ICE" mcc="712" mnc="01" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="Claro" mcc="714" mnc="03" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="movistar" mcc="714" mnc="020" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="NLA" mcc="714" mnc="01" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="Digicel" mcc="714" mnc="04" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="Claro" mcc="370" mnc="02" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="Orange" mcc="370" mnc="01" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="Claro" mcc="330" mnc="110" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="Claro" mcc="740" mnc="01" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="movistar" mcc="740" mnc="00" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="CNT" mcc="740" mnc="02" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="DIGICEL" mcc="363" mnc="02" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="DIGICEL" mcc="363" mnc="020" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="DIGICEL" mcc="362" mnc="69" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="DIGICEL" mcc="362" mnc="690" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="DIGICEL" mcc="340" mnc="20" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="DIGICEL" mcc="340" mnc="020" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="DIGICEL" mcc="738" mnc="01" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="DIGICEL" mcc="738" mnc="010" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="DIGICEL" mcc="706" mnc="02" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="DIGICEL" mcc="706" mnc="020" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="DIGICEL" mcc="374" mnc="13" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="DIGICEL" mcc="374" mnc="130" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="DIGICEL" mcc="746" mnc="03" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="DIGICEL" mcc="746" mnc="030" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="Digicel" mcc="348" mnc="77" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="Digicel" mcc="348" mnc="770" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="DIGICEL" mcc="708" mnc="04" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="DIGICEL" mcc="708" mnc="040" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="DIGICEL" mcc="338" mnc="18" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="DIGICEL" mcc="338" mnc="180" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="DIGICEL" mcc="346" mnc="14" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="DIGICEL" mcc="346" mnc="140" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="DIGICEL" mcc="344" mnc="92" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="DIGICEL" mcc="344" mnc="920" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="DIGICEL" mcc="365" mnc="84" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="DIGICEL" mcc="365" mnc="840" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="DIGICEL" mcc="342" mnc="60" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="DIGICEL" mcc="342" mnc="600" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="DIGICEL" mcc="348" mnc="17" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="DIGICEL" mcc="348" mnc="170" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="DIGICEL" mcc="366" mnc="11" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="DIGICEL" mcc="366" mnc="110" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="DIGICEL" mcc="352" mnc="11" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="DIGICEL" mcc="352" mnc="110" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="DIGICEL" mcc="354" mnc="86" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="DIGICEL" mcc="354" mnc="860" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="DIGICEL" mcc="356" mnc="11" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="DIGICEL" mcc="356" mnc="110" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="DIGICEL" mcc="358" mnc="11" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="DIGICEL" mcc="358" mnc="110" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="DIGICEL" mcc="360" mnc="11" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="DIGICEL" mcc="360" mnc="110" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="DIGICEL" mcc="376" mnc="35" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="DIGICEL" mcc="376" mnc="350" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="DIGICEL" mcc="374" mnc="12" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="DIGICEL" mcc="374" mnc="120" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="DIGICEL" mcc="364" mnc="39" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="DIGICEL" mcc="364" mnc="390" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="Claro" mcc="710" mnc="73" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="DIGICEL" mcc="338" mnc="05" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="DIGICEL" mcc="338" mnc="050" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="DIGICEL" mcc="372" mnc="01" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="DIGICEL" mcc="372" mnc="010" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="UNE" mcc="732" mnc="142" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="Natcom" mcc="372" mnc="03" date_format="dd-MM-yyyy" time="12"/>
+  <adaptCountry name="RO COSMOTE" mcc="226" mnc="03" date_format="dd-MM-yyyy" time="24"/>
+  <adaptCountry name="RO COSMOTE" mcc="226" mnc="06" date_format="dd-MM-yyyy" time="24"/>
+  <adaptCountry 
+        name="MegaFon"
+        mcc="268"
+        mnc="01"
+        date_format="dd-MM-yyyy"
+        time="12"
+    />  
+    <!-- DTS2012091005139  mashangrong 20120921 begin -->  
+    <adaptCountry 
+        name="Mobile Tele Systems LLC"
+        mcc="257"
+        mnc="02"
+        date_format="dd-MM-yyyy"
+        time="24"
+    /> 
+    <adaptCountry 
+        name="FE Velcom"
+        mcc="257"
+        mnc="01"
+        date_format="dd-MM-yyyy"
+        time="24"
+    /> 
+    <adaptCountry 
+        name="Life(BeST)"
+        mcc="257"
+        mnc="04"
+        date_format="dd-MM-yyyy"
+        time="24"
+    /> 
+    <!-- DTS2012091005139  mashangrong 20120921 end -->  
+    <adaptCountry 
+        name="People"
+        mcc="255"
+        mnc="21"
+        date_format="MM-dd-yyyy"
+        time="24"
+    />  
+    <!-- DTS2012112609153 zhangjunwei 20121127 begin -->
+    <adaptCountry 
+        name="VIP"
+        mcc="250"
+        mnc="99"
+        date_format="dd-MM-yyyy"
+        time="24"
+    />
+    <adaptCountry 
+        name="MegaFon"
+        mcc="250"
+        mnc="02"
+        date_format="dd-MM-yyyy"
+        time="24"
+    />
+    <adaptCountry 
+        name="MTS"
+        mcc="250"
+        mnc="01"
+        date_format="dd-MM-yyyy"
+        time="24"
+    />
+    <adaptCountry 
+        name="kyivstar"
+        mcc="255"
+        mnc="03"
+        date_format="dd-MM-yyyy"
+        time="24"
+    />
+    <adaptCountry 
+        name="Life"
+        mcc="255"
+        mnc="06"
+        date_format="dd-MM-yyyy"
+        time="24"
+    />
+    <adaptCountry 
+        name="MTS"
+        mcc="255"
+        mnc="01"
+        date_format="dd-MM-yyyy"
+        time="24"
+    />
+    <adaptCountry 
+        name="BeeLine / ArmenTel"
+        mcc="283"
+        mnc="01"
+        date_format="dd-MM-yyyy"
+        time="24"
+    />
+    <adaptCountry 
+        name="VivaCell / MTS"
+        mcc="283"
+        mnc="05"
+        date_format="dd-MM-yyyy"
+        time="24"
+    />
+    <adaptCountry 
+        name="Orange Armenia"
+        mcc="283"
+        mnc="10"
+        date_format="dd-MM-yyyy"
+        time="24"
+    />
+    <adaptCountry 
+        name="YOTA"
+        mcc="250"
+        mnc="11"
+        date_format="dd-MM-yyyy"
+        time="24"
+    />
+    <!-- DTS2012112609153 zhangjunwei 20121127 end -->
+	<adaptCountry 
+        name="Claro"
+        mcc="724"
+        mnc="05"
+        date_format="dd-MM-yyyy"
+        time="24"
+    />
+<!--DTS2012103005351 zhangjunwei 20121031 begin -->
+    <adaptCountry 
+        name="Vivo"
+        mcc="724"
+        mnc="06"
+        date_format="dd-MM-yyyy"
+        time="24"
+    />
+    <adaptCountry 
+        name="Vivo"
+        mcc="724"
+        mnc="10"
+        date_format="dd-MM-yyyy"
+        time="24"
+    />
+    <adaptCountry 
+        name="Vivo"
+        mcc="724"
+        mnc="11"
+        date_format="dd-MM-yyyy"
+        time="24"
+    />
+    <adaptCountry 
+        name="Vivo"
+        mcc="724"
+        mnc="23"
+        date_format="dd-MM-yyyy"
+        time="24"
+    />
+    <adaptCountry 
+        name="TIM"
+        mcc="724"
+        mnc="02"
+        date_format="dd-MM-yyyy"
+        time="24"
+    />
+    <adaptCountry 
+        name="TIM"
+        mcc="724"
+        mnc="03"
+        date_format="dd-MM-yyyy"
+        time="24"
+    />
+    <adaptCountry 
+        name="TIM"
+        mcc="724"
+        mnc="04"
+        date_format="dd-MM-yyyy"
+        time="24"
+    />
+    <adaptCountry 
+        name="TIM"
+        mcc="724"
+        mnc="08"
+        date_format="dd-MM-yyyy"
+        time="24"
+    />
+    <adaptCountry 
+        name="Oi"
+        mcc="724"
+        mnc="31"
+        date_format="dd-MM-yyyy"
+        time="24"
+    />
+    <adaptCountry 
+        name="Oi"
+        mcc="724"
+        mnc="24"
+        date_format="dd-MM-yyyy"
+        time="24"
+    />
+    <adaptCountry 
+        name="Oi"
+        mcc="724"
+        mnc="16"
+        date_format="dd-MM-yyyy"
+        time="24"
+    />
+    <adaptCountry 
+        name="Oi"
+        mcc="724"
+        mnc="15"
+        date_format="dd-MM-yyyy"
+        time="24"
+    />
+    <adaptCountry 
+        name="CTBC"
+        mcc="724"
+        mnc="32"
+        date_format="dd-MM-yyyy"
+        time="24"
+    />
+    <adaptCountry 
+        name="CTBC"
+        mcc="724"
+        mnc="33"
+        date_format="dd-MM-yyyy"
+        time="24"
+    />
+    <adaptCountry 
+        name="CTBC"
+        mcc="724"
+        mnc="34"
+        date_format="dd-MM-yyyy"
+        time="24"
+    />
+    <adaptCountry 
+        name="Nextel"
+        mcc="724"
+        mnc="39"
+        date_format="dd-MM-yyyy"
+        time="24"
+    />
+    
+    <adaptCountry 
+        name="Claro AR"
+        mcc="722"
+        mnc="310"
+        date_format="dd-MM-yyyy"
+        time="24"
+    />
+    <adaptCountry 
+        name="personal"
+        mcc="722"
+        mnc="34"
+        date_format="dd-MM-yyyy"
+        time="24"
+    />
+    <adaptCountry 
+        name="personal"
+        mcc="722"
+        mnc="341"
+        date_format="dd-MM-yyyy"
+        time="24"
+    />
+    <adaptCountry 
+        name="Movistar"
+        mcc="722"
+        mnc="07"
+        date_format="dd-MM-yyyy"
+        time="24"
+    />
+    
+    <adaptCountry 
+        name="Tigo"
+        mcc="744"
+        mnc="04"
+        date_format="dd-MM-yyyy"
+        time="24"
+    />  
+    <adaptCountry 
+        name="Claro"
+        mcc="744"
+        mnc="02"
+        date_format="dd-MM-yyyy"
+        time="24"
+    />
+    <adaptCountry 
+        name="Personal"
+        mcc="744"
+        mnc="05"
+        date_format="dd-MM-yyyy"
+        time="24"
+    />
+    <adaptCountry 
+        name="Vox"
+        mcc="744"
+        mnc="01"
+        date_format="dd-MM-yyyy"
+        time="24"
+    />
+    <adaptCountry 
+        name="Antel"
+        mcc="748"
+        mnc="01"
+        date_format="dd-MM-yyyy"
+        time="24"
+    />  
+    
+    <adaptCountry 
+        name="Claro"
+        mcc="748"
+        mnc="10"
+        date_format="dd-MM-yyyy"
+        time="24"
+    />
+    <adaptCountry 
+        name="Movistar"
+        mcc="748"
+        mnc="07"
+        date_format="dd-MM-yyyy"
+        time="24"
+    />
+    <adaptCountry 
+        name="Movistar"
+        mcc="730"
+        mnc="02"
+        date_format="dd-MM-yyyy"
+        time="24"
+    />
+    <adaptCountry 
+        name="nextel"
+        mcc="730"
+        mnc="09"
+        date_format="dd-MM-yyyy"
+        time="24"
+    />
+    <adaptCountry 
+        name="entel"
+        mcc="730"
+        mnc="01"
+        date_format="dd-MM-yyyy"
+        time="24"
+    />
+    <adaptCountry 
+        name="entel"
+        mcc="730"
+        mnc="10"
+        date_format="dd-MM-yyyy"
+        time="24"
+    />
+    <adaptCountry 
+        name="claro"
+        mcc="730"
+        mnc="03"
+        date_format="dd-MM-yyyy"
+        time="24"
+    />
+    <adaptCountry 
+        name="vtr"
+        mcc="730"
+        mnc="08"
+        date_format="dd-MM-yyyy"
+        time="24"
+    />
+    <adaptCountry 
+        name="Movistar"
+        mcc="716"
+        mnc="06"
+        date_format="dd-MM-yyyy"
+        time="24"
+    />
+    <adaptCountry 
+        name="CLARO"
+        mcc="716"
+        mnc="10"
+        date_format="dd-MM-yyyy"
+        time="24"
+    />
+    <adaptCountry 
+        name="Nextel"
+        mcc="716"
+        mnc="17"
+        date_format="dd-MM-yyyy"
+        time="24"
+    />
+    <adaptCountry 
+        name="TIGO"
+        mcc="736"
+        mnc="03"
+        date_format="dd-MM-yyyy"
+        time="24"
+    />
+    <adaptCountry 
+        name="Entel"
+        mcc="736"
+        mnc="02"
+        date_format="dd-MM-yyyy"
+        time="24"
+    />
+    <adaptCountry 
+        name="Nuevatel"
+        mcc="736"
+        mnc="01"
+        date_format="dd-MM-yyyy"
+        time="24"
+    />
+<!--DTS2012103005351 zhangjunwei 20121031 end -->
+<!--DTS2013011704852 zhangjunwei 20130118 begin -->
+    <adaptCountry
+        name="nextel"
+        mcc="730"
+        mnc="04"
+        date_format="dd-MM-yyyy"
+        time="24"
+    />
+    <adaptCountry
+        name="vtr"
+        mcc="730"
+        mnc="05"
+        date_format="dd-MM-yyyy"
+        time="24"
+    />
+    <!--DTS2013011704852 zhangjunwei 20130118 end -->
+ <adaptCountry name="T-mobile" mcc="230" mnc="01" date_format="dd-MM-yyyy" time="24"/>
+  <!--DTS2013033006178 chenzhong 20130401 begin -->
+<adaptCountry name="Orange ES" mcc="214" mnc="03" date_format="dd-MM-yyyy" time="24"/>
+  <adaptCountry name="KPN ES" mcc="214" mnc="19" date_format="dd-MM-yyyy" time="24"/>
+  <adaptCountry name="Jazztel" mcc="214" mnc="21" date_format="dd-MM-yyyy" time="24"/>
+  <adaptCountry name="Jazztel" mcc="214" mnc="07" date_format="dd-MM-yyyy" time="24"/>
+  <adaptCountry name="vodafone ES" mcc="214" mnc="01" date_format="dd-MM-yyyy" time="24"/>
+  <adaptCountry name="TME(Telefonica)" mcc="214" mnc="07" date_format="dd-MM-yyyy" time="24"/>
+  <adaptCountry name="Yoigo" mcc="214" mnc="04" date_format="dd-MM-yyyy" time="24"/>
+  <adaptCountry name="ONO" mcc="214" mnc="18" date_format="dd-MM-yyyy" time="24"/>
+  <adaptCountry name="Eroski Movil" mcc="214" mnc="06" date_format="dd-MM-yyyy" time="24"/>
+  <adaptCountry name="Tuenti" mcc="214" mnc="05" date_format="dd-MM-yyyy" time="24"/>
+  <!--DTS2013042603017 daixixian/WX172878 20130502 begin --> 
+  <adaptCountry name="Vodafone" mcc="262" mnc="02" date_format="dd-MM-yyyy" time="24"/>
+  <adaptCountry name="T-Mobile" mcc="262" mnc="01" date_format="dd-MM-yyyy" time="24"/>
+  <adaptCountry name="E-Plus" mcc="262" mnc="03" date_format="dd-MM-yyyy" time="24"/>
+  <adaptCountry name="o2(Postpay)" mcc="262" mnc="07" date_format="dd-MM-yyyy" time="24"/>
+  <!--DTS2013042603017 daixixian/WX172878 20130502 end -->
+  <adaptCountry name="3" mcc="272" mnc="05" date_format="yyyy-MM-dd" time="24"/>
+  <adaptCountry name="Meteor" mcc="272" mnc="03" date_format="yyyy-MM-dd" time="24"/>
+  <adaptCountry name="Tesco" mcc="272" mnc="11" date_format="yyyy-MM-dd" time="24"/>
+  <adaptCountry name="O2" mcc="272" mnc="02" date_format="yyyy-MM-dd" time="24"/>
+  <adaptCountry name="Vodafone" mcc="272" mnc="01" date_format="yyyy-MM-dd" time="24"/>
+  <adaptCountry name="Vodafone" mcc="234" mnc="15" date_format="yyyy-MM-dd" time="24"/>
+  <adaptCountry name="O2" mcc="234" mnc="10" date_format="yyyy-MM-dd" time="24"/>
+  <adaptCountry name="Orange" mcc="234" mnc="33" date_format="yyyy-MM-dd" time="24"/>
+  <adaptCountry name="Orange" mcc="234" mnc="34" date_format="yyyy-MM-dd" time="24"/>
+  <adaptCountry name="Orange" mcc="234" mnc="86" date_format="yyyy-MM-dd" time="24"/>
+  <adaptCountry name="T-mobile" mcc="234" mnc="30" date_format="yyyy-MM-dd" time="24"/>
+  <adaptCountry name="T-mobile" mcc="234" mnc="31" date_format="yyyy-MM-dd" time="24"/>
+  <adaptCountry name="T-mobile" mcc="234" mnc="32" date_format="yyyy-MM-dd" time="24"/>
+  <adaptCountry name="3" mcc="234" mnc="20" date_format="yyyy-MM-dd" time="24"/>
+  <adaptCountry name="Proximus" mcc="206" mnc="01" date_format="yyyy-MM-dd" time="24"/>
+  <adaptCountry name="Base Belgium" mcc="206" mnc="20" date_format="yyyy-MM-dd" time="24"/>
+  <adaptCountry name="Mobistar" mcc="206" mnc="10" date_format="yyyy-MM-dd" time="24"/>
+  <adaptCountry name="KPN" mcc="204" mnc="08" date_format="yyyy-MM-dd" time="24"/>
+  <adaptCountry name="Vodafone" mcc="204" mnc="04" date_format="yyyy-MM-dd" time="24"/>
+  <adaptCountry name="T-Mobile" mcc="204" mnc="16" date_format="dd-MM-yyyy" time="24"/>
+  <adaptCountry name="Telfort" mcc="204" mnc="12" date_format="yyyy-MM-dd" time="24"/>
+  <adaptCountry name="Lux GSM" mcc="270" mnc="01" date_format="dd-MM-yyyy" time="24"/>
+  <adaptCountry name="Tango" mcc="270" mnc="77" date_format="dd-MM-yyyy" time="24"/>
+  <adaptCountry name="Orange Lux" mcc="270" mnc="99" date_format="dd-MM-yyyy" time="24"/>
+  <adaptCountry name="SFR" mcc="208" mnc="10" date_format="dd-MM-yyyy" time="24"/>
+  <adaptCountry name="Bouygues" mcc="208" mnc="20" date_format="dd-MM-yyyy" time="24"/>
+  <adaptCountry name="Free" mcc="208" mnc="15" date_format="dd-MM-yyyy" time="24"/>
+  <adaptCountry name="Orange" mcc="208" mnc="01" date_format="dd-MM-yyyy" time="24"/>
+  <adaptCountry name="Vrigin mobile" mcc="208" mnc="23" date_format="dd-MM-yyyy" time="24"/>
+  <adaptCountry name="NRJ Mobile" mcc="208" mnc="26" date_format="dd-MM-yyyy" time="24"/>
+  <adaptCountry name="Orange" mcc="208" mnc="02" date_format="dd-MM-yyyy" time="24"/>
+  <adaptCountry name="Vrigin mobile" mcc="208" mnc="06" date_format="yyyy-MM-dd" time="24"/>
+  <adaptCountry name="Vrigin mobile" mcc="206" mnc="01" date_format="yyyy-MM-dd" time="24"/>
+  <adaptCountry name="NRJ mobile" mcc="208" mnc="10" date_format="dd-MM-yyyy" time="24"/>
+  <adaptCountry name="NRJ mobile" mcc="208" mnc="01" date_format="dd-MM-yyyy" time="24"/>
+  <adaptCountry name="Optimus" mcc="268" mnc="03" date_format="yyyy-MM-dd" time="24"/>
+  <adaptCountry name="TMN" mcc="268" mnc="06" date_format="yyyy-MM-dd" time="24"/>
+  <adaptCountry name="Vodafone" mcc="268" mnc="01" date_format="dd-MM-yyyy" time="24"/>
+  <adaptCountry name="Vodafone" mcc="222" mnc="10" date_format="dd-MM-yyyy" time="24"/>
+  <adaptCountry name="3" mcc="222" mnc="99" date_format="yyyy-MM-dd" time="24"/>
+  <adaptCountry name="WIND" mcc="222" mnc="88" date_format="yyyy-MM-dd" time="24"/>
+  <adaptCountry name="TIM" mcc="222" mnc="01" date_format="yyyy-MM-dd" time="24"/>
+  <adaptCountry name="Sunrise" mcc="228" mnc="02" date_format="yyyy-MM-dd" time="24"/>
+  <adaptCountry name="Swisscom" mcc="228" mnc="01" date_format="yyyy-MM-dd" time="24"/>
+  <adaptCountry name="Orange" mcc="228" mnc="03" date_format="yyyy-MM-dd" time="24"/>
+  <adaptCountry name="GO MOBILE" mcc="278" mnc="21" date_format="yyyy-MM-dd" time="24"/>
+  <adaptCountry name="VODAFONE" mcc="278" mnc="01" date_format="yyyy-MM-dd" time="24"/>
+  <adaptCountry name="MELITA" mcc="278" mnc="77" date_format="yyyy-MM-dd" time="24"/>
+  <!--DTS2013033006178 chenzhong 20130401 end -->
+  <adaptCountry name="Cosmote" mcc="202" mnc="01" date_format="dd-MM-yyyy" time="24"/>
+  <!--DTS2013070404517 z00217263 20130708 begin-->
+  <adaptCountry name="Telekom HU" mcc="216" mnc="30" date_format="dd-MM-yyyy" time="24"/>
+  <!--DTS2013070404517 z00217263 20130708 end-->
+  <!--DTS2013070404402 z00217263 20130708 begin-->
+  <adaptCountry name="T-Mobile HR" mcc="219" mnc="01" date_format="dd-MM-yyyy" time="24"/>
+  <!--DTS2013070404402 z00217263 20130708 end-->
+  <!-- DTS2013070404262 x00216333 20130711 begin -->
+  <adaptCountry name="T-Mobile PL" mcc="260" mnc="02" date_format="dd-MM-yyyy" time="24"/>
+  <!-- DTS2013070404262 x00216333 20130711 end -->
+</adaptCountries>
+<!--DTS2012062805002 lijia 2012020628 create end-->

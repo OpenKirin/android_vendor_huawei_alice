@@ -1,0 +1,31 @@
+dalvik.vm.stack-trace-file=/data/anr/traces.txt
+# AR0008TQ1G wuxingru wwx368291 20170313 begin
+ro.build.version.emui=EmotionUI_4.0.3
+# AR0008TQ1G wuxingru wwx368291 20170313 end
+ro.config.ringtone=Dream_It_Possible.ogg
+ro.config.ringtone2=Huawei_Tune.ogg
+ro.config.alarm_alert=Creamy.ogg
+ro.config.notification_sound=Bongo.ogg
+ro.config.hw_enable_merge=true
+ro.config.app_big_icon_size=192
+ro.config.helix_enable=true
+ro.config.huawei_smallwindow=0,0,1080,1346
+ro.config.hw.security_volume=10
+ro.config.hw_eapsim=true
+ro.config.hw_multiscreen=true
+ro.config.hw_omacp=1
+ro.config.hw_RemindWifiToPdp=true
+ro.config.hw_wifipro_enable=true
+ro.config.hw_simpleui_enable=1
+ro.config.hw_singlehand=1
+ro.config.hw_vcardBase64=true
+ro.config.hw_voicemail_sim=true
+ro.config.switchPrimaryVolume=true
+ro.huawei.cust.oma=false
+ro.huawei.cust.oma_drm=false
+ro.config.hwtheme=1
+ro.config.hw_allow_rs_mms=true
+ro.config.hw_hungtasklist=whitelist,system_server,SurfaceFlinger
+ro.config.hw_power_saving=true
+ro.config.attach_ip_type=IPV4V6
+

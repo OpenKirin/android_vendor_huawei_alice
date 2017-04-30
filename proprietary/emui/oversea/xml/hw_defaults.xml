@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+
+<resources>
+  <string settings.secure.default_input_method="com.nuance.swype.emui/com.nuance.swype.input.HuaweiIME"/>
+  <!--AR0002K5QJ begin -->
+  <integer settings.secure.fingerprint_gallery_slide="0"/>
+  <!--AR0002K5QJ end -->
+  <!-- BEGIN PN:DTS2015112404523,Modified by lWX285236, 2015/12/08 -->
+  <string white_languages="en_US,ar_EG,de_DE,bs_BA,es_ES,uk_UA,fr_FR,pt_PT,ru_RU,zh_CN,zh_TW,zh_HK,es_US,ca_ES,cs_CZ,da_DK,el_GR,hu_HU,pt_BR,it_IT,ja_JP,lt_LT,lv_LV,bg_BG,nb_NO,pl_PL,ro_RO,et_EE,sk_SK,sr_RS,sv_SE,tr_TR,th_TH,fi_FI,in_ID,mk_MK,sl_SI,ms_MY,vi_VN,hr_HR,nl_NL,hi_IN,ko_KR,en_GB,iw_IL,eu_ES,gl_ES,ka_GE,az_AZ,uz_UZ,km_KH,si_LK,ur_PK,my_MM,my_ZG" reset="true"/>
+  <!-- END   PN:DTS2015112404523,Modified by lWX285236, 2015/12/08 -->
+  <!-- AR0003UGK3  zhoufan/wx335113 20160224 begin -->
+  <string white_music_for_keyguard="deezer.android.app;com.maxmpz.audioplayer;com.qobuz.music;com.soundcloud.android;com.spotify.music"/>
+  <!-- AR0003UGK3  zhoufan/wx335113 20160224 end -->
+  <!-- DTS2016022503341 linneng/wx296161 20160304 begin -->
+  <!-- DTS2016031507451 yueyi/00193929 20160323 begin -->
+  <string hw_invert_txtclr_packages="google*;facebook*;chrome*"/>
+  <!-- DTS2016031507451 yueyi/00193929 20160323 end -->
+  <!-- DTS2016022503341 linneng/wx296161 20160304 end -->
+</resources>
+

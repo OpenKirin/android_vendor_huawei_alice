@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<!-- BEGIN PN:DTS2015110504618,  Modified by gwx235591, 2015/12/02 -->
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.huawei.android.launcher">
+   <!-- screen 0 -->
+   
+   <!-- weather widget -->
+    <appwidget
+        launcher:packageName="com.huawei.android.totemweather"
+        launcher:className="com.huawei.android.totemweather.widget.WeatherSmallWidgetProvider"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="0"
+        launcher:spanX="2"
+        launcher:spanY="1" />
+    <!-- Dialer -->
+    <favorite
+        launcher:packageName="com.android.contacts"
+        launcher:className="com.android.contacts.activities.DialtactsActivity"
+        launcher:iconResource="ic_call"
+        launcher:iconPackage="bg_call"
+        launcher:screen="0"
+        launcher:displayMode="1"
+        launcher:x="0"
+        launcher:y="1" />
+    <!-- Messaging -->
+    <favorite
+        launcher:packageName="com.android.mms"
+        launcher:className="com.android.mms.ui.ConversationList"
+        launcher:iconResource="ic_message"
+        launcher:iconPackage="bg_blue"
+        launcher:screen="0"
+        launcher:displayMode="1"
+        launcher:x="1"
+        launcher:y="1"/>
+    <!-- Contacts -->
+    <favorite
+        launcher:packageName="com.android.contacts"
+        launcher:className="com.android.contacts.activities.PeopleActivity"
+        launcher:iconResource="ic_people"
+        launcher:iconPackage="bg_contact"
+        launcher:screen="0"
+        launcher:displayMode="1"
+        launcher:x="0"
+        launcher:y="2" />
+    <!-- Camera -->
+    <favorite
+        launcher:packageName="com.huawei.camera"
+        launcher:className="com.huawei.camera"
+        launcher:iconResource="ic_camera"
+        launcher:iconPackage="bg_purple"
+        launcher:screen="0"
+        launcher:displayMode="1"
+        launcher:x="1"
+        launcher:y="2" />
+    <!-- Music -->
+    <favorite
+        launcher:packageName="com.android.mediacenter"
+        launcher:className="com.android.mediacenter.PageActivity"
+        launcher:iconResource="ic_music"
+        launcher:iconPackage="bg_olive"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="3" />
+    <!-- Gallery -->
+    <favorite
+        launcher:packageName="com.android.gallery3d"
+        launcher:className="com.huawei.gallery.app.GalleryMain"
+        launcher:iconResource="ic_gallery"
+        launcher:iconPackage="bg_darkblue"
+        launcher:screen="0"
+        launcher:x="1"
+        launcher:y="3" />
+
+    <!-- screen 1 -->
+    
+    <!-- 日历widget -->
+    <appwidget
+        launcher:packageName="com.android.calendar"
+        launcher:className="com.android.calendar.simpleui.CalendarSimpleUiPRovider"
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="0"
+        launcher:spanX="2"
+        launcher:spanY="1" />
+    <!-- Chrome -->
+    <favorite
+        launcher:packageName="com.android.chrome"
+        launcher:className="com.google.android.apps.chrome.Main"
+        launcher:iconResource="ic_browser"
+        launcher:iconPackage="bg_purple"
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="1"/>
+       <!-- Settings -->
+    <favorite
+        launcher:packageName="com.android.settings"
+        launcher:className="com.android.settings.HWSettings"
+        launcher:iconResource="ic_setting"
+        launcher:iconPackage="bg_olive"
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="1" />
+    <!--Standard home-->
+    <favorite
+        launcher:packageName="com.huawei.android.launcher"
+        launcher:className="com.huawei.android.launcher.simpleui.SimpleFolder"
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="2" />
+       <!-- others -->
+    <folder
+      launcher:iconPackage="bg_gray"
+      launcher:folderTitle="other_apps"
+      launcher:screen="1"
+      launcher:x="0"
+      launcher:y="3"/>
+       <!-- Downloads -->
+    <folder
+      launcher:iconPackage="bg_gray"
+      launcher:folderTitle="download_apps"
+      launcher:screen="1"
+      launcher:x="1"
+      launcher:y="3"/>
+    
+</favorites>
+<!-- END PN:DTS2015110504618 ,  Modified by gwx235591, 2015/12/02 -->

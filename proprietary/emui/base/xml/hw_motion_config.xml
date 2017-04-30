@@ -1,0 +1,122 @@
+<!--
+   The name of "hwmotion_func" and "hwmotion" nodes must consist with the KEY value defined follow:
+
+    /** KEY_PICKUP. */
+    public static final String KEY_PICKUP = "motion_pickup";
+    /** KEY_PICKUP_REDUCE_CALL. */
+    public static final String KEY_PICKUP_REDUCE_CALL = "motion_pickup_reduce_call";
+    /** KEY_PICKUP_REDUCE_CLOCK. */
+    public static final String KEY_PICKUP_REDUCE_CLOCK = "motion_pickup_reduce_clock";
+    /** KEY_PICKUP_END_HINTS. */
+    public static final String KEY_PICKUP_END_HINTS = "motion_pickup_end_hints";
+
+    /** KEY_FLIP. */
+    public static final String KEY_FLIP = "motion_flip";
+    /** KEY_FLIP_MUTE_CALL. */
+    public static final String KEY_FLIP_MUTE_CALL = "motion_flip_mute_call";
+    /** KEY_FLIP_MUTE_CLOCK. */
+    public static final String KEY_FLIP_MUTE_CLOCK = "motion_flip_mute_clock";
+
+    /** KEY_PROXI. */
+    public static final String KEY_PROXI = "motion_proximity";
+    /** KEY_PROXI_ANSWER. */
+    public static final String KEY_PROXI_ANSWER = "motion_proximity_answer";
+    /** KEY_PROXI_DIAL. */
+    public static final String KEY_PROXI_DIAL = "motion_proximity_dial";
+    /** KEY_PROXI_SCREEN_OFF. */
+    public static final String KEY_PROXI_SCREEN_OFF = "motion_proximity_screen_off";
+    /** KEY_PROXI_SPEAKER. */
+    public static final String KEY_PROXI_SPEAKER = "motion_proximity_speaker";
+    /** KEY_PROXI_BLUETOOTHSET. */
+    public static final String KEY_PROXI_BLUETOOTHSET = "motion_proximity_bluetoothset";
+
+    /** KEY_SHAKE. */
+    public static final String KEY_SHAKE = "motion_shake";
+    /** KEY_SHAKE_REFRESH. */
+    public static final String KEY_SHAKE_REFRESH = "motion_shake_refresh";
+    /** KEY_SHAKE_CHANGE_WALLPAPER. */
+    public static final String KEY_SHAKE_CHANGE_WALLPAPER = "motion_shake_change_wallpaper";
+    /** KEY_SHAKE_REARRAGE_WIDGETS. */
+    public static final String KEY_SHAKE_REARRAGE_WIDGETS = "motion_shake_rearrange_widgets";
+    /** KEY_SHAKE_START_PRIVACY. */
+    public static final String KEY_SHAKE_START_PRIVACY = "motion_shake_start_privacy";
+
+    /** KEY_TAP. */
+    public static final String KEY_TAP = "motion_tap";
+    /** KEY_TAP. */
+    public static final String KEY_TAP_TOP = "motion_tap_top";
+
+    /** KEY_TILT. */
+    public static final String KEY_TILT_LR = "motion_tilt_lr";
+    /** KEY_TILT_MOVE_WIDGETS. */
+    public static final String KEY_TILT_LR_MOVE_WIDGETS = "motion_tilt_lr_move_widgets";
+    /** KEY_TILT_LR_SINGLE_HAND. */
+    public static final String KEY_TILT_LR_SINGLE_HAND = "motion_tilt_lr_single_hand";
+
+    /** KEY_PAN. */
+    public static final String KEY_PAN = "motion_pan";
+    /** KEY_PAN_BROWSE. */
+    public static final String KEY_PAN_BROWSE = "motion_pan_browse";
+
+    /** KEY_POCKET. */
+    public static final String KEY_POCKET = "motion_pocket";
+    /** KEY_POCKET_CALL_RAISE. */
+    public static final String KEY_POCKET_CALL_RAISE = "motion_pocket_call_raise";
+
+    /** KEY_SWIPE. */
+    public static final String KEY_SWIPE = "motion_swipe";
+    /** KEY_SWIPE_ANSWER. */
+    public static final String KEY_SWIPE_ANSWER = "motion_swipe_answer";
+
+    /** KEY_ACTIVITY. */
+    public static final String KEY_ACTIVITY = "motion_activity";
+    /** KEY_ACTIVITY_RECO. */
+    public static final String KEY_ACTIVITY_RECO = "motion_activity_state";
+
+    /** KEY_TAKE_OFF. */
+    public static final String KEY_TAKE_OFF = "motion_take_off";
+    /** KEY_TAKE_OFF_EAR. */
+    public static final String KEY_TAKE_OFF_EAR = "motion_take_off_ear";
+
+    /** KEY_HW_STEP_COUNTER. */
+    public static final String KEY_HW_STEP_COUNTER  = "motion_hw_step_counter";
+    /** KEY_HW_STEP_COUNTER_HEALTH. */
+    public static final String KEY_HW_STEP_COUNTER_HEALTH = "motion_hw_step_counter_health";
+ -->
+ <hwmotion_config name="HWMotions">
+    <hwmotion name="motion_pickup" value="100" enable="1" support="1" >
+        <hwmotion_func name="motion_pickup_reduce_call" value="101" enable="0" />
+        <hwmotion_func name="motion_pickup_reduce_clock" value="102" enable="0" />
+        <hwmotion_func name="motion_pickup_end_hints" value="103" enable="1" />
+    </hwmotion>
+    <hwmotion name="motion_flip" value="200" enable="1" support="1" >
+        <hwmotion_func name="motion_flip_mute_call" value="201" enable="0" />
+        <hwmotion_func name="motion_flip_mute_clock" value="202" enable="0" />
+    </hwmotion>
+    <hwmotion name="motion_proximity" value="300" enable="1" support="1" >
+        <hwmotion_func name="motion_proximity_answer" value="301" enable="0" />
+        <hwmotion_func name="motion_proximity_dial" value="302" enable="0" />
+        <hwmotion_func name="motion_proximity_screen_off" value="303" enable="1" />
+        <hwmotion_func name="motion_proximity_speaker" value="304" enable="0" />
+        <hwmotion_func name="motion_proximity_bluetoothset" value="305" enable="0" />
+        </hwmotion>
+    <hwmotion name="motion_shake" value="400" enable="1" support="1" >
+        <hwmotion_func name="motion_shake_change_wallpaper" value="402" enable="0" />
+        <hwmotion_func name="motion_shake_rearrange_widgets" value="403" enable="0" />
+    </hwmotion>
+    <hwmotion name="motion_tilt_lr" value="600" enable="1" support="1" >
+        <hwmotion_func name="motion_tilt_lr_move_widgets" value="601" enable="0" />
+    </hwmotion>
+    <hwmotion name="motion_pocket" value="800" enable="1" support="0" >
+        <hwmotion_func name="motion_pocket_call_raise" value="801" enable="1" />
+    </hwmotion>
+    <hwmotion name="motion_activity" value="900" enable="1" support="0" >
+        <hwmotion_func name="motion_activity_state" value="901" enable="1" />
+    </hwmotion>
+    <hwmotion name="motion_take_off" value="1000" enable="1" support="0" >
+        <hwmotion_func name="motion_take_off_ear" value="1001" enable="1" />
+    </hwmotion>
+    <hwmotion name="motion_hw_step_counter" value="1100" enable="1" support="0" >
+        <hwmotion_func name="motion_hw_step_counter_health" value="1101" enable="1" />
+    </hwmotion>
+</hwmotion_config>

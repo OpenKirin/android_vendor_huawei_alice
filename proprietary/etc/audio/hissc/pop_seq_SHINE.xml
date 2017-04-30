@@ -1,0 +1,39 @@
+<pop>
+  <up>
+	<num name="num" value="8"/>
+        <ctl name="SMT_MIXOUT_EAR_PU MIXER DACL"/>
+        <ctl name="SMT_MIXOUT_EAR_PU MIXER DACR"/>
+        <ctl name="CLASSD VIR_SWITCH CLASSD_EN"/>
+	<ctl name="SMT_SIF_EN MIXER SIF_HSLR_EN"/>
+	<ctl name="HS_DAC_SEL_VIR SWITCH DAC"/>
+	<ctl name="SMT_MIXOUT_HSLR_PD MIXER DACLR"/>
+	<ctl name="HS_LINEIN_SEL_VIR SWITCH LINEIN"/>
+	<ctl name="SMT_MIXOUT_HSLR_PD MIXER LINEINLR"/>
+  </up>
+  <down>
+	<num name="num" value="8"/>
+	<ctl name="SMT_MIXOUT_HSLR_PD MIXER DACLR"/>  
+	<ctl name="HS_DAC_SEL_VIR SWITCH DAC"/>
+	<ctl name="SMT_SIF_EN MIXER SIF_HSLR_EN"/>
+	<ctl name="SMT_MIXOUT_HSLR_PD MIXER LINEINLR"/>
+	<ctl name="HS_LINEIN_SEL_VIR SWITCH LINEIN"/>
+	<ctl name="CLASSD VIR_SWITCH CLASSD_EN"/>
+	<ctl name="SMT_MIXOUT_EAR_PU MIXER DACR"/>
+	<ctl name="SMT_MIXOUT_EAR_PU MIXER DACL"/>
+  </down>
+  <mute>
+	<mute_num name="num" value="3"/>
+	<mute_ctl name="HISSC_ADCL_PGA_MUTE"/>  
+	<mute_ctl name="HISSC_ADCR_PGA_MUTE"/>
+	<mute_ctl name="HISSC_VOICE_DLINK_PGA_MUTE"/>
+  </mute>
+  <force>
+    <force_num name="num" value="6"/>
+    <force_ctl name="HISSC_SMT_MAINPGA_GAIN"/>
+    <force_ctl name="HISSC_SMT_AUXPGA_GAIN"/>
+    <force_ctl name="HISSC_SMT_MAINPGA_BOOST"/>
+    <force_ctl name="HISSC_SMT_AUXPGA_BOOST"/>
+    <force_ctl name="HISSC_ADCL_PGA_INTEGER_CONFIG"/>
+    <force_ctl name="HISSC_ADCR_PGA_INTEGER_CONFIG"/>
+  </force>
+</pop>

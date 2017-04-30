@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<uc_config>
+    <!-- 运营商配置  中国移动:1000   中国联通:1001  中国电信:1002 华为默认渠道可以不配置  注：此配置将关系到QQ浏览器识别属于哪个运营商版本 如果不正确配置，将导致一些功能无法生效（比如：移动版增加139搜索引擎）-->
+    <telecoms_operator></telecoms_operator>
+    <!-- 配置预制书签信息 针对OTA升级，暂时的策略是完全升级华为数据库中的书签，不会预制书签-->
+    <bookmarklist>
+    </bookmarklist>
+    <!--浏览器主页设置
+        name 和 url都必填
+        url填写想要的主页，如果不填写将为默认主页
+        针对电信和移动需要精简版的主页（只有书签和历史入口），需要将url配置为qb://huaweihomepage
+        -->
+    <home_page>
+        <name>默认主页</name>
+        <url></url>
+    </home_page>
+    
+    <!--配置浏览器UA_String信息-->
+    <ua-string></ua-string>
+    
+    <!--配置浏览器UA_PROFILE信息-->
+    <ua_profile>
+        <key>X-Wap-Profile</key>
+        <value>http://wap1.huawei.com/uaprof/HUAWEI_ALE-UL00_6.0_UAProfile.xml</value>
+    </ua_profile>
+</uc_config>

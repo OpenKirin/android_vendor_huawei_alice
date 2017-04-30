@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 		
+UHB (Unified Heart Beat)
+uhb_black_white_list.xml is used to preset the white and black list of package name
+this XML file shuld be put at /data/cust/xml/, otherwise system can NOT found it
+uhb can work at blacklist mode or white list mode, this is determined by the system property settings, and by default, it works at blacklist mode.
+1. Black list mode, UHB will NOT adjust the periodical alarms of packages that listed in "BlackList"
+2. White list mode, UHB will ONLY adjust the periodical alarms of packages that listed in "WhiteList"
+
+Note that, the to list can coexist, but UHB will just use one of them determined by the work mode.
+-->
+<List>
+	<array type="WhiteList" version="1.0">
+		<item>com.sina.weibo</item>
+		<item>com.tencent.mm</item>
+		<item>com.huawei.android.pushagent</item>
+		<item>com.xiaomi.channel</item>
+		<item>com.tencent.mobileqq</item>
+	</array>
+	<array type="BlackList" version="1.0">
+		<item>com.android.phone</item>
+		<item>com.google.android.gsf</item>
+		<item>com.android.deskclock</item>
+	</array>
+</List>

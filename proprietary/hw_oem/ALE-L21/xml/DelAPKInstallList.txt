@@ -1,0 +1,2 @@
+/data/dataapp/Moffice/Moffice.apk
+/data/dataapp/HwHiSync/HwHiSync.apk
