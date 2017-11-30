@@ -1,5 +1,5 @@
 @BT patch info          
-@hi1101_version=Hi1101 V100R001C03B186SP01          
+@hi1101_version=Hi1101 V100R001C03B301SP01          
 PARA_VERSION=Hi1101V100;          
 PARA_READMEM=0x000adc00,32768;          
 ADDR_FILE_RW=0x00080000,/system/vendor/firmware/UART_RW.bin;          
@@ -14,4 +14,4 @@ ADDR_FILE_COD=0x000E0400,/system/vendor/firmware/UART_COD.bin;
 ADDR_FILE_GNSS=0x0008A000,/system/vendor/firmware/GNSS.bin;          
 @PARA_JUMP=0x000E0401;          
 QUIT;          
-@device_version=20160606142555 
+@device_version=20160521 95339 

@@ -1,7 +1,5 @@
 dalvik.vm.stack-trace-file=/data/anr/traces.txt
-# AR0008TQ1G wuxingru wwx368291 20170313 begin
-ro.build.version.emui=EmotionUI_4.0.3
-# AR0008TQ1G wuxingru wwx368291 20170313 end
+ro.build.version.emui=EmotionUI_4.1
 ro.config.ringtone=Dream_It_Possible.ogg
 ro.config.ringtone2=Huawei_Tune.ogg
 ro.config.alarm_alert=Creamy.ogg
@@ -28,4 +26,6 @@ ro.config.hw_allow_rs_mms=true
 ro.config.hw_hungtasklist=whitelist,system_server,SurfaceFlinger
 ro.config.hw_power_saving=true
 ro.config.attach_ip_type=IPV4V6
+fw.show_multiuserui=1
+fw.max_users=4
 

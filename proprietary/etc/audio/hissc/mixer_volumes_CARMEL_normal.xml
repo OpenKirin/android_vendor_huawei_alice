@@ -172,31 +172,31 @@
 		<ctl name="HISSC_DACL_AGC_BYPASS" value="1" />
 		<ctl name="HISSC_DACL_AGC_USR_GDB_INTEGER" value="255" />
 		<!-- CLASSD PGA -->
-		<ctl name="HISSC_PMU_CODEC_CLASSD_GAIN" value="0" />
+		<ctl name="HISSC_PMU_CODEC_CLASSD_GAIN" value="2" />
 		<ctl name="HISSC_PMU_CODEC_CLASSD_MUTE" value="0" />
 		
     </path>
 
     <path name="media-headphone" >
 		<!-- STEREO_DLINK_L PGA -->
-		<ctl name="HISSC_STEREO_DLINK_L_PGA_INTEGER_CONFIG" value="253" />
+		<ctl name="HISSC_STEREO_DLINK_L_PGA_INTEGER_CONFIG" value="255" />
 		<ctl name="HISSC_STEREO_DLINK_L_PGA_FRAC_CONFIG" value="0" />
 		<ctl name="HISSC_STEREO_DLINK_L_PGA_MUTE" value="0" />
 		<ctl name="HISSC_STEREO_DLINK_L_PGA_THR_CONFIG" value="0" />
 
 		<!-- STEREO_DLINK_R PGA -->
-		<ctl name="HISSC_STEREO_DLINK_R_PGA_INTEGER_CONFIG" value="253" />
+		<ctl name="HISSC_STEREO_DLINK_R_PGA_INTEGER_CONFIG" value="255" />
 		<ctl name="HISSC_STEREO_DLINK_R_PGA_FRAC_CONFIG" value="0" />
 		<ctl name="HISSC_STEREO_DLINK_R_PGA_MUTE" value="0" />
 		<ctl name="HISSC_STEREO_DLINK_R_PGA_THR_CONFIG" value="0" />
 
 		<!-- DACR_AGC PGA-->
 		<ctl name="HISSC_DACR_AGC_BYPASS" value="1" />
-		<ctl name="HISSC_DACR_AGC_USR_GDB_INTEGER" value="0" />
+		<ctl name="HISSC_DACR_AGC_USR_GDB_INTEGER" value="252" />
 
 		<!-- DACL_AGC PGA-->
 		<ctl name="HISSC_DACL_AGC_BYPASS" value="1" />
-		<ctl name="HISSC_DACL_AGC_USR_GDB_INTEGER" value="0" />
+		<ctl name="HISSC_DACL_AGC_USR_GDB_INTEGER" value="252" />
 
 		<!-- HEADPHONE_L PGA -->
 		<ctl name="HISSC_SMT_HSL_MIN_GAIN" value="0" />
@@ -214,24 +214,24 @@
 
     <path name="media-headset" >
 		<!-- STEREO_DLINK_L PGA -->
-		<ctl name="HISSC_STEREO_DLINK_L_PGA_INTEGER_CONFIG" value="0" />
+		<ctl name="HISSC_STEREO_DLINK_L_PGA_INTEGER_CONFIG" value="255" />
 		<ctl name="HISSC_STEREO_DLINK_L_PGA_FRAC_CONFIG" value="0" />
 		<ctl name="HISSC_STEREO_DLINK_L_PGA_MUTE" value="0" />
 		<ctl name="HISSC_STEREO_DLINK_L_PGA_THR_CONFIG" value="0" />
 
 		<!-- STEREO_DLINK_R PGA -->
-		<ctl name="HISSC_STEREO_DLINK_R_PGA_INTEGER_CONFIG" value="0" />
+		<ctl name="HISSC_STEREO_DLINK_R_PGA_INTEGER_CONFIG" value="255" />
 		<ctl name="HISSC_STEREO_DLINK_R_PGA_FRAC_CONFIG" value="0" />
 		<ctl name="HISSC_STEREO_DLINK_R_PGA_MUTE" value="0" />
 		<ctl name="HISSC_STEREO_DLINK_R_PGA_THR_CONFIG" value="0" />
 
 		<!-- DACR_AGC PGA-->
 		<ctl name="HISSC_DACR_AGC_BYPASS" value="1" />
-		<ctl name="HISSC_DACR_AGC_USR_GDB_INTEGER" value="0" />
+		<ctl name="HISSC_DACR_AGC_USR_GDB_INTEGER" value="252" />
 
 		<!-- DACL_AGC PGA-->
 		<ctl name="HISSC_DACL_AGC_BYPASS" value="1" />
-		<ctl name="HISSC_DACL_AGC_USR_GDB_INTEGER" value="0" />
+		<ctl name="HISSC_DACL_AGC_USR_GDB_INTEGER" value="252" />
 
 		<!-- HEADPHONE_L PGA -->
 		<ctl name="HISSC_SMT_HSL_MIN_GAIN" value="0" />
@@ -618,7 +618,7 @@
     <path name="media-fm-speaker" >
 
 		<!-- CLASSD PGA -->	
-		<ctl name="HISSC_PMU_CODEC_CLASSD_GAIN" value="0" />
+		<ctl name="HISSC_PMU_CODEC_CLASSD_GAIN" value="2" />
 		<ctl name="HISSC_PMU_CODEC_CLASSD_MUTE" value="0" />
 
     </path>
@@ -705,7 +705,7 @@
 		<ctl name="HISSC_DACL_AGC_USR_GDB_INTEGER" value="0" />
 	
 		<!-- CLASSD PGA -->	
-		<ctl name="HISSC_PMU_CODEC_CLASSD_GAIN" value="0" />
+		<ctl name="HISSC_PMU_CODEC_CLASSD_GAIN" value="2" />
 		<ctl name="HISSC_PMU_CODEC_CLASSD_MUTE" value="0" />
 
     </path>
@@ -1441,7 +1441,7 @@
 		<ctl name="HISSC_ADCR_PGA_THR_CONFIG" value="0" />
 
 		<!-- CLASSD PGA -->	
-		<ctl name="HISSC_PMU_CODEC_CLASSD_GAIN" value="0" />
+		<ctl name="HISSC_PMU_CODEC_CLASSD_GAIN" value="1" />
 		<ctl name="HISSC_PMU_CODEC_CLASSD_MUTE" value="0" />
 
     </path>
@@ -1554,10 +1554,10 @@
 		<ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />
 		<!-- DACR_AGC PGA-->
 		<ctl name="HISSC_DACR_AGC_BYPASS" value="1" />
-		<ctl name="HISSC_DACR_AGC_USR_GDB_INTEGER" value="0" />
+		<ctl name="HISSC_DACR_AGC_USR_GDB_INTEGER" value="-2" />
 		<!-- DACL_AGC PGA-->
 		<ctl name="HISSC_DACL_AGC_BYPASS" value="1" />
-		<ctl name="HISSC_DACL_AGC_USR_GDB_INTEGER" value="0" />
+		<ctl name="HISSC_DACL_AGC_USR_GDB_INTEGER" value="-2" />
 		<!-- ADC L PGA -->
 		<ctl name="HISSC_ADCL_PGA_INTEGER_CONFIG" value="0" />
 		<ctl name="HISSC_ADCL_PGA_FRAC_CONFIG" value="0" />
@@ -1569,20 +1569,20 @@
 		<ctl name="HISSC_ADCR_PGA_MUTE" value="0" />
 		<ctl name="HISSC_ADCR_PGA_THR_CONFIG" value="0" />
 		<!-- STEREO_DLINK_L PGA -->
-		<ctl name="HISSC_STEREO_DLINK_L_PGA_INTEGER_CONFIG" value="0" />
+		<ctl name="HISSC_STEREO_DLINK_L_PGA_INTEGER_CONFIG" value="230" />
 		<ctl name="HISSC_STEREO_DLINK_L_PGA_FRAC_CONFIG" value="0" />
 		<ctl name="HISSC_STEREO_DLINK_L_PGA_MUTE" value="0" />
 		<ctl name="HISSC_STEREO_DLINK_L_PGA_THR_CONFIG" value="0" />
 
 		<!-- STEREO_DLINK_R PGA -->
-		<ctl name="HISSC_STEREO_DLINK_R_PGA_INTEGER_CONFIG" value="0" />
+		<ctl name="HISSC_STEREO_DLINK_R_PGA_INTEGER_CONFIG" value="230" />
 		<ctl name="HISSC_STEREO_DLINK_R_PGA_FRAC_CONFIG" value="0" />
 		<ctl name="HISSC_STEREO_DLINK_R_PGA_MUTE" value="0" />
 		<ctl name="HISSC_STEREO_DLINK_R_PGA_THR_CONFIG" value="0" />
 		
 		<!-- EARPIECE PGA -->
 		<ctl name="HISSC_SMT_EAR_CM_CTRL" value="0" />
-		<ctl name="HISSC_SMT_EAR_GAIN" value="11" />
+		<ctl name="HISSC_SMT_EAR_GAIN" value="12" />
 		<ctl name="HISSC_SMT_EAR_MUTE" value="0" />
 		
     </path>
@@ -1622,7 +1622,7 @@
 		<ctl name="HISSC_STEREO_DLINK_R_PGA_THR_CONFIG" value="0" />
 
 		<!-- CLASSD PGA -->	
-		<ctl name="HISSC_PMU_CODEC_CLASSD_GAIN" value="0" />
+		<ctl name="HISSC_PMU_CODEC_CLASSD_GAIN" value="1" />
 		<ctl name="HISSC_PMU_CODEC_CLASSD_MUTE" value="0" />
 
     </path>
@@ -3042,9 +3042,13 @@
 
 		<!-- MAIN_MIC PGA -->
 		<ctl name="HISSC_SMT_MAINPGA_MUTE" value="0" />
-		<ctl name="HISSC_SMT_MAINPGA_GAIN" value="2" />
+		<ctl name="HISSC_SMT_MAINPGA_GAIN" value="4" />
 		<ctl name="HISSC_SMT_MAINPGA_BOOST" value="1" />
 
+		<!-- AUX_MIC PGA -->
+		<ctl name="HISSC_SMT_AUXPGA_MUTE" value="0" />
+		<ctl name="HISSC_SMT_AUXPGA_GAIN" value="4" />
+		<ctl name="HISSC_SMT_AUXPGA_BOOST" value="1" />
     </path>
 
     <path name="media-headset-mic" >
@@ -3062,7 +3066,7 @@
 
 		<!-- MAIN_MIC PGA -->
 		<ctl name="HISSC_SMT_MAINPGA_MUTE" value="0" />
-		<ctl name="HISSC_SMT_MAINPGA_GAIN" value="4" />
+		<ctl name="HISSC_SMT_MAINPGA_GAIN" value="0" />
 		<ctl name="HISSC_SMT_MAINPGA_BOOST" value="1" />
 
     </path>
@@ -3174,7 +3178,7 @@
 		<ctl name="HISSC_ADCL_PGA_INTEGER_CONFIG" value="0" />
 		<ctl name="HISSC_ADCL_PGA_FRAC_CONFIG" value="0" />
 		<ctl name="HISSC_ADCL_PGA_MUTE" value="0" />
-		<ctl name="HISSC_ADCL_PGA_THR_CONFIG" value="0" />
+		<!-- <ctl name="HISSC_ADCL_PGA_THR_CONFIG" value="0" /> -->
 		<!-- ADC R PGA -->
 		<ctl name="HISSC_ADCR_PGA_INTEGER_CONFIG" value="0" />
 		<ctl name="HISSC_ADCR_PGA_FRAC_CONFIG" value="0" />
@@ -3183,13 +3187,21 @@
 
 		<!-- MAIN_MIC PGA -->
 		<ctl name="HISSC_SMT_MAINPGA_MUTE" value="0" />
-		<ctl name="HISSC_SMT_MAINPGA_GAIN" value="5" />
+		<ctl name="HISSC_SMT_MAINPGA_GAIN" value="6" />
 		<ctl name="HISSC_SMT_MAINPGA_BOOST" value="1" />
 
+		<!-- AUX_MIC PGA -->
+		<ctl name="HISSC_SMT_AUXPGA_MUTE" value="0" />
+		<ctl name="HISSC_SMT_AUXPGA_GAIN" value="6" />
+		<ctl name="HISSC_SMT_AUXPGA_BOOST" value="1" />
+		
     </path>
     
     <path name="call-m1-handfree-mic" >
-    
+    		<!-- AUX_MIC PGA -->
+		<ctl name="HISSC_SMT_AUXPGA_MUTE" value="0" />
+		<ctl name="HISSC_SMT_AUXPGA_GAIN" value="2" />
+		<ctl name="HISSC_SMT_AUXPGA_BOOST" value="1" />
     </path>
     
     <path name="call-m1-headset-mic" >
@@ -3206,7 +3218,7 @@
 
 		<!-- MAIN_MIC PGA -->
 		<ctl name="HISSC_SMT_MAINPGA_MUTE" value="0" />
-		<ctl name="HISSC_SMT_MAINPGA_GAIN" value="3" />
+		<ctl name="HISSC_SMT_MAINPGA_GAIN" value="4" />
 		<ctl name="HISSC_SMT_MAINPGA_BOOST" value="1" />
 
     </path>
@@ -3217,19 +3229,19 @@
 
     <path name="camcorder-mic" >
 		<!-- ADC L PGA -->
-		<ctl name="HISSC_ADCL_PGA_INTEGER_CONFIG" value="3" />
+		<ctl name="HISSC_ADCL_PGA_INTEGER_CONFIG" value="4" />
 		<ctl name="HISSC_ADCL_PGA_FRAC_CONFIG" value="0" />
 		<ctl name="HISSC_ADCL_PGA_MUTE" value="0" />
 		<ctl name="HISSC_ADCL_PGA_THR_CONFIG" value="0" />
 		<!-- ADC R PGA -->
-		<ctl name="HISSC_ADCR_PGA_INTEGER_CONFIG" value="3" />
+		<ctl name="HISSC_ADCR_PGA_INTEGER_CONFIG" value="4" />
 		<ctl name="HISSC_ADCR_PGA_FRAC_CONFIG" value="0" />
 		<ctl name="HISSC_ADCR_PGA_MUTE" value="0" />
 		<ctl name="HISSC_ADCR_PGA_THR_CONFIG" value="0" />
 
 		<!-- AUX_MIC PGA -->
 		<ctl name="HISSC_SMT_AUXPGA_MUTE" value="0" />
-		<ctl name="HISSC_SMT_AUXPGA_GAIN" value="2" />
+		<ctl name="HISSC_SMT_AUXPGA_GAIN" value="5" />
 		<ctl name="HISSC_SMT_AUXPGA_BOOST" value="1" />
     </path>
 
@@ -3251,6 +3263,24 @@
 		<ctl name="HISSC_SMT_MAINPGA_BOOST" value="1" />
     </path>
 
+	<path name="voice-rec-handfree-mic" >
+		<!-- ADC L PGA -->
+		<ctl name="HISSC_ADCL_PGA_INTEGER_CONFIG" value="4" />
+		<ctl name="HISSC_ADCL_PGA_FRAC_CONFIG" value="0" />
+		<ctl name="HISSC_ADCL_PGA_MUTE" value="0" />
+		<ctl name="HISSC_ADCL_PGA_THR_CONFIG" value="0" />
+		
+		<!-- ADC R PGA -->
+		<ctl name="HISSC_ADCR_PGA_INTEGER_CONFIG" value="4" />
+		<ctl name="HISSC_ADCR_PGA_FRAC_CONFIG" value="0" />
+		<ctl name="HISSC_ADCR_PGA_MUTE" value="0" />
+		<ctl name="HISSC_ADCR_PGA_THR_CONFIG" value="0" />
+
+		<!-- AUX_MIC PGA -->
+		<ctl name="HISSC_SMT_MAINPGA_MUTE" value="0" />
+		<ctl name="HISSC_SMT_MAINPGA_GAIN" value="5" />
+		<ctl name="HISSC_SMT_MAINPGA_BOOST" value="1" />
+    </path>
     <path name="call-wb-m1-mic" >
 		<!-- ADC L PGA -->
 		<ctl name="HISSC_ADCL_PGA_INTEGER_CONFIG" value="0" />
@@ -3291,7 +3321,7 @@
 
 		<!-- MAIN_MIC PGA -->
 		<ctl name="HISSC_SMT_MAINPGA_MUTE" value="0" />
-		<ctl name="HISSC_SMT_MAINPGA_GAIN" value="2" />
+		<ctl name="HISSC_SMT_MAINPGA_GAIN" value="4" />
 		<ctl name="HISSC_SMT_MAINPGA_BOOST" value="1" />
     </path>
 
@@ -3473,95 +3503,56 @@
     </path>
 
     <path name="rec-call-m1-mic" >
-		<!-- ADC L PGA -->
-		<ctl name="HISSC_ADCL_PGA_INTEGER_CONFIG" value="0" />
-		<ctl name="HISSC_ADCL_PGA_FRAC_CONFIG" value="0" />
-		<ctl name="HISSC_ADCL_PGA_MUTE" value="0" />
-		<ctl name="HISSC_ADCL_PGA_THR_CONFIG" value="0" />
-		<!-- ADC R PGA -->
-		<ctl name="HISSC_ADCR_PGA_INTEGER_CONFIG" value="0" />
-		<ctl name="HISSC_ADCR_PGA_FRAC_CONFIG" value="0" />
-		<ctl name="HISSC_ADCR_PGA_MUTE" value="0" />
-		<ctl name="HISSC_ADCR_PGA_THR_CONFIG" value="0" />
+	
+        <path name="call-m1-mic" />
 
-		<!-- MAIN_MIC PGA -->
-		<ctl name="HISSC_SMT_MAINPGA_MUTE" value="0" />
-		<ctl name="HISSC_SMT_MAINPGA_GAIN" value="2" />
-		<ctl name="HISSC_SMT_MAINPGA_BOOST" value="1" />
     </path>
     
     <path name="rec-call-m1-handfree-mic" >
     
+        <path name="call-m1-handfree-mic" />
+	
+	
     </path>
     
     <path name="rec-call-m1-headset-mic" >
-		<!-- ADC L PGA -->
-		<ctl name="HISSC_ADCL_PGA_INTEGER_CONFIG" value="0" />
-		<ctl name="HISSC_ADCL_PGA_FRAC_CONFIG" value="0" />
-		<ctl name="HISSC_ADCL_PGA_MUTE" value="0" />
-		<ctl name="HISSC_ADCL_PGA_THR_CONFIG" value="0" />
-		<!-- ADC R PGA -->
-		<ctl name="HISSC_ADCR_PGA_INTEGER_CONFIG" value="0" />
-		<ctl name="HISSC_ADCR_PGA_FRAC_CONFIG" value="0" />
-		<ctl name="HISSC_ADCR_PGA_MUTE" value="0" />
-		<ctl name="HISSC_ADCR_PGA_THR_CONFIG" value="0" />
+	
+		<path name="call-m1-headset-mic" />
 
-		<!-- MAIN_MIC PGA -->
-		<ctl name="HISSC_SMT_MAINPGA_MUTE" value="0" />
-		<ctl name="HISSC_SMT_MAINPGA_GAIN" value="2" />
-		<ctl name="HISSC_SMT_MAINPGA_BOOST" value="1" />
     </path>
 
     <path name="rec-call-m1-bt-sco-mic" >
+	
+		<path name="call-m1-bt-sco-mic" />
 
     </path>
 
     <path name="rec-media-bt-sco-mic" >
+	
+		<path name="media-bt-sco-mic" />
 
     </path>
 
     <path name="rec-call-wb-m1-mic" >
-		<!-- ADC L PGA -->
-		<ctl name="HISSC_ADCL_PGA_INTEGER_CONFIG" value="0" />
-		<ctl name="HISSC_ADCL_PGA_FRAC_CONFIG" value="0" />
-		<ctl name="HISSC_ADCL_PGA_MUTE" value="0" />
-		<ctl name="HISSC_ADCL_PGA_THR_CONFIG" value="0" />
-		<!-- ADC R PGA -->
-		<ctl name="HISSC_ADCR_PGA_INTEGER_CONFIG" value="0" />
-		<ctl name="HISSC_ADCR_PGA_FRAC_CONFIG" value="0" />
-		<ctl name="HISSC_ADCR_PGA_MUTE" value="0" />
-		<ctl name="HISSC_ADCR_PGA_THR_CONFIG" value="0" />
-
-		<!-- MAIN_MIC PGA -->
-		<ctl name="HISSC_SMT_MAINPGA_MUTE" value="0" />
-		<ctl name="HISSC_SMT_MAINPGA_GAIN" value="2" />
-		<ctl name="HISSC_SMT_MAINPGA_BOOST" value="1" />
+	
+		<path name="call-wb-m1-mic" />
+		
     </path>
     
     <path name="rec-call-wb-m1-handfree-mic" >
     
+        <path name="call-wb-m1-handfree-mic" />
     </path>
 
     <path name="rec-call-wb-m1-headset-mic" >
-		<!-- ADC L PGA -->
-		<ctl name="HISSC_ADCL_PGA_INTEGER_CONFIG" value="0" />
-		<ctl name="HISSC_ADCL_PGA_FRAC_CONFIG" value="0" />
-		<ctl name="HISSC_ADCL_PGA_MUTE" value="0" />
-		<ctl name="HISSC_ADCL_PGA_THR_CONFIG" value="0" />
-		<!-- ADC R PGA -->
-		<ctl name="HISSC_ADCR_PGA_INTEGER_CONFIG" value="0" />
-		<ctl name="HISSC_ADCR_PGA_FRAC_CONFIG" value="0" />
-		<ctl name="HISSC_ADCR_PGA_MUTE" value="0" />
-		<ctl name="HISSC_ADCR_PGA_THR_CONFIG" value="0" />
 
-		<!-- MAIN_MIC PGA -->
-		<ctl name="HISSC_SMT_MAINPGA_MUTE" value="0" />
-		<ctl name="HISSC_SMT_MAINPGA_GAIN" value="2" />
-		<ctl name="HISSC_SMT_MAINPGA_BOOST" value="1" />
+		<path name="call-wb-m1-headset-mic" />
 
     </path>
 
     <path name="rec-call-wb-m1-bt-sco-mic" >
+	
+		<path name="call-wb-m1-bt-sco-mic" />
 
     </path>
 
@@ -4857,7 +4848,7 @@
     <path name="modem1-wb-vol-5-none">  
     </path>
     <path name="modem1-wb-vol-5-earpiece"> 
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="0" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="2" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />
@@ -5176,12 +5167,19 @@
   </path>
   <!--force speaker-->
   <path name="mmi_test_speaker">  
-    <ctl name="HISSC_DACL_AGC_USR_GDB_INTEGER" value="253"/>
-    <ctl name="HISSC_DACR_AGC_USR_GDB_INTEGER" value="253"/>
+    <ctl name="HISSC_DACL_AGC_USR_GDB_INTEGER" value="255"/>
+    <ctl name="HISSC_DACR_AGC_USR_GDB_INTEGER" value="255"/>
+	
+	<!-- CLASSD PGA -->
+	<ctl name="HISSC_PMU_CODEC_CLASSD_GAIN" value="2" />
+	<ctl name="HISSC_PMU_CODEC_CLASSD_MUTE" value="0" />
 	
   </path>
   <!--force headphone-->
-  <path name="mmi_test_headphone">  </path>
+  <path name="mmi_test_headphone">
+
+  </path>
+  
   <!--force main-mic-->
   <path name="mmi_test_mainmic"> 
 

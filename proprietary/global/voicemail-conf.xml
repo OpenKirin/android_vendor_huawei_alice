@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- 当前版本号：Global_parameters V3.492
+<!-- 当前版本号：Global_parameters V3.468
 SE13_version 20161114目前包含 217个国家和地区，1334套运营商参数。 -->
 <voicemail version="6">
   <voicemail numeric="60203"
@@ -942,11 +942,6 @@ SE13_version 20161114目前包含 217个国家和地区，1334套运营商参数
     vmnumber="333"
     vmtag="voicemail"
   />
-  <voicemail numeric="22208"
-    carrier="FASTWEB"
-    vmnumber="4141"
-    vmtag="voicemail"
-  />
   <voicemail numeric="28603"
     carrier="Avea"
     vmnumber="999"
@@ -1565,11 +1560,6 @@ SE13_version 20161114目前包含 217个国家和地区，1334套运营商参数
   <voicemail numeric="33000"
     carrier="Open Mobile"
     vmnumber="123"
-    vmtag="voicemail"
-  />
-  <voicemail numeric="342800"
-    carrier="Ozone"
-    vmnumber="*123"
     vmtag="voicemail"
   />
   <voicemail numeric="72405"

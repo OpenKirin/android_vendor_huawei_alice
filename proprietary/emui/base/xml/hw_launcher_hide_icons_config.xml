@@ -23,8 +23,8 @@
         launcher:packageName="com.google.android.inputmethod.latin"
         launcher:className="com.android.inputmethod.latin.setup.SetupActivity"/>
     <favorite
-        launcher:packageName="com.baidu.searchbox_AndroidM"
-        launcher:className="com.baidu.searchbox.SplashActivity" />
+        launcher:packageName="com.google.android.inputmethod.latin"
+        launcher:className="com.google.android.apps.inputmethod.libs.framework.core.LauncherActivity"/>
     <favorite
         launcher:packageName="com.google.android.googlequicksearchbox"
         launcher:className="com.google.android.googlequicksearchbox.VoiceSearchActivity" />

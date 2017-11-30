@@ -3620,55 +3620,55 @@
     <path name="modem0-nb-vol-1-none">  
     </path>
     <path name="modem0-nb-vol-1-earpiece"> 
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="232"/>
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="237"/>
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />
     </path>
     <path name="modem0-nb-vol-1-speaker">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="233" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="240" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />
     </path>
     <path name="modem0-nb-vol-1-headset">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="233" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="240" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />
     </path>
     <path name="modem0-nb-vol-1-headphone"> 
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="233" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="240" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />
     </path>
     <path name="modem0-nb-vol-1-bt-sco"> 
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="233" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="240" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />
     </path>
     <path name="modem0-nb-vol-1-speaker-earpiece"> 
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="233" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="240" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />
     </path>
     <path name="modem0-nb-vol-1-speaker-headset">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="233" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="240" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />
     </path>
     <path name="modem0-nb-vol-1-speaker-headphone"> 
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="233" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="240" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />
     </path>
     <path name="modem0-nb-vol-1-speaker-bt-sco">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="233" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="240" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />
@@ -3676,55 +3676,55 @@
     <path name="modem0-nb-vol-2-none">  
     </path>
     <path name="modem0-nb-vol-2-earpiece"> 
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="238" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="241" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem0-nb-vol-2-speaker"> 
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="245" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="247" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem0-nb-vol-2-headset">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="245" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="247" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem0-nb-vol-2-headphone">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="245" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="247" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem0-nb-vol-2-bt-sco">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="245" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="247" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem0-nb-vol-2-speaker-earpiece"> 
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="245" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="247" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem0-nb-vol-2-speaker-headset"> 
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="245" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="247" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem0-nb-vol-2-speaker-headphone">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="245" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="247" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem0-nb-vol-2-speaker-bt-sco"> 
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="245" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="247" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
@@ -3732,55 +3732,55 @@
     <path name="modem0-nb-vol-3-none">   
     </path>
     <path name="modem0-nb-vol-3-earpiece">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="242" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="245" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem0-nb-vol-3-speaker">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="248" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="250" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem0-nb-vol-3-headset">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="248" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="250" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem0-nb-vol-3-headphone">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="248" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="250" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem0-nb-vol-3-bt-sco">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="248" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="250" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem0-nb-vol-3-speaker-earpiece"> 
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="248" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="250" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem0-nb-vol-3-speaker-headset">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="248" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="250" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem0-nb-vol-3-speaker-headphone">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="248" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="250" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem0-nb-vol-3-speaker-bt-sco">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="248" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="250" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
@@ -3788,55 +3788,55 @@
     <path name="modem0-nb-vol-4-none">  
     </path>
     <path name="modem0-nb-vol-4-earpiece"> 
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="248" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="250" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem0-nb-vol-4-speaker">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="251" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="253" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem0-nb-vol-4-headset">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="251" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="253" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem0-nb-vol-4-headphone">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="251" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="253" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem0-nb-vol-4-bt-sco">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="251" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="253" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem0-nb-vol-4-speaker-earpiece"> 
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="251" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="253" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem0-nb-vol-4-speaker-headset">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="251" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="253" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem0-nb-vol-4-speaker-headphone">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="251" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="253" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem0-nb-vol-4-speaker-bt-sco">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="251" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="253" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
@@ -3957,55 +3957,55 @@
     <path name="modem0-wb-vol-1-none">  
     </path>
     <path name="modem0-wb-vol-1-earpiece"> 
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="232" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="237" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />
     </path>
     <path name="modem0-wb-vol-1-speaker">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="233" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="240" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />
     </path>
     <path name="modem0-wb-vol-1-headset">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="233" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="240" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />
     </path>
     <path name="modem0-wb-vol-1-headphone"> 
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="233" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="240" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />
     </path>
     <path name="modem0-wb-vol-1-bt-sco"> 
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="233" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="240" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />
     </path>
     <path name="modem0-wb-vol-1-speaker-earpiece"> 
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="233" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="240" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />
     </path>
     <path name="modem0-wb-vol-1-speaker-headset">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="233" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="240" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />
     </path>
     <path name="modem0-wb-vol-1-speaker-headphone"> 
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="233" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="240" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />
     </path>
     <path name="modem0-wb-vol-1-speaker-bt-sco">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="233" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="240" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />
@@ -4013,55 +4013,55 @@
     <path name="modem0-wb-vol-2-none">  
     </path>
     <path name="modem0-wb-vol-2-earpiece"> 
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="238" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="241" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem0-wb-vol-2-speaker"> 
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="245" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="247" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem0-wb-vol-2-headset">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="245" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="247" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem0-wb-vol-2-headphone">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="245" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="247" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem0-wb-vol-2-bt-sco">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="245" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="247" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem0-wb-vol-2-speaker-earpiece"> 
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="245" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="247" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem0-wb-vol-2-speaker-headset"> 
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="245" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="247" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem0-wb-vol-2-speaker-headphone">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="245" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="247" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem0-wb-vol-2-speaker-bt-sco"> 
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="245" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="247" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
@@ -4069,55 +4069,55 @@
     <path name="modem0-wb-vol-3-none">   
     </path>
     <path name="modem0-wb-vol-3-earpiece">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="242" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="245" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem0-wb-vol-3-speaker">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="248" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="250" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem0-wb-vol-3-headset">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="248" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="250" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem0-wb-vol-3-headphone">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="248" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="250" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem0-wb-vol-3-bt-sco">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="248" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="250" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem0-wb-vol-3-speaker-earpiece"> 
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="248" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="250" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem0-wb-vol-3-speaker-headset">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="248" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="250" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem0-wb-vol-3-speaker-headphone">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="248" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="250" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem0-wb-vol-3-speaker-bt-sco">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="248" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="250" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
@@ -4125,55 +4125,55 @@
     <path name="modem0-wb-vol-4-none">  
     </path>
     <path name="modem0-wb-vol-4-earpiece"> 
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="248" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="250" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />
     </path>
     <path name="modem0-wb-vol-4-speaker">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="251" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="253" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem0-wb-vol-4-headset">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="251" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="253" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem0-wb-vol-4-headphone">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="251" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="253" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem0-wb-vol-4-bt-sco">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="251" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="253" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem0-wb-vol-4-speaker-earpiece"> 
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="251" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="253" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem0-wb-vol-4-speaker-headset">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="251" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="253" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem0-wb-vol-4-speaker-headphone">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="251" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="253" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem0-wb-vol-4-speaker-bt-sco">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="251" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="253" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
@@ -4294,55 +4294,55 @@
     <path name="modem1-nb-vol-1-none">  
     </path>
     <path name="modem1-nb-vol-1-earpiece"> 
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="232" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="237" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />
     </path>
     <path name="modem1-nb-vol-1-speaker">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="233" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="240" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />
     </path>
     <path name="modem1-nb-vol-1-headset">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="233" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="240" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />
     </path>
     <path name="modem1-nb-vol-1-headphone"> 
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="233" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="240" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />
     </path>
     <path name="modem1-nb-vol-1-bt-sco"> 
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="233" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="240" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />
     </path>
     <path name="modem1-nb-vol-1-speaker-earpiece"> 
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="233" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="240" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />
     </path>
     <path name="modem1-nb-vol-1-speaker-headset">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="233" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="240" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />
     </path>
     <path name="modem1-nb-vol-1-speaker-headphone"> 
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="233" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="240" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />
     </path>
     <path name="modem1-nb-vol-1-speaker-bt-sco">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="233" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="240" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />
@@ -4350,55 +4350,55 @@
     <path name="modem1-nb-vol-2-none">  
     </path>
     <path name="modem1-nb-vol-2-earpiece"> 
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="238" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="241" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem1-nb-vol-2-speaker"> 
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="245" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="247" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem1-nb-vol-2-headset">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="245" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="247" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem1-nb-vol-2-headphone">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="245" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="247" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem1-nb-vol-2-bt-sco">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="245" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="247" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem1-nb-vol-2-speaker-earpiece"> 
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="245" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="247" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem1-nb-vol-2-speaker-headset"> 
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="245" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="247" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem1-nb-vol-2-speaker-headphone">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="245" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="247" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem1-nb-vol-2-speaker-bt-sco"> 
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="245" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="247" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
@@ -4406,55 +4406,55 @@
     <path name="modem1-nb-vol-3-none">   
     </path>
     <path name="modem1-nb-vol-3-earpiece">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="242" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="245" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem1-nb-vol-3-speaker">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="248" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="250" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem1-nb-vol-3-headset">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="248" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="250" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem1-nb-vol-3-headphone">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="248" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="250" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem1-nb-vol-3-bt-sco">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="248" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="250" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem1-nb-vol-3-speaker-earpiece"> 
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="248" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="250" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem1-nb-vol-3-speaker-headset">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="248" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="250" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem1-nb-vol-3-speaker-headphone">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="248" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="250" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem1-nb-vol-3-speaker-bt-sco">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="248" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="250" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
@@ -4462,55 +4462,55 @@
     <path name="modem1-nb-vol-4-none">  
     </path>
     <path name="modem1-nb-vol-4-earpiece"> 
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="248" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="250" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />
     </path>
     <path name="modem1-nb-vol-4-speaker">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="251" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="253" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />
     </path>
     <path name="modem1-nb-vol-4-headset">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="251" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="253" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />
     </path>
     <path name="modem1-nb-vol-4-headphone"> 
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="251" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="253" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />
     </path>
     <path name="modem1-nb-vol-4-bt-sco"> 
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="251" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="253" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />
     </path>
     <path name="modem1-nb-vol-4-speaker-earpiece">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="251" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="253" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />
     </path>
     <path name="modem1-nb-vol-4-speaker-headset">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="251" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="253" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />
     </path>
     <path name="modem1-nb-vol-4-speaker-headphone">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="251" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="253" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />
     </path>
     <path name="modem1-nb-vol-4-speaker-bt-sco"> 
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="251" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="253" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
@@ -4631,55 +4631,55 @@
     <path name="modem1-wb-vol-1-none">  
     </path>
     <path name="modem1-wb-vol-1-earpiece"> 
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="232" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="237" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />
     </path>
     <path name="modem1-wb-vol-1-speaker">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="233" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="240" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />
     </path>
     <path name="modem1-wb-vol-1-headset">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="233" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="240" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />
     </path>
     <path name="modem1-wb-vol-1-headphone"> 
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="233" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="240" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />
     </path>
     <path name="modem1-wb-vol-1-bt-sco"> 
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="233" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="240" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />
     </path>
     <path name="modem1-wb-vol-1-speaker-earpiece"> 
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="233" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="240" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />
     </path>
     <path name="modem1-wb-vol-1-speaker-headset">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="233" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="240" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />
     </path>
     <path name="modem1-wb-vol-1-speaker-headphone"> 
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="233" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="240" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />
     </path>
     <path name="modem1-wb-vol-1-speaker-bt-sco">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="233" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="240" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />
@@ -4687,55 +4687,55 @@
     <path name="modem1-wb-vol-2-none">  
     </path>
     <path name="modem1-wb-vol-2-earpiece"> 
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="238" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="241" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem1-wb-vol-2-speaker"> 
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="245" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="247" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem1-wb-vol-2-headset">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="245" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="247" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem1-wb-vol-2-headphone">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="245" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="247" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem1-wb-vol-2-bt-sco">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="245" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="247" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem1-wb-vol-2-speaker-earpiece"> 
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="245" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="247" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem1-wb-vol-2-speaker-headset"> 
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="245" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="247" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem1-wb-vol-2-speaker-headphone">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="245" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="247" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem1-wb-vol-2-speaker-bt-sco"> 
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="245" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="247" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
@@ -4743,55 +4743,55 @@
     <path name="modem1-wb-vol-3-none">   
     </path>
     <path name="modem1-wb-vol-3-earpiece">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="242" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="245" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem1-wb-vol-3-speaker">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="248" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="250" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem1-wb-vol-3-headset">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="248" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="250" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem1-wb-vol-3-headphone">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="248" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="250" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem1-wb-vol-3-bt-sco">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="248" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="250" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem1-wb-vol-3-speaker-earpiece"> 
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="248" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="250" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem1-wb-vol-3-speaker-headset">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="248" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="250" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem1-wb-vol-3-speaker-headphone">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="248" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="250" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
     </path>
     <path name="modem1-wb-vol-3-speaker-bt-sco">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="248" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="250" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	
@@ -4799,55 +4799,55 @@
     <path name="modem1-wb-vol-4-none">  
     </path>
     <path name="modem1-wb-vol-4-earpiece"> 
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="248" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="250" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />
     </path>
     <path name="modem1-wb-vol-4-speaker">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="251" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="253" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />
     </path>
     <path name="modem1-wb-vol-4-headset">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="251" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="253" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />
     </path>
     <path name="modem1-wb-vol-4-headphone"> 
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="251" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="253" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />
     </path>
     <path name="modem1-wb-vol-4-bt-sco"> 
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="251" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="253" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />
     </path>
     <path name="modem1-wb-vol-4-speaker-earpiece">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="251" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="253" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />
     </path>
     <path name="modem1-wb-vol-4-speaker-headset">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="251" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="253" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />
     </path>
     <path name="modem1-wb-vol-4-speaker-headphone">  
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="251" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="253" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />
     </path>
     <path name="modem1-wb-vol-4-speaker-bt-sco"> 
-    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="251" />
+    <ctl name="HISSC_VOICE_DLINK_PGA_INTEGER_CONFIG" value="253" />
     <ctl name="HISSC_VOICE_DLINK_PGA_FRAC_CONFIG" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_MUTE" value="0" />
     <ctl name="HISSC_VOICE_DLINK_PGA_THR_CONFIG" value="0" />	

@@ -63,7 +63,7 @@
     <widget launcher:className="com.huawei.android.tencent.news.NewsProvider_2x2" />
     <widget launcher:className="com.huawei.android.netease.news.NewsProvider_4x1" />
     <widget launcher:className="com.huawei.android.netease.news.NewsProvider_2x2" />
-    <widget launcher:className="com.huawei.systemmanager.widget.OneKeyCleanWidget" />
+    <widget launcher:className="com.huawei.android.launcher.widget.OneKeyCleanWidget" />
     <widget launcher:className="com.android.alarmclock.DigitalClockAppWidgetProvider" />
     <widget launcher:className="cn.wps.widget.MofficeAppWidgetProvider_4x2" />
     <widget launcher:className="com.huawei.android.widgetunit.weather.LvyWeatherProvider4x2" />
@@ -83,5 +83,5 @@
     <widget launcher:className="com.huawei.android.totemweather.widget.mulan.MulanWidgetWeatherProvider" />
     <!-- DTS2014062014864 add baidu searchbox widget -->
     <widget launcher:className="com.baidu.searchbox.widget.TransSearchWidgetProvider" />
-    
+    <widget launcher:className="com.huawei.healthcloud.phonestepcounter.widget.HealthCloudWidget4x1" />
 </widgets>

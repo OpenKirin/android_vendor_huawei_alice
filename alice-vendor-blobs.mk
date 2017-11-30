@@ -14,6 +14,3 @@
 
 PRODUCT_COPY_FILES += \
 	$(call find-copy-subdir-files,*,vendor/huawei/alice/proprietary/,system/)
-
-PRODUCT_COPY_FILES += \
-	$(call find-copy-subdir-files,*,vendor/huawei/alice/root/,root/)

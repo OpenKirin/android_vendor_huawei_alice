@@ -33,6 +33,9 @@
             launcher:packageName="com.google.android.talk"
             launcher:className="com.google.android.talk.SigningInActivity" />
         <favorite
+            launcher:packageName="com.google.android.apps.tachyon"
+            launcher:className="com.google.android.apps.tachyon.MainActivity" />
+        <favorite
             launcher:packageName="com.google.android.apps.photos"
             launcher:className="com.google.android.apps.photos.home.HomeActivity" />
         <favorite
@@ -190,7 +193,7 @@
             launcher:className="com.android.hwmirror.Mirror" />
         <favorite
             launcher:packageName="com.huawei.hicare"
-            launcher:className="com.huawei.hicare.ui.HelpCenterActivity" />
+            launcher:className="com.huawei.hicare.ui.HelpCenterActivity"/>
         <favorite
             launcher:packageName="com.huawei.compass"
             launcher:className="com.huawei.compass.MainActivity" />
@@ -216,7 +219,7 @@
         launcher:screen="1"
         launcher:x="0"
         launcher:y="0"
-        launcher:spanX="5"
+        launcher:spanX="4"
         launcher:spanY="1" />
     <appwidget
         launcher:packageName="com.android.gallery3d"
@@ -243,7 +246,7 @@
         launcher:screen="1"
         launcher:x="0"
         launcher:y="2"
-        launcher:spanX="5"
+        launcher:spanX="4"
         launcher:spanY="1" />
     <appwidget
         launcher:packageName="com.huawei.android.mewidget"

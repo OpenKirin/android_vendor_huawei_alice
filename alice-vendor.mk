@@ -13,6 +13,12 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES += \
-    supl20Service
+    gnss_supl20service_hisi
+
+PRODUCT_PACKAGES += \
+    hw_healthd \
+    hw_ueventd \
+    oeminfo_nvm_server \
+    teecd
 
 $(call inherit-product, vendor/huawei/alice/alice-vendor-blobs.mk)

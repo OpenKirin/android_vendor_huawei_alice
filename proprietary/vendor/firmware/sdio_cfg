@@ -1,5 +1,5 @@
 @WiFi patch info          
-@hi1101_version=Hi1101 V100R001C03B161SP02          
+@hi1101_version=Hi1101 V100R001C03B121          
 PARA_VERSION=Hi1101V100;          
 PARA_READMEM=0x00080000,24576;          
 PARA_READMEM=0x00086000,24576;          
@@ -13,4 +13,4 @@ ADDR_FILE_COD=0x000E0400,/system/vendor/firmware/SDIO_COD.bin;
 @ADDR_FILE_DOWN=0x000E0400,/system/vendor/firmware/SDIO_CODE.bin;          
 @PARA_JUMP=0x000E0401;          
 QUIT;          
-@device_version=20151013164221 
+@device_version=20160511152651 

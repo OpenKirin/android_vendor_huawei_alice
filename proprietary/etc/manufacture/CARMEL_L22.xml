@@ -3,6 +3,7 @@
 <MMITest>
     <TestItem key="ro.mmi.welcome_come" value="true"></TestItem>
     <TestItem key="ro.mmi.battery_test" value="true"></TestItem>
+    <TestItem key="ro.mmi.auxiliary_board_test" value="true"></TestItem>
     <TestItem key="ro.mmi.sdcard_test" value="true"></TestItem>
     <TestItem key="ro.mmi.keypad_test" value="true"></TestItem>
     <TestItem key="ro.mmi.tp_color_test" value="false"></TestItem>

@@ -1,0 +1,1444 @@
+#!/system/bin/sh
+###!/bin/bash
+
+#Prototype    : usage_user
+#Description  : help of main_user 
+#Input        : None
+#Output       : None
+#  History        :
+#  1.Date         : 2014/6/25
+#    Author       : l00244150
+#    Modification : Created function
+function usage_user()
+{
+	echo -e "usage: $0 [-h|-S system_opt|-W wifi_opt|-B bt_opt|-G gnss_opt] [-c|-o] [-s size] [-n num] [-p path] [-l loglevel]"
+	echo -e "\n\t----------help option----------"
+	echo -e "\t-h: show usage of cmd"
+
+	echo -e "\n\t----------moduler option----------"
+	echo -e "\t-S system_opt: system_opt must be logcat|kmsgcat|init|clean|tar-y|tar-n|rm"
+	#echo -e "\t-S system_opt: system_opt must be logcat|kmsgcat|sleepcat|rillcat|chargecat|clean"
+	echo -e "\t-S init  : init log control system"
+	echo -e "\t-S clean : clean garbage of system"
+	echo -e "\t-S tar-y : tar log of system and clear source log"
+	echo -e "\t-S tar-n : tar log of system and do not clear source log"
+	echo -e "\t-S clear : rm all log of system"
+	echo -e "\n"
+	echo -e "\t-W wifi_opt:     wifi_opt must be device|device_level|tcpdump_reduced|tcpdump_all"
+	echo -e "\t-B bt_opt:         bt_opt must be device|device_level|snoop"
+	echo -e "\t-G gnss_opt:     gnss_opt must be device|device_level|baseband"
+
+	echo -e "\n\t----------control option----------"
+	echo -e "\t-o : set log open"
+	echo -e "\t-c : set log close"
+	echo -e "\t-s size    : set log size   with value, unit MB"
+	echo -e "\t-n num     : set log number with value"
+	echo -e "\t-p path    : set log path   with value"
+	echo -e "\t-l loglevel: set log level  with value, v d i w e"
+
+	echo -e "\n\t-------------Example-------------"
+	echo -e "\t: set applogcat log open size=10 num=40"
+	echo -e "\t     $0 -S appcat -o -s 10 -n 40"
+	echo -e "\t: set kmsgcat   log open size=5  num=30"
+	echo -e "\t     $0 -S kmsgcat -o -s 5 -n 30"
+}
+
+#Prototype    : usage
+#Description  : help of usage
+#Input        : None
+#Output       : None
+#  History        :
+#  1.Date         : 2014/6/25
+#    Author       : l00244150
+#    Modification : Created function
+function usage()
+{
+	echo -e "usage: $0 [-h|-A|-K|-E|-R|-C|-B|-G|-T] [-O deam_opt][-c|-o] [-s size] [-n num] [-p path] [-l loglevel]"
+	echo -e "\n\t----------help option----------"
+	echo -e "\t-h: show usage of cmd"
+	echo -e "\n\t----------deamon option----------"
+	echo -e "\t-A [-o] [-s size] [-n num] [-p path] [-l loglevel]: set --logcat--  log"
+	echo -e "\t-A  -c:                                             set --logcat--  log close\n"
+	echo -e "\t-K [-o] [-s size] [-n num] [-p path] [-l loglevel]: set --Kmsgcat-- log"
+	echo -e "\t-K  -c:                                             set --Kmsgcat-- log close\n"
+	echo -e "\t-S [-o] [-s size] [-n num] [-p path] [-l loglevel]: set --sleepcat--log"
+	echo -e "\t-S  -c:                                             set --sleepcat--log close\n"
+	echo -e "\t-R [-o] [-s size] [-n num] [-p path] [-l loglevel]: set --rillcat-- log"
+	echo -e "\t-R  -c:                                             set --rillcat-- log close\n"
+	echo -e "\t-C [-o] [-s size] [-n num] [-p path] [-l loglevel]: set --chargecat-log"
+	echo -e "\t-C  -c:                                             set --chargecat-log close\n"
+	echo -e "\t-B [-o] [-s size] [-n num] [-p path] [-l loglevel]: set --bt snoop--log"
+	echo -e "\t-B  -c:                                             set --bt snoop--log close\n"
+	echo -e "\t-G [-o] [-s size] [-n num] [-p path] [-l loglevel]: set --gnss baseband--log"
+	echo -e "\t-G  -c:                                             set --gnss baseband--log close\n"
+	echo -e "\t-T deam_opt [-o] [-s size] [-n num] [-p path] [-l loglevel]: set --tcpdump--  log"
+	echo -e "\t            deam_opt must be all|reduced"
+	echo -e "\t-T deam_opt  -c:                                             set --tcpdump--  log close\n"
+	echo -e "\t-O deam_opt [-o] [-s size] [-n num] [-p path] [-l loglevel]: set --oam_app--  log"
+	echo -e "\t            deam_opt must be w|b w:wifi b:bfg"
+	echo -e "\t-O deam_opt  -c:                                             set --oam_app--  log close\n"
+	echo -e "\n\t----------control option----------"
+	echo -e "\t-o : set log open"
+	echo -e "\t-c : set log close"
+	echo -e "\t-s size    : set log size   with value, unit MB"
+	echo -e "\t-n num     : set log number with value"
+	echo -e "\t-p path    : set log path   with value"
+	echo -e "\t-l loglevel: set log level  with value, v d i w e"
+	echo -e "\n\t-------------Example-------------"
+	echo -e "\t: set applogcat log open size=10 num=40"
+	echo -e "\t     $0 -A -o -s 10 -n 40"
+	echo -e "\t: set kmsgcat   log open size=5  num=30"
+	echo -e "\t     $0 -A -o -s 5 -n 30"
+}
+#global cmd
+#cmd_tar="busybox tar"
+cmd_mkdir=mkdir
+cmd_date=date
+cmd_rm=rm
+cmd_wl_config="wl_config wlan0 device_log set"
+sdcard_path=/data/media/0
+
+#Prototype    : debug
+#Description  : control debug or not 
+#Input        : debug_status
+#Output       : None
+#  History        :
+#  1.Date         : 2014/6/25
+#    Author       : l00244150
+#    Modification : Created function
+debug_status=1
+log_ctl_dir=/data/hwlogdir/log_ctl
+function debug()
+{
+	if [ $debug_status -eq 1 ];then
+		echo -e "$(date) --> $@" >>${log_ctl_dir}/log
+		echo -e "$@"
+	fi
+	return 0
+}
+
+#Prototype    : pidSave
+#Description  : save deam pid to control file 
+#Input        : deam 
+#Output       : None
+#  History        :
+#  1.Date         : 2014/6/25
+#    Author       : l00244150
+#    Modification : Created function
+
+function pidSave()
+{
+	local deam service pid array_pid array_pid_len process i j
+	deam=$1
+
+	case $deam in
+		A)  process=/system/bin/logcat
+			service=applogcat;;
+		K)	process=/sbin/kmsgcat
+			service=kmsglogcat;;
+		S)	process=/system/bin/sleeplogcat
+			service=sleeplogcat;;
+		R)  process=/system/bin/logcat
+			service=rillogcat;;
+		C)  process=/system/bin/chargelogcat
+			service=chargelogcat;;
+		*)  debug "not support deam";;
+
+	esac
+	array_pid=(`pidof $process`)
+	array_pid_len=${#array_pid[*]}
+
+	debug before sort array: ${array_pid[*]}
+	i=0
+	#c for can't use in /system/bin/sh, such as for((i = 0; i < 10; i++)) 	
+	while [ $i -lt $(($array_pid_len - 1)) ]
+	do
+		j=0
+		while [ $j -lt $(($array_pid_len - 1 - $i)) ]
+		do
+			if [ ${array_pid[$j]} -lt ${array_pid[$j + 1]} ];then
+				tmp=${array_pid[$j]}
+				array_pid[$j]=${array_pid[$j + 1]}
+				array_pid[$j + 1]=$tmp
+			fi
+			let j++
+		done
+		let i++
+	done
+	debug end sort array: ${array_pid[*]}
+
+	pid=${array_pid[0]}
+	echo $pid >${log_ctl_dir}/${service}_pid
+
+}
+
+#Prototype    : pidKill
+#Description  : kill deam by get pid in control file 
+#Input        : deam #Output       : None
+#  History        :
+#  1.Date         : 2014/6/25
+#    Author       : l00244150
+#    Modification : Created function
+function pidKill()
+{
+	local service deam pid array_pid array_pid_len process pid_save i retry retry_times retry_sleep_time
+	deam=$1
+	retry_times=3
+	retry_sleep_time=5
+
+	case $deam in
+		A)  process=/system/bin/logcat
+			file=/data/android_logs/applogcat-log
+			service=applogcat;;
+		K)	process=/sbin/kmsgcat
+			file=/data/android_logs/kmsgcat-log
+			service=kmsglogcat;;
+		S)	process=/system/bin/sleeplogcat
+			file=/data/android_logs/
+			service=sleeplogcat;;
+		R)  process=/system/bin/logcat
+			file=/data/android_logs/rillogcat-log
+			service=rillogcat;;
+		C)  process=/system/bin/chargelogcat
+			file=/data/android_logs/
+			service=chargelogcat;;
+		*)  debug "not support deam";;
+	esac
+
+
+	i=0
+	retry=0
+	
+	array_pid=(`pidof $process`)
+	array_pid_len=${#array_pid[*]}
+	while [ $array_pid_len -eq 0 ]
+	do
+		debug  array_pid_len=$array_pid_len, retry $retry times
+		if [ $retry -gt  $retry_times ];then 
+			break
+		fi
+		sleep $retry_sleep_time
+		array_pid=(`pidof $process`)
+		array_pid_len=${#array_pid[*]}
+		let retry++
+	done
+
+	if [ $retry -gt  $retry_times ];then 
+		return 1
+	fi
+
+	while [ $i -lt $(($array_pid_len)) ]
+	do
+		cmdline=`cat /proc/${array_pid[$i]}/cmdline`
+		echo $cmdline|grep $file
+
+		if [ $? -eq 0 ];then
+			setprop ctl.stop $service
+			kill -9 ${array_pid[$i]}
+			debug kill $service pid=${array_pid[$i]} cmdline=$cmdline
+			return 0
+		fi
+		let i++
+	done
+	
+}
+
+#Prototype    : appcat
+#Description  : config applogcat deam switch, size ...
+#Input        : switch size num path loglevel
+#Output       : None
+#  History        :
+#  1.Date         : 2014/6/25
+#    Author       : l00244150
+#    Modification : Created function
+function appcat()
+{
+	local service process file pid_opt switch size num path loglevel
+	service=applogcat
+	process=/system/bin/logcat
+	file=/data/android_logs/applogcat-log
+	pid_opt=A
+	switch=$1
+	size=$2
+	num=$3
+	path=$4
+	loglevel=$5
+
+	let size*=1024
+	#close or open system log service, do not change the size of log files.
+	if [[ $switch == "c" ]];then
+		debug "stop $service log"
+		stop $service
+		return 0
+	fi
+
+	#open log and set log size and num--------------
+	#pidKill ${pid_opt}
+
+	if [ $? -ne 0 ];then 
+		debug "has not find service $service "
+		return 1
+	fi
+	
+	#$process -v threadtime -r $size -n $num -f $file &
+	#$process -v threadtime -n $num -f $file -r $size &
+	start $service
+	chown root:system $file
+	#pidSave ${pid_opt}
+	debug "start $service"
+}
+
+#Prototype    : kmsgcat
+#Description  : config kmsgcatcat deam switch, size ...
+#Input        : switch size num path loglevel
+#Output       : None
+#  History        :
+#  1.Date         : 2014/6/25
+#    Author       : l00244150
+#    Modification : Created function
+function kmsgcat()
+{
+	local service process file pid_opt switch size num path loglevel
+	service=kmsglogcat
+	process=/sbin/kmsgcat
+	file=/data/android_logs/kmsgcat-log
+	pid_opt=K
+	switch=$1
+	size=$2
+	num=$3
+	path=$4
+	loglevel=$5
+
+	let size*=1024
+	#close or open system log service, do not change the size of log files.
+	if [[ $switch == "c" ]];then
+		debug "stop $service log"
+		#pidKill ${pid_opt}
+		stop $service
+		return 0
+	fi
+
+	#open log and set log size and num--------------
+	#pidKill ${pid_opt}
+	if [ $? -ne 0 ];then 
+		debug "has not find service $service "
+		return 1
+	fi
+
+	#$process -r $size -n $num -f $file &
+	start $service
+	chown root:system $file
+	#pidSave ${pid_opt}
+
+	debug "start $service"
+}
+
+#Prototype    : sleepcat
+#Description  : config sleeplogcat deam switch, size ...
+#Input        : switch size num path loglevel
+#Output       : None
+#  History        :
+#  1.Date         : 2014/6/25
+#    Author       : l00244150
+#    Modification : Created function
+function sleepcat()
+{
+	local service process file pid_opt switch size num path loglevel
+	service=sleeplogcat
+	process=/system/bin/sleeplogcat
+	file=/data/android_logs/
+	pid_opt=S
+	switch=$1
+	size=$2
+	num=$3
+	path=$4
+	loglevel=$5
+
+	let size*=1024
+	#close or open system log service, do not change the size of log files.
+	if [[ $switch == "c" ]];then
+		debug "stop $service log"
+		#pidKill ${pid_opt}
+		stop $service
+		return 0
+	fi
+
+	#open log and set log size and num--------------
+	#pidKill ${pid_opt}
+	if [ $? -ne 0 ];then 
+		debug "has not find service $service "
+		return 1
+	fi
+
+	#$process -r $size -n $num -t 10 -p $file &
+	start $service
+	chown root:system $file
+	#pidSave ${pid_opt}
+
+	debug "start $service"
+}
+
+#Prototype    : rillcat
+#Description  : config rillcat deam switch, size ...
+#Input        : switch size num path loglevel
+#Output       : None
+#  History        :
+#  1.Date         : 2014/6/25
+#    Author       : l00244150
+#    Modification : Created function
+function rillcat()
+{
+	debug "do nothing"
+}
+
+#Prototype    : chargecat
+#Description  : config chargecat deam switch, size ...
+#Input        : switch size num path loglevel
+#Output       : None
+#  History        :
+#  1.Date         : 2014/6/25
+#    Author       : l00244150
+#    Modification : Created function
+function chargecat()
+{
+	debug "do nothing"
+}
+
+#Prototype    : log_clean_do
+#Description  : clean system log filter by file type and str 
+#Input        : path filter_type filter_str save_num
+#Output       : None
+#  History        :
+#  1.Date         : 2014/6/25
+#    Author       : l00244150
+#    Modification : Created function
+function log_clean_do()
+{
+	local path filter_type filter_str save_num list files directorys num cnt tmp
+	path=$1
+	filter_type=$2
+	filter_str=$3
+	save_num=$4
+
+	if [[ "nothing" == $filter_str ]];then
+		list=(`ls $path`)
+	else
+		list=(`ls $path|grep ^$filter_str`)
+	fi
+	cnt=0
+	num=${#list[*]}
+	while [ $cnt -lt $num ]
+	do
+		if [ -d $path${list[$cnt]} ];then
+			directorys[$cnt]=${list[$cnt]}
+		elif [ -e $path${list[$cnt]} ];then
+			files[$cnt]=${list[$cnt]}
+		fi
+		let cnt++
+	done
+
+	#debug -----------------------------
+	#debug "files=${files[*]}"
+	#debug "directorys=${directorys[*]}"
+	#debug -----------------------------
+	case $filter_type in
+		file)
+			num=${#files[*]}
+			tmp=(${files[*]});;
+
+		dir)
+			num=${#directorys[*]}
+			tmp=(${directorys[*]});;
+		*)  debug "not support filter_type=$filter_type"
+			return;;
+	esac
+
+	cnt=$save_num
+	if [ $cnt -ge $num ];then
+		debug "$path only have $num files or dirs, no more then $cnt"
+		return 0	
+	fi
+
+	while [ $cnt -lt $num ]
+	do
+		debug "rm file $path${tmp[$cnt]}"
+		$cmd_rm -rf $path${tmp[$cnt]}
+		let cnt++
+	done
+
+	let cnt--
+	debug "have rm $cnt $filter_str files in $path"
+}
+
+#Prototype    : log_clear_do
+#Description  : rm system log filter by file type and filter_exclude
+#Input        : path filter_type filter_str save_num
+#Output       : None
+#  History        :
+#  1.Date         : 2014/6/25
+#    Author       : l00244150
+#    Modification : Created function
+function log_clear_do()
+{
+	local path filter_type filter_str filter_exclude list num cnt 
+	path=$1
+	filter_type=$2
+	filter_str=$3
+	filter_exclude=$4
+
+	case $filter_type in
+		dir)  debug "$cmd_rm -rf ${path}*"
+			  $cmd_rm -rf ${path}*
+			  return;;
+		file) ;;
+		   *) debug "not support filter_type=$filter_type";return;;
+	esac
+
+	list=(`ls $path|grep ^$filter_str`)
+
+	cnt=0
+	num=${#list[*]}
+	while [ $cnt -lt $num ]
+	do
+		if [ -e $path${list[$cnt]} ];then
+			if [[ ${list[$cnt]} != $filter_exclude ]];then 
+				debug "rm file $path${list[$cnt]}"
+				$cmd_rm -rf $path${list[$cnt]}
+			fi
+		fi
+		let cnt++
+	done
+
+	let cnt--
+	debug "have rm $cnt $filter_str files in $path"
+}
+
+#Prototype    : log_clean
+#Description  : clean system log in path tab
+#Input        : switch
+#Output       : None
+#  History        :
+#  1.Date         : 2014/6/25
+#    Author       : l00244150
+#    Modification : Created function
+function log_clean()
+{
+	local path filter path_num cnt save_num
+
+	echo "in log_clean funciton--------------"
+	path=(/data/memdump/ /data/memdump/ /data/memorydump/ \
+		  $sdcard_path/LogService/uploading/ $sdcard_path/LogService/uploading/failed/ \
+		  $sdcard_path/LogService/1/uploading/ $sdcard_path/LogService/2/uploading/ $sdcard_path/LogService/3/uploading/ $sdcard_path/LogService/9/uploading/)
+	filter_type=(file file dir \
+		  file file \
+		  file file file file )
+	filter_str=(readm_wifi	readm_bfg nothing \
+		    nothing nothing \
+			Stabilization Stabilization Stabilization nothing )
+	save_num=(10 10 3 \
+			  40 10 \
+			  10 10 10 10)
+	
+	path_num=${#path[*]}
+	cnt=0
+	while [ $cnt -lt $path_num ]
+	do
+		if [ -d ${path[$cnt]} ];then
+			log_clean_do ${path[$cnt]} ${filter_type[$cnt]} ${filter_str[$cnt]} ${save_num[$cnt]}
+		fi
+		let cnt++
+	done
+}
+
+#Prototype    : log_tar
+#Description  : tar log in path_src tab
+#Input        : 
+#Output       : None
+#  History        :
+#  1.Date         : 2014/6/25
+#    Author       : l00244150
+#    Modification : Created function
+function log_tar()
+{
+	local path_src path_dec tmp
+	echo "in log_tar funciton--------------"
+#$1=y :clear log after tar log
+#$1=n :do not clear log after tar log
+	clear_src=$1
+#/data/android_logs/
+	path_src=( /data/android_logs /data/hwlogdir /data/memdump $sdcard_path/btsnoop_hci* \
+		  /data/memorydump /data/dontpanic /data/system/dropbox /data/tombstones /data/anr /data/log/dbox /splash2)
+	path_dec=$sdcard_path/hi110x_log/tar/
+	debug "${path_src[*]} ------------------"
+
+	if [[ ! -d $path_dec ]];then 
+		$cmd_mkdir -p $path_dec 
+	fi
+	tmp=$($cmd_date)	
+	tmp=${tmp// /-}
+	tmp=${tmp//:/-}
+
+	mkdir  ${path_dec}all_log-${tmp}
+	debug  "---------begin cp"
+	path_src_logs+=/data/hwlogdir
+	cp -r ${path_src[*]} ${path_dec}all_log-${tmp}/
+
+	#$cmd_tar -czvf ${path_dec}all_log-${tmp}.tar.gz ${path_src[*]}
+	case $clear_src in
+		y) log_clear n;;
+		n) ;;
+		*) debug "not support clear_src=$clear_src";;
+	esac
+
+}
+
+#Prototype    : log_clear
+#Description  : rm log in path_src tab
+#Input        : 
+#Output       : None
+#  History        :
+#  1.Date         : 2014/7/10
+#    Author       : l00244150
+#    Modification : Created function
+function log_clear()
+{	
+	local path filter_type filter_str filter_exclude cnt path_num
+	echo "in log_clear funciton--------------"
+
+#$1=y :clear log and tar log
+#$1=n :only clear log 
+
+	clear_src=$1
+
+	path=(/data/android_logs/ /data/android_logs/ /data/android_logs/ /data/android_logs/ /data/android_logs/ /data/android_logs/ /data/android_logs/ \
+			/data/hwlogdir/bfg_log/ \
+			/data/hwlogdir/wifi_log/ /data/hwlogdir/wifi_log/dump/ /data/hwlogdir/wifi_log/dump/ \
+			/data/hwlogdir/gnss_log/device/ \
+			$sdcard_path/ \
+			$sdcard_path/hi110x_log/tar/ \
+			/data/hwlogdir/exception/wifi_except/ /data/hwlogdir/exception/bt_except/ /data/hwlogdir/exception/gnss_except/ \
+			/data/memdump/ /data/memorydump/ /data/dontpanic/ /data/system/dropbox/ /data/tombstones/ /data/anr/ \
+			)
+			#/data/log/dbox /splash2
+	filter_type=(file file file file file file file \
+		  file \
+		  file file file \
+		  file \
+		  file \
+		  dir \
+		  dir dir dir \
+		  dir dir dir dir dir dir \
+		  )
+	filter_str=(applogcat-log kmsgcat-log charge-log rillogcat-log wakelocks-log telemntncat-log input-log \
+		    bfg_log_ \
+			wifi_log_ tcpdump_reduced_data.cap. tcpdump_all_data.cap. \
+			DEVICE_ \
+			btsnoop_hci \
+			nothing \
+			nothing nothing nothing \
+			nothing nothing nothing nothing nothing nothing \
+			)
+	filter_exclude=(applogcat-log kmsgcat-log charge-log rillogcat-log wakelocks-log telemntncat-log input-log  \
+			bfg_log_1 \
+			wifi_log_1 tcpdump_reduced_data.cap.0 tcpdump_all_data.cap.0 \
+			DEVICE_1.t \
+			btsnoop_hci.log \
+			nothing \
+			nothing nothing nothing \
+			nothing nothing nothing nothing nothing nothing \
+			)
+
+	path_num=${#path[*]}
+	cnt=0
+	while [ $cnt -lt $path_num ]
+	do
+		if [ -d ${path[$cnt]} ];then
+			case $clear_src in
+				n)
+					if [[ ${path[$cnt]} != "$sdcard_path/hi110x_log/" ]];then
+						log_clear_do ${path[$cnt]} ${filter_type[$cnt]} ${filter_str[$cnt]} ${filter_exclude[$cnt]}
+					fi
+					;;
+				y) log_clear_do ${path[$cnt]} ${filter_type[$cnt]} ${filter_str[$cnt]} ${filter_exclude[$cnt]};;
+				*) debug "not support clear_src=$clear_src";;
+			esac
+		fi
+		let cnt++
+	done
+}
+
+#Prototype    : ini_write
+#Description  : write var with value in log_ctl_file 
+#Input        : var value
+#Output       : None
+#  History        :
+#  1.Date         : 2014/6/25
+#    Author       : l00244150
+#    Modification : Created function
+function ini_write()
+{
+	local var value var_value text
+	var=$1
+	value=$2
+	text=`cat $log_ctl_file`
+	var_value=$(cat $log_ctl_file|grep ^${var}=)
+	if [[ -z $var_value ]];then
+		debug "var=$var value=$value var_value is null!!!!"
+		return 1
+	fi
+	text=${text//$var_value/${var}=${value}}
+	echo "${text}" > $log_ctl_file
+
+	debug "write $var with $value to cfg file"
+}
+
+#Prototype    : ini_write_modu
+#Description  : write config to deam 
+#Input        : deam switch size num path level
+#Output       : None
+#  History        :
+#  1.Date         : 2014/6/25
+#    Author       : l00244150
+#    Modification : Created function
+function ini_write_modu()
+{
+	local switch size num path level var_switch var_value var_size var_num tab_oam_wifi tab_oam_bfg tab_bt_snoop tab_gnss_baseband tab_len
+	deam=$1
+	switch=$2
+	size=$3
+	num=$4
+	path=$5
+	level=$6
+	debug "ini_write_modu $@"
+
+	tab_oam_wifi=(log_switch_device_wifi log_size_device_wifi log_num_device_wifi log_path_device_wifi log_level_device_wifi)
+	tab_oam_bfg=(log_switch_device_bfg log_size_device_bfg log_num_device_bfg log_path_device_bfg log_level_device_bfg)
+	tab_bt_snoop=(log_switch_bt_snoop log_size_bt_snoop log_num_bt_snoop log_path_bt_snoop log_level_bt_snoop)
+	tab_gnss_baseband=(log_switch_gnss_baseband log_size_gnss_baseband log_num_gnss_baseband log_path_gnss_baseband log_level_gnss_baseband)
+	tab_bt_level=(TRC_BTM TRC_HCI TRC_L2CAP TRC_RFCOMM TRC_OBEX TRC_AVCT TRC_AVDT TRC_AVRC TRC_AVDT_SCB TRC_AVDT_CCB TRC_A2D TRC_SDP TRC_GATT TRC_SMP TRC_BTAPP TRC_BTIF)
+
+	case $deam in
+		o_w)
+			var_switch=${tab_oam_wifi[0]}
+			var_size=${tab_oam_wifi[1]}
+			var_num=${tab_oam_wifi[2]}
+			var_path=${tab_oam_wifi[3]}
+			var_level=${tab_oam_wifi[4]}
+			;;
+		o_b)
+			var_switch=${tab_oam_bfg[0]}
+			var_size=${tab_oam_bfg[1]}
+			var_num=${tab_oam_bfg[2]}
+			var_path=${tab_oam_bfg[3]}
+			case $DEAM in 
+				B) var_level=log_level_device_bt;;
+				G) var_level=log_level_device_gnss;;
+				*) var_level=${tab_oam_bfg[4]};;
+			esac
+			;;
+		b)  var_switch=${tab_bt_snoop[0]}
+			var_size=${tab_bt_snoop[1]}
+			var_num=${tab_bt_snoop[2]}
+			var_path=${tab_bt_snoop[3]}
+			var_level=${tab_bt_snoop[4]}
+			;;
+		g)
+			var_switch=${tab_gnss_baseband[0]}
+			var_size=${tab_gnss_baseband[1]}
+			var_num=${tab_gnss_baseband[2]}
+			var_path=${tab_gnss_baseband[3]}
+			var_level=${tab_gnss_baseband[4]}
+			;;
+	esac
+	
+
+	if [[ -n $switch ]];then
+		case $switch in
+			c)
+				var_value=0;;
+			o)
+				var_value=1;;
+
+			*)	debug "not support opt" 
+				return 1;;
+		esac
+		ini_write $var_switch $var_value
+	fi
+
+	if [[ -n $size ]];then
+		ini_write $var_size $size
+	fi
+
+	if [[ -n $num ]];then
+		ini_write $var_num $num
+	fi
+
+	if [[ -n $path ]];then
+		if [[ $path != nothing ]];then
+			ini_write $var_path $path
+		fi
+	fi
+
+	if [[ -n $level ]];then
+		case $deam in
+			o_w)
+				#60:info 61:warning 62 error
+				#3:i 2:w 1:e 0:n
+				debug "wifi device log 60:info 61:warning 62 error"
+				case $level in 
+					3)
+						$cmd_wl_config on 60
+						$cmd_wl_config on 61
+						$cmd_wl_config on 62
+						debug "$cmd_wl_config on 60 on 61 on 62"
+						;;
+					2)
+						$cmd_wl_config off 60
+						$cmd_wl_config on 61
+						$cmd_wl_config on 62
+						debug "$cmd_wl_config off 60 on 61 on 62"
+						;;
+					1)
+						$cmd_wl_config off 60
+						$cmd_wl_config off 61
+						$cmd_wl_config on 62
+						debug "$cmd_wl_config off 60 off 61 on 62"
+						;;
+					0)
+						$cmd_wl_config off 60
+						$cmd_wl_config off 61
+						$cmd_wl_config off 62
+						debug "$cmd_wl_config off 60 off 61 off 62"
+						;;
+
+					*)  
+						debug "not support wifi device loglevel=$level"
+						;;
+				esac
+				;;
+			b)
+				i=0
+				tab_len=${#tab_bt_level[*]}
+				while [ $i -lt $tab_len ]
+				do
+					ini_write ${tab_bt_level[$i]} $level
+					let i++
+				done
+				;;
+			*)
+				;;
+		esac
+		ini_write $var_level $level
+	fi
+
+	return 0
+}
+
+
+#Prototype    : ini_cfg
+#Description  : write config to log_ctl_file and reset deam
+#Input        : deam switch size num path level
+#Output       : None
+#  History        :
+#  1.Date         : 2014/6/25
+#    Author       : l00244150
+#    Modification : Created function
+function ini_cfg()
+{
+	local service process file pid_opt switch size num path level
+	file=/data/hwlogdir/
+	deam=$1
+	switch=$2
+	size=$3
+	num=$4
+	path=$5
+	level=$6
+
+	ini_write_modu $deam $switch $size $num $path $level
+	debug "set log file switch->$switch size->${size}KB num->${num} path->${path} level->${level}"
+}
+
+#Prototype    : device_level_set
+#Description  : set bfg device log level 
+#Input        : deam level
+#Output       : None
+#  History        :
+#  1.Date         : 2014/6/25
+#    Author       : l00244150
+#    Modification : Created function
+function device_level_set()
+{
+	local service process deam level bfg_log_set
+	service=oam_app
+	process=/system/bin/oam_app
+	deam=$1
+	level=$2
+
+	bfg_log_set=/system/bin/firmware_bfg_loglevel
+	#pid=(`pidof $process`)
+	#kill all of oam_app, or the log will confuse
+#kill -9 ${pid}
+#debug "kill $process"
+
+	case $deam in
+		W) deam=w;;
+		G) deam=g;;
+		B) deam=b;;
+	esac
+
+	#firmware_bfg_loglevel [n] [b|f|g|p|s] [0|1|2|3|4]
+	if [[ -n $level ]];then
+		if [ $level -eq 5 ];then
+			level=4
+		fi
+		$bfg_log_set $deam $level
+		debug "set $deam device log to level $level"
+	fi
+	#$process &
+	debug "restart $process"
+
+}
+#Prototype    : oam_set
+#Description  : oam_app config 
+#Input        : deam switch size num path level
+#Output       : None
+#  History        :
+#  1.Date         : 2014/6/25
+#    Author       : l00244150
+#    Modification : Created function
+function oam_set()
+{
+	local deam switch size num path level 
+	service=oam_app
+	process=/system/bin/oam_app
+	deam=$1
+	switch=$2
+	size=$3
+	num=$4
+	path=$5
+	level=$6
+
+	pid=(`pidof $process`)
+	#kill all of oam_app, or the log will confuse
+	#kill -9 ${pid}
+	stop $service
+	debug "stop $process"
+
+	ini_cfg o_${deam} $switch $size $num $path $level
+	#$process &
+	start $service
+	debug "restart $process"
+}
+
+#Prototype    : bt_snoop_set
+#Description  : bt snoop config
+#Input        : switch size num path level
+#Output       : None
+#  History        :
+#  1.Date         : 2014/6/25
+#    Author       : l00244150
+#    Modification : Created function
+function bt_snoop_set()
+{
+	local service deam switch size num path level
+	deam=b
+	switch=$1
+	size=$2
+	num=$3
+	path=$4
+	level=$5
+	ini_cfg $deam $switch $size $num $path $level
+}
+
+#Prototype    : gnss_baseband_set
+#Description  : gnss baseband data config
+#Input        : switch size num path level
+#Output       : None
+#  History        :
+#  1.Date         : 2014/6/25
+#    Author       : l00244150
+#    Modification : Created function
+function gnss_baseband_set()
+{
+	local service deam switch size num path level
+	deam=g
+	switch=$1
+	size=$2
+	num=$3
+	path=$4
+	level=$5
+	ini_cfg $deam $switch $size $num $path $level
+}
+
+#Prototype    : tcpdumpcat
+#Description  : tcpdump data config
+#Input        : switch size num path level
+#Output       : None
+#  History        :
+#  1.Date         : 2014/6/25
+#    Author       : l00244150
+#    Modification : Created function
+function tcpdumpcat()
+{
+	local service deam_opt switch size num path level
+	debug "tcpdumpcat ----$@"
+	service=tcpdump_mgr
+	deam_opt=$1
+	switch=$2
+	size=$3
+	num=$4
+	path=$5
+	level=$6
+
+#default not change path, as HwLogTool can't change dir path
+	if [[ $switch == "c" ]];then
+		$service -k -t $deam_opt
+		return 
+	fi
+	$service -t $deam_opt -s $size -n $num -p $path &
+	debug -------- $service -t $deam_opt -s $size -n $num -p $path
+}
+
+
+#Prototype    : find_value_in_file
+#Description  : find var value in file 
+#Input        : file var
+#Output       : value 
+#  History        :
+#  1.Date         : 2014/6/25
+#    Author       : l00244150
+#    Modification : Created function
+function find_value_in_file()
+{
+	local file var value
+	file=$1
+	var=$2
+	value=$(cat $file |grep "^$var=")
+	value=${value#${var}=}
+	echo $value
+}
+
+#Prototype    : log_init
+#Description  : init logd control system
+#Input        : None
+#Output       : None
+#  History        :
+#  1.Date         : 2014/6/25
+#    Author       : l00244150
+#    Modification : Created function
+function log_init()
+{
+	local log_default_cnt log_cnt
+	log_ini_form_sys=/sys/devices/hi110x_power/ini_file_name
+	echo "in log_init funciton--------------"
+	log_default_cnt=100
+	log_ini_file=$(cat $log_ini_form_sys)
+	if [[ -z $log_ini_file ]];then
+		log_ini_file=/system/etc/hisi_cfg.ini
+	fi
+
+	log_ini_var_file=log_cfg_file
+	log_cfg_file_default=/data/hwlogdir/log_ctl/log_cfg
+	#log_ctl_dir=/data/hwlogdir/log_ctl
+	log_ctl_file=$(find_value_in_file $log_ini_file $log_ini_var_file)
+	if [[ -z $log_ctl_file ]];then
+		debug "not find log_ctl_file, set to default $log_cfg_file_default"
+		log_cfg_file=$log_cfg_file_default
+	fi
+
+	log_ctl_dir=${log_ctl_file%/*}
+	if [ ! -d $log_ctl_dir ];then
+		$cmd_mkdir -p $log_ctl_dir
+	fi
+
+	if [ ! -e $log_ctl_file ];then
+		cp $log_ini_file $log_ctl_file 
+	fi
+
+	if [ ! -e $log_ctl_file ];then
+		debug "can't make log_ctl_file!!!" 
+		exit 1
+	fi
+
+	if [ $log_ini_file -nt $log_ctl_file ];then 
+		cp $log_ini_file $log_ctl_file 
+		log_ctl_file=$(find_value_in_file $log_ini_file $log_ini_var_file)
+		log_ctl_dir=${log_ctl_file%/*}
+		debug "$log_ini_file is newer than $log_ctl_file!!!" 
+	fi
+
+	log_cnt=$(cat ${log_ctl_dir}/cnt)
+	if [[ -z $log_cnt ]];then 
+		echo 0 >${log_ctl_dir}/cnt
+		log_cnt=0
+	fi
+
+	if [ $log_cnt -gt $log_default_cnt ];then 
+		log_cnt=0
+		echo -e "------------------------------------start cmd $log_cnt----------------------" > ${log_ctl_dir}/log
+	else
+		echo -e "------------------------------------start cmd $log_cnt----------------------" >> ${log_ctl_dir}/log
+	fi
+
+	let log_cnt++
+	echo $log_cnt >${log_ctl_dir}/cnt
+
+	debug log_ini_file=$log_ini_file log_ctl_file=$log_ctl_file
+}
+
+#Prototype    : level_to_num
+#Description  : convet level string to num 
+#Input        : level_str
+#Output       : log_level_num
+#  History        :
+#  1.Date         : 2014/6/25
+#    Author       : l00244150
+#    Modification : Created function
+log_level_num=
+function level_to_num()
+{
+	local tab_level_str tab_level_num tab_len i level_str tab_len
+	#n:none e:error w:warning i:info d:debug v:verbose
+	tab_level_str=(n e w i d v)
+	tab_level_num=(0 1 2 3 4 5)
+	level_str=$1
+	tab_len=${#tab_level_str[*]}
+
+	i=0	
+	while [ $i -lt $tab_len ]
+	do
+		if [[ $level_str == ${tab_level_str[$i]} ]];then
+			break
+		fi
+		let i++
+	done
+
+	if [ $i -lt $tab_len ];then
+		log_level_num=${tab_level_num[$i]}
+	fi
+}
+
+#Prototype    : cmd_run
+#Description  : run cmd from logd
+#Input        : opt from main_user func 
+#Output       : None
+#  History        :
+#  1.Date         : 2014/6/25
+#    Author       : l00244150
+#    Modification : Created function
+function cmd_run()
+{
+	local opt deam deam_cnt deam_opt size num path loglevel
+	
+	deam_cnt=0
+	debug "cmd_run   -------- $@"
+#return
+	#while getopts "hAKSRCLBGO:T:ocn:s:p:l:" opt ;do
+	while [ -n "$1" ]
+	do
+		opt=$1	
+		case $opt in
+			-h)  usage
+				return;;
+			-A|-K|-S|-R|-C|-L|-B|-G)  
+				deam=${opt:1:1}
+				let deam_cnt++;;
+			-O)  
+				deam=${opt:1:1}
+				deam_opt=$2
+				let deam_cnt++
+				shift;;
+			-T)  
+				deam=${opt:1:1}
+				deam_opt=$2
+				let deam_cnt++
+				shift;;
+			-o) switch=${opt:1:1};;
+			-c) switch=${opt:1:1};;
+			-s) size=$2
+				shift;;
+			-n) num=$2
+				shift;;
+			-p) path=$2
+				shift;;
+			-l) loglevel=$2
+				shift;;
+			*)  debug "not support option=$1"
+				usage
+				return;;
+		esac
+		shift
+	done
+
+	if [ $deam_cnt -ne 1 ];then
+		debug "only one deamon deam_cnt=$deam_cnt "
+		usage
+		return
+	fi
+	
+	if [[ -z $switch ]];then
+		switch=any
+	fi
+
+#	debug deam=$deam
+#	debug deam_opt=$deam_opt
+#	debug switch=$switch
+#	debug size=$size
+#	debug num=$num
+#	debug path=$path
+#	debug loglevel=$loglevel
+
+	case $deam in
+		A)  appcat		$switch $size $num $path $loglevel;;
+		K)	kmsgcat		$switch $size $num $path $loglevel;;
+		S)	sleepcat	$switch $size $num $path $loglevel;;
+		R)  rillcat		$switch $size $num $path $loglevel;;
+		C)  chargecat	$switch $size $num $path $loglevel;;
+		B)  bt_snoop_set		$switch $size $num $path $loglevel;;
+		G)  gnss_baseband_set	$switch $size $num $path $loglevel;;
+		T)  tcpdumpcat	$deam_opt $switch $size $num $path $loglevel;;
+		O)  oam_set		$deam_opt $switch $size $num $path $loglevel;;
+		*)  debug "not support deam"
+	esac
+}
+
+#Prototype    : cmd_parse
+#Description  : parse opt from main_user 
+#Input        : opt from main_user func
+#Output       : None
+#  History        :
+#  1.Date         : 2014/6/25
+#    Author       : l00244150
+#    Modification : Created function
+function cmd_parse()
+{
+	local i cmd tab_cfg_len
+	i=0
+	cmd=$1
+	tab_cfg_len=${#tab_cfg[*]}
+	while [ $i -lt $tab_cfg_len ]
+	do
+		if [[ ${tab_cfg[$i]} == $cmd ]];then
+			cmd_opt=${tab_opt[$i]}
+			break
+		fi
+		let i++
+	done
+
+	case $cmd_opt in
+		-Ow) cmd_opt="-O w";;
+		-Ob) cmd_opt="-O b";;
+		-Treduced) cmd_opt="-T reduced";;
+		-Tall) cmd_opt="-T all";;
+	esac
+
+	if [[ -z $cmd_opt ]];then
+		debug "not find modu and type\n"
+		return 1
+	fi
+	return 0
+}
+
+#Prototype    : cmd_combine
+#Description  : combine opt from main_user 
+#Input        : opt from main_user func
+#Output       : None
+#  History        :
+#  1.Date         : 2014/6/25
+#    Author       : l00244150
+#    Modification : Created function
+function cmd_combine()
+{
+	local cmd tab_len tab_opt
+	tab_opt=($*)
+	tab_len=${#tab_opt[*]}
+	case $tab_len in
+		2)	cmd_opt="$cmd_opt -$switch -s ${tab_opt[0]} -n ${tab_opt[1]}";;
+		3)	cmd_opt="$cmd_opt -$switch -s ${tab_opt[0]} -n ${tab_opt[1]} -p ${tab_opt[2]}";;
+		4)	cmd_opt="$cmd_opt -$switch -s ${tab_opt[0]} -n ${tab_opt[1]} -p ${tab_opt[2]} -l ${tab_opt[3]}";;
+		*)	debug "command paramer must have -s and -n\n"
+			return 1;;
+	esac
+	return 0
+}
+
+#Prototype    : system_run
+#Description  : 
+#Input        : 
+#Output       : None
+#  History        :
+#  1.Date         : 2014/7/10
+#    Author       : l00244150
+#    Modification : Created function
+function system_run()
+{
+	local opt
+	opt=$1
+	case $opt in
+		init)  log_init;exit 0;;
+		clean) log_clean;exit 0;;
+		tar-y) log_tar y;exit 0;;
+		tar-n) log_tar n;exit 0;;
+		clear) log_clear y;exit 0;;
+		*)	   ;;
+	esac
+}
+#Prototype    : product_mode_cfg
+#Description  :
+#Input        :
+#Output       : None
+#  History        :
+#  1.Date         : 2014/11/29
+#    Author       : swx230420
+#    Modification : Created function
+function product_mode_cfg()
+{
+    debug "in product_mod_cfg"
+	local val service product_mode
+	product_mode=$1
+	val=product_mode_switch
+	service=oam_app
+
+	log_init
+	stop $service
+	debug "stop oam_app service for reset product_mode"
+	ini_write $val $product_mode
+	start $service
+	debug "restart service oam_app"
+}
+#Prototype    : main_user
+#Description  : the main func
+#Input        : opt from user
+#Output       : None
+#  History        :
+#  1.Date         : 2014/6/25
+#    Author       : l00244150
+#    Modification : Created function
+function main_user()
+{
+
+	local deam_cnt opt size num path loglevel product_mode
+	echo "main_user -------- $@"
+	deam_cnt=0
+	oam_opt=
+	tab_cfg=(S-logcat S-kmsgcat S-sleepcat S-rillcat S-chargecat \
+			 W-device W-device_level W-tcpdump_reduced W-tcpdump_all \
+			 B-device B-device_level B-snoop \
+			 G-device G-device_level G-baseband)
+	tab_opt=(-A	-K -S -R -C \
+			-Ow -Wl -Treduced -Tall\
+			-Ob -Bl -B \
+			-Ob -Gl -G)
+	cmd_opt=
+
+	umask 002
+
+	while getopts "hS:W:B:G:ocn:s:p:l:P:" opt;do
+		case $opt in
+			h)  usage_user
+				return;;
+			S)  
+				deam=$opt
+				deam_opt=$OPTARG
+				let deam_cnt++;;
+			W)  
+				deam=$opt
+				deam_opt=$OPTARG
+				let deam_cnt++;;
+			B)  
+				deam=$opt
+				deam_opt=$OPTARG
+				let deam_cnt++;;
+			G)  
+				deam=$opt
+				deam_opt=$OPTARG
+				let deam_cnt++;;
+			o)  switch=$opt;;
+			c)  switch=$opt;;
+			s)  size=$OPTARG;;
+			n)  num=$OPTARG;;
+			p)  path=$OPTARG;;
+			P)  product_mode=$OPTARG
+			    product_mode_cfg $product_mode
+			    exit;;
+			l)  loglevel=$OPTARG;;
+			\?) debug "not support opt"
+				usage_user
+				return;;
+		esac
+	done
+
+	if [ $deam_cnt -ne 1 ];then
+		debug "only one deamon"
+		usage_user
+		return
+	fi
+
+	echo  deam=$deam
+	echo  deam_opt=$deam_opt
+	echo  switch=$switch
+	echo  size=$size
+	echo  num=$num
+	echo  path=$path
+	echo  loglevel=$loglevel
+
+	#global var for oam_set
+	DEAM=$deam
+
+	if [[ $deam == "S" ]];then
+		system_run $deam_opt	
+	fi
+
+	#process device log levlel
+	case $deam_opt in 
+		device_level) device_level_set $deam $loglevel 
+					  exit 0;;
+		*)			  ;;
+	esac
+
+	cmd_parse ${deam}-${deam_opt}
+	if [ $? -ne 0 ];then
+		usage_user
+		return
+	fi
+
+	if [[ -n $size ]];then
+		if [ $size -eq 0 ];then
+			usage_user
+			return
+		fi
+	fi
+
+	if [[ -n $num ]];then
+		if [ $num -eq 0 ];then
+			usage_user
+			return
+		fi
+	fi
+
+	if [[ -z $path ]];then
+		path=nothing
+	fi
+
+	log_init
+
+	level_to_num $loglevel
+	loglevel=$log_level_num
+
+	case $switch in
+		o)  cmd_combine $size $num $path $loglevel
+			if [ $? -ne 0 ];then
+				usage_user
+				return
+			fi
+			cmd_run $cmd_opt;;
+		c)	cmd_run $cmd_opt -$switch;;
+		*)  debug "not support switch"
+			usage_user;;
+	esac
+}
+
+#---------------main----------------------
+main_user $@
+
+exit

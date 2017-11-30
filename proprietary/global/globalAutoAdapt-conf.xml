@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- 当前版本号：Global_parameters V3.492
+<!-- 当前版本号：Global_parameters V3.468
 SE13_version 20161114目前包含 217个国家和地区，1334套运营商参数。 -->
 <numMatchs version="1">
   <numMatch name="etisalat"
@@ -150,7 +150,7 @@ SE13_version 20161114目前包含 217个国家和地区，1334套运营商参数
   <numMatch name="Inwi"
     mcc="604"
     mnc="02"
-    num_match="8"
+    num_match="9"
   />
   <numMatch name="Libyana"
     mcc="606"
@@ -2266,11 +2266,6 @@ SE13_version 20161114目前包含 217个国家和地区，1334套运营商参数
     num_match="9"
     sms_7bit_enabled="1"
   />
-  <numMatch name="FASTWEB"
-    mcc="222"
-    mnc="08"
-    num_match="7"
-  />
   <numMatch name="du"
     mcc="424"
     mnc="03"
@@ -3697,12 +3692,6 @@ SE13_version 20161114目前包含 217个国家和地区，1334套运营商参数
     mcc="330"
     mnc="00"
     num_match="7"
-  />
-  <numMatch name="Ozone"
-    mcc="342"
-    mnc="800"
-    num_match="7"
-    sms_7bit_enabled="1"
   />
   <numMatch name="Claro"
     mcc="724"

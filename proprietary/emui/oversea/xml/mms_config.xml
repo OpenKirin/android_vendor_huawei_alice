@@ -27,7 +27,9 @@
     <bool name="enableFolderMode">false</bool>
     <!-- RKF67534 : 4 Oct 2012 : Display Mode feature end -->
     <!-- DTS2014122907869 caichunhua 20150104 beigin-->
-    <bool name="enableTimeParse">false</bool>
+    <!-- AR0003M186 zhengjianxu 00327908 beigin-->
+    <bool name="enableTimeParse">true</bool>
+    <!-- AR0003M186 zhengjianxu 00327908 end -->
     <!-- DTS2014122907869 caichunhua 20150104 end -->
     <!-- DTS2015012704250 liyunqiao 20150131 beigin-->
     <bool name="enablePhoneAtrribute">false</bool>

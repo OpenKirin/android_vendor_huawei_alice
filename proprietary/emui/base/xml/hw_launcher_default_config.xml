@@ -18,6 +18,10 @@
 -->
 
 <launcher_config>
+    <!-- DTS2016022202208 duyateng/wx324146 20160223 begin -->
+    <item name="config_desktopCellsOptionItems">4x5,5x4,5x5</item>
+    <integer name="config_snapVelocity">600</integer>
+    <!-- DTS2016022202208 duyateng/wx324146 20160223 end -->
     <!-- DTS2015121002593 wanghonggang/wx321279 20151210 begin -->
     <integer name="config_DesktopScreenNum">3</integer>
     <!-- DTS2015121002593 wanghonggang/wx321279 20151210 end -->

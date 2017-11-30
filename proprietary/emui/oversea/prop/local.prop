@@ -11,7 +11,6 @@ ro.com.google.clientidbase.ms=android-huawei
 ro.com.google.clientidbase.yt=android-huawei
 ro.com.google.clientidbase=android-huawei
 #AR0003ECN0  xiekaiming WX278091 20151118  end
+ro.config.show_epg_menu=false
+ro.config.hw_nfc_on=true
 ro.setupwizard.mode=DISABLED
-#AR0008RQ0L wangzhichao wwx432034 begin
-ro.config.hw_icon_supprot_cut=false
-#AR0008RQ0L wangzhichao wwx432034 end
