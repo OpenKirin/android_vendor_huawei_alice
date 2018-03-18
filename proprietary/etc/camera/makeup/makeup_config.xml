@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Config>
+  <Template> <!--Makeup template size, current only support 128 -->
+    <PreviewSize>128</PreviewSize>
+    <CaptureSize>256</CaptureSize>
+  </Template>
+  <Others> <!--Makeup template size, current only support 128 -->
+    <ISOThreshold>4800</ISOThreshold><!--makeup is not good under lowlight, so we don't apply makeup to faces when iso is bigger than this threshold -->
+    <FaceNumberThreshold>2</FaceNumberThreshold><!--makeup is very slow when multi-person, so we apply makeup to only some persons instead of all,here 2 means we apply at most 2 persons -->
+    <UseOnlyBeauty>1</UseOnlyBeauty><!--mode0 need beauty or do nothing -->
+    <UseConfidenceThreshold>1</UseConfidenceThreshold><!--use confidence thresholds judgement or not. 0 disable, 1 enable-->
+    <FaceLeftRightAngleThreshold>30</FaceLeftRightAngleThreshold><!-- valid value is 0 - 180, 180 or a number larger than 180 while disable the face angle judgement functions.-->
+    <FaceUpDownAngleThreshold>20</FaceUpDownAngleThreshold><!-- valid value is 0 - 180, a number larger than 180 will disable the face angle judgement functions.-->
+    <EyeConfidenceThreshold>150</EyeConfidenceThreshold><!-- valid value is 0 - 1000, 0 or a number smaller than 0 can disable the eye confidence judgement functions.-->
+    <MouthConfidenceThreshold>200</MouthConfidenceThreshold><!-- valid value is 0 - 1000, 0 or a number smaller than 0 can disable the mouth confidence judgement functions.-->
+  </Others>
+  <Mode> <!--1 韩式裸妆-->
+    <BY_SSm_ratio>90</BY_SSm_ratio>
+    <BY_SSm_size>100</BY_SSm_size>
+    <BY_SBr_ratio>270</BY_SBr_ratio>
+    <BY_SBr_size>120</BY_SBr_size>
+    <BY_FRs_ratio>70</BY_FRs_ratio>
+    <BY_ERs_ratio>40</BY_ERs_ratio>
+    <BY_ICt_ratio>100</BY_ICt_ratio>
+    <BY_IRs_ratio>10</BY_IRs_ratio>
+    <BY_THi_ratio>100</BY_THi_ratio>
+    <BY_CCl_ratio>60</BY_CCl_ratio>
+    <BY_CCl_size>100</BY_CCl_size>
+    <BY_CCl_red>235</BY_CCl_red>
+    <BY_CCl_green>104</BY_CCl_green>
+    <BY_CCl_blue>119</BY_CCl_blue>
+    <BY_MCl_ratio>80</BY_MCl_ratio>
+    <BY_MCl_red>244</BY_MCl_red>
+    <BY_MCl_green>129</BY_MCl_green>
+    <BY_MCl_blue>84</BY_MCl_blue>
+    <BY_EMu_ratio_shadow>40</BY_EMu_ratio_shadow>
+    <BY_EMu_ratio_line>60</BY_EMu_ratio_line>
+    <BY_EMu_templateIdx>01</BY_EMu_templateIdx>
+    <BY_ELs_Ratio>70</BY_ELs_Ratio>
+  </Mode>
+  <Mode> <!--4 可爱芭比妆-->
+    <BY_SSm_ratio>100</BY_SSm_ratio>
+    <BY_SSm_size>100</BY_SSm_size>
+    <BY_SBr_ratio>300</BY_SBr_ratio>
+    <BY_SBr_size>120</BY_SBr_size>
+    <BY_FRs_ratio>70</BY_FRs_ratio>
+    <BY_ERs_ratio>80</BY_ERs_ratio>
+    <BY_ICt_ratio>120</BY_ICt_ratio>
+    <BY_IRs_ratio>40</BY_IRs_ratio>
+    <BY_THi_ratio>100</BY_THi_ratio>
+    <BY_CCl_ratio>50</BY_CCl_ratio>
+    <BY_CCl_size>100</BY_CCl_size>
+    <BY_CCl_red>164</BY_CCl_red>
+    <BY_CCl_green>0</BY_CCl_green>
+    <BY_CCl_blue>91</BY_CCl_blue>
+    <BY_MCl_ratio>50</BY_MCl_ratio>
+    <BY_MCl_red>200</BY_MCl_red>
+    <BY_MCl_green>27</BY_MCl_green>
+    <BY_MCl_blue>100</BY_MCl_blue>
+    <BY_EMu_ratio_shadow>60</BY_EMu_ratio_shadow>
+    <BY_EMu_ratio_line>60</BY_EMu_ratio_line>
+    <BY_EMu_templateIdx>06</BY_EMu_templateIdx>
+    <BY_ELs_Ratio>70</BY_ELs_Ratio>
+  </Mode>
+  <Mode> <!--5 清新自然-->
+    <BY_SSm_ratio>90</BY_SSm_ratio>
+    <BY_SSm_size>100</BY_SSm_size>
+    <BY_SBr_ratio>270</BY_SBr_ratio>
+    <BY_SBr_size>120</BY_SBr_size>
+    <BY_FRs_ratio>70</BY_FRs_ratio>
+    <BY_ERs_ratio>40</BY_ERs_ratio>
+    <BY_ICt_ratio>100</BY_ICt_ratio>
+    <BY_IRs_ratio>10</BY_IRs_ratio>
+    <BY_THi_ratio>100</BY_THi_ratio>
+    <BY_CCl_ratio>50</BY_CCl_ratio>
+    <BY_CCl_size>100</BY_CCl_size>
+    <BY_CCl_red>164</BY_CCl_red>
+    <BY_CCl_green>0</BY_CCl_green>
+    <BY_CCl_blue>91</BY_CCl_blue>
+    <BY_MCl_ratio>80</BY_MCl_ratio>
+    <BY_MCl_red>217</BY_MCl_red>
+    <BY_MCl_green>107</BY_MCl_green>
+    <BY_MCl_blue>108</BY_MCl_blue>
+    <BY_EMu_ratio_shadow>60</BY_EMu_ratio_shadow>
+    <BY_EMu_ratio_line>60</BY_EMu_ratio_line>
+    <BY_EMu_templateIdx>05</BY_EMu_templateIdx>
+    <BY_ELs_Ratio>70</BY_ELs_Ratio>
+  </Mode>
+  <Mode> <!--7 甜美少女妆-->
+    <BY_SSm_ratio>90</BY_SSm_ratio>
+    <BY_SSm_size>100</BY_SSm_size>
+    <BY_SBr_ratio>270</BY_SBr_ratio>
+    <BY_SBr_size>120</BY_SBr_size>
+    <BY_FRs_ratio>70</BY_FRs_ratio>
+    <BY_ERs_ratio>40</BY_ERs_ratio>
+    <BY_ICt_ratio>100</BY_ICt_ratio>
+    <BY_IRs_ratio>10</BY_IRs_ratio>
+    <BY_THi_ratio>100</BY_THi_ratio>
+    <BY_CCl_ratio>20</BY_CCl_ratio>
+    <BY_CCl_size>110</BY_CCl_size>
+    <BY_CCl_red>228</BY_CCl_red>
+    <BY_CCl_green>0</BY_CCl_green>
+    <BY_CCl_blue>127</BY_CCl_blue>
+    <BY_MCl_ratio>100</BY_MCl_ratio>
+    <BY_MCl_red>224</BY_MCl_red>
+    <BY_MCl_green>126</BY_MCl_green>
+    <BY_MCl_blue>138</BY_MCl_blue>
+    <BY_EMu_ratio_shadow>60</BY_EMu_ratio_shadow>
+    <BY_EMu_ratio_line>60</BY_EMu_ratio_line>
+    <BY_EMu_templateIdx>07</BY_EMu_templateIdx>
+    <BY_ELs_Ratio>70</BY_ELs_Ratio>
+  </Mode>
+  <Mode> <!--8 粉嫩桃花妆-->
+    <BY_SSm_ratio>100</BY_SSm_ratio>
+    <BY_SSm_size>100</BY_SSm_size>
+    <BY_SBr_ratio>300</BY_SBr_ratio>
+    <BY_SBr_size>120</BY_SBr_size>
+    <BY_FRs_ratio>70</BY_FRs_ratio>
+    <BY_ERs_ratio>40</BY_ERs_ratio>
+    <BY_ICt_ratio>100</BY_ICt_ratio>
+    <BY_IRs_ratio>10</BY_IRs_ratio>
+    <BY_THi_ratio>100</BY_THi_ratio>
+    <BY_CCl_ratio>40</BY_CCl_ratio>
+    <BY_CCl_size>100</BY_CCl_size>
+    <BY_CCl_red>234</BY_CCl_red>
+    <BY_CCl_green>104</BY_CCl_green>
+    <BY_CCl_blue>162</BY_CCl_blue>
+    <BY_MCl_ratio>60</BY_MCl_ratio>
+    <BY_MCl_red>200</BY_MCl_red>
+    <BY_MCl_green>27</BY_MCl_green>
+    <BY_MCl_blue>100</BY_MCl_blue>
+    <BY_EMu_ratio_shadow>30</BY_EMu_ratio_shadow>
+    <BY_EMu_ratio_line>60</BY_EMu_ratio_line>
+    <BY_EMu_templateIdx>08</BY_EMu_templateIdx>
+    <BY_ELs_Ratio>70</BY_ELs_Ratio>
+  </Mode>
+  <Mode> <!--12 梦幻烟熏妆-->
+    <BY_SSm_ratio>100</BY_SSm_ratio>
+    <BY_SSm_size>100</BY_SSm_size>
+    <BY_SBr_ratio>300</BY_SBr_ratio>
+    <BY_SBr_size>120</BY_SBr_size>
+    <BY_FRs_ratio>70</BY_FRs_ratio>
+    <BY_ERs_ratio>40</BY_ERs_ratio>
+    <BY_ICt_ratio>100</BY_ICt_ratio>
+    <BY_IRs_ratio>10</BY_IRs_ratio>
+    <BY_THi_ratio>100</BY_THi_ratio>
+    <BY_CCl_ratio>20</BY_CCl_ratio>
+    <BY_CCl_size>100</BY_CCl_size>
+    <BY_CCl_red>242</BY_CCl_red>
+    <BY_CCl_green>156</BY_CCl_green>
+    <BY_CCl_blue>159</BY_CCl_blue>
+    <BY_MCl_ratio>60</BY_MCl_ratio>
+    <BY_MCl_red>244</BY_MCl_red>
+    <BY_MCl_green>126</BY_MCl_green>
+    <BY_MCl_blue>138</BY_MCl_blue>
+    <BY_EMu_ratio_shadow>50</BY_EMu_ratio_shadow>
+    <BY_EMu_ratio_line>60</BY_EMu_ratio_line>
+    <BY_EMu_templateIdx>12</BY_EMu_templateIdx>
+    <BY_ELs_Ratio>85</BY_ELs_Ratio>
+  </Mode>
+  <Mode> <!--14 假日派对妆-->
+    <BY_SSm_ratio>100</BY_SSm_ratio>
+    <BY_SSm_size>100</BY_SSm_size>
+    <BY_SBr_ratio>300</BY_SBr_ratio>
+    <BY_SBr_size>120</BY_SBr_size>
+    <BY_FRs_ratio>70</BY_FRs_ratio>
+    <BY_ERs_ratio>40</BY_ERs_ratio>
+    <BY_ICt_ratio>100</BY_ICt_ratio>
+    <BY_IRs_ratio>10</BY_IRs_ratio>
+    <BY_THi_ratio>100</BY_THi_ratio>
+    <BY_CCl_ratio>20</BY_CCl_ratio>
+    <BY_CCl_size>100</BY_CCl_size>
+    <BY_CCl_red>242</BY_CCl_red>
+    <BY_CCl_green>156</BY_CCl_green>
+    <BY_CCl_blue>159</BY_CCl_blue>
+    <BY_MCl_ratio>80</BY_MCl_ratio>
+    <BY_MCl_red>200</BY_MCl_red>
+    <BY_MCl_green>27</BY_MCl_green>
+    <BY_MCl_blue>100</BY_MCl_blue>
+    <BY_EMu_ratio_shadow>40</BY_EMu_ratio_shadow>
+    <BY_EMu_ratio_line>60</BY_EMu_ratio_line>
+    <BY_EMu_templateIdx>14</BY_EMu_templateIdx>
+    <BY_ELs_Ratio>70</BY_ELs_Ratio>
+  </Mode>
+  <Mode> <!--15 优雅名媛妆-->
+    <BY_SSm_ratio>90</BY_SSm_ratio>
+    <BY_SSm_size>100</BY_SSm_size>
+    <BY_SBr_ratio>270</BY_SBr_ratio>
+    <BY_SBr_size>120</BY_SBr_size>
+    <BY_FRs_ratio>70</BY_FRs_ratio>
+    <BY_ERs_ratio>40</BY_ERs_ratio>
+    <BY_ICt_ratio>100</BY_ICt_ratio>
+    <BY_IRs_ratio>10</BY_IRs_ratio>
+    <BY_THi_ratio>100</BY_THi_ratio>
+    <BY_CCl_ratio>20</BY_CCl_ratio>
+    <BY_CCl_size>100</BY_CCl_size>
+    <BY_CCl_red>242</BY_CCl_red>
+    <BY_CCl_green>156</BY_CCl_green>
+    <BY_CCl_blue>159</BY_CCl_blue>
+    <BY_MCl_ratio>30</BY_MCl_ratio>
+    <BY_MCl_red>228</BY_MCl_red>
+    <BY_MCl_green>140</BY_MCl_green>
+    <BY_MCl_blue>120</BY_MCl_blue>
+    <BY_EMu_ratio_shadow>60</BY_EMu_ratio_shadow>
+    <BY_EMu_ratio_line>60</BY_EMu_ratio_line>
+    <BY_EMu_templateIdx>04</BY_EMu_templateIdx>
+    <BY_ELs_Ratio>70</BY_ELs_Ratio>
+  </Mode>
+</Config>
